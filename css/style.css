@@ -1,0 +1,1115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #663B3B;
+    font-family: 'Amaranth'
+}
+
+.headerIndex {
+    background-image: url(../assets/imagenes/fondoindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.fondoTitulo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .625rem;
+    background-color: rgba(249, 233, 221, 0.6);
+}
+
+.titulo1 {
+    font-size: 5rem;
+    padding-left: 1.25rem;
+
+}
+
+.menuIndex li {
+    display: inline;
+}
+
+li a {
+    font-size: 1.5625rem;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.titulo2 {
+    font-size: 2.9375rem;
+    font-weight: bolder;
+    color: #4e2f2f;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 23.125rem;
+}
+
+.backgroundColor {
+    background-image: linear-gradient(#f7decb , #ffffff)
+}
+
+.fraseDePagina {
+    display: flex;
+    justify-content: center;
+    background-color: #F9E9DD;
+    align-items: center;
+}
+
+.fraseDePagina img {
+    height: 4.2rem;
+    width: 7.5rem;
+}
+
+.flechaAbajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.25rem;
+}
+
+.flechaAbajo img {
+    height: 4.2rem;
+    width: 7.5rem;
+}
+
+.titulo3 {
+    font-weight: lighter;
+    padding: 1.5625rem;
+    font-size: 1.5625rem;
+    text-align: center;
+}
+
+.titulo4 {
+    font-size: 2.9375rem;
+    text-align: center;
+    padding: 1.875rem;
+}
+
+.contenedorQueOfrecemos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cajaImagenRopa {
+    border: 0.5rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/ropadeportiva.png);
+    object-fit: contain; /*No me funcionó de hacer mas chica la foto para que se vea completa*/
+}
+
+.cajaImagenRutina {
+    border: 0.5rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/rutina.png);
+}
+
+.cajaImagenPlan {
+    border: 0.5rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/nutricion.png);
+}
+
+.cajaImagenAccesorios {
+    border: 0.5rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/accesorios.png);
+}
+
+.imagenesIndex {
+    border: 1.25rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+}
+
+.titulo5 {
+    font-size: 1.4rem;
+    background-color: #F9E9DD;
+    padding: .625rem;
+    margin-top: 10%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.resumenServicios {
+    font-size: 1.20rem;
+    font-weight: lighter;
+    padding: 1.1rem 0.5rem;
+    width: 20rem;
+    text-align: center;
+    height: 7rem;
+    border-left: 0.5rem solid #EBB995;
+    border-right: 0.5rem solid #EBB995;
+}
+
+.contenedorResumenServicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.masInfo {
+    text-decoration: none;
+    background-color: #EBB995;
+    text-align: center;
+    font-size: 1.40rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.gridMusica {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    width: 100%;
+    height: 34.375rem;
+    background-color: #F6CDA0;
+    grid-template-areas:
+    "textoUno textoUno photo photo textoDos textoDos"
+    "textoUno textoUno photo photo textoDos textoDos"
+    "textoUno textoUno photo photo textoDos textoDos"
+    "textoUno textoUno photo photo clickAqui clickAqui"
+    "textoUno textoUno photo photo clickAqui clickAqui"
+    ;
+}
+
+.texto1 {
+    grid-area: textoUno;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    background-color: #F6CDA0;
+    margin: 7rem;
+    font-size: 1.5625rem;
+    order: 2;
+}
+
+.texto2 {
+    grid-area: textoDos;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    background-color: #F6CDA0;
+    margin: 8rem;
+    font-size: 1.5625rem;
+    order: 3;
+}
+
+.imagenMusica {
+    grid-area: photo;
+    justify-self: center;
+    order: 1;
+}
+
+.clickAqui {
+    grid-area: clickAqui;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.875rem;
+    background-color: #F9E9DD;
+    padding: .9375rem;
+    font-weight: bold;
+    text-decoration: none;
+    order: 4;
+}
+
+.opiniones {
+    background-color: linear-gradient (#F6CDA0 , #ffffff)
+}
+
+.titulo6 {
+    font-size: 2.9375rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contenedorOpiniones {
+    display: flex;
+}
+
+.cadaOpinion p {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: .3125rem;
+    margin: 1.875rem 6.25rem;
+    font-style: italic;
+    /*No se como hacer una linea sobre y debajo de cada coment*/
+}
+
+.cadaOpinion h6 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+.pieDePagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9E9DD;
+    padding: 1.875rem;
+}
+
+.contenedorAccesoRapido {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorAccesoRapido a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.accesoRapido {
+    display: flex;
+    font-size: 1.25rem;
+}
+
+.contenedorRedesSociales {
+    display: flex;
+    justify-content: right;
+}
+
+.seguinos { 
+    font-size: 1.875rem;
+    text-align: right;
+}
+
+.redes li {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* extras de pagina 2 */
+
+.headerRopa {
+    background-image: url(../assets/imagenes/fondoropa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.tituloServicios {
+    font-size: 2.9375rem;
+    font-weight: lighter;
+    background-color: rgba(249, 233, 221, 0.6);
+    width: 23rem ;
+    padding: 1rem;
+    margin: 7rem 3rem;
+}
+
+.categoriasAccesoriosRopa {
+    font-size: 1.875rem;
+    padding-top: 1.875rem;
+    text-align: center;
+}
+
+.contenedorRopa1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorRopa2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorRopa1 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+.contenedorRopa2 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+.contenedorBoton {
+    display: flex;
+    justify-content: center;
+}
+
+.botonTienda {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #EBB995;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 4.5rem;
+}
+
+/* extras de pagina 3 */
+
+.headerRutina {
+    background-image: url(../assets/imagenes/fondoruti.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+main section section p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1.4rem;
+    padding-top: 2rem;
+}
+
+.items {
+    margin: 0rem 5.5rem;
+    list-style-image: url(../assets/imagenes/icono.png)
+}
+
+.items li {
+    padding: 0.5rem;
+}
+/* extras de pagina 4 */
+
+.headerPlan{
+    background-image: url(../assets/imagenes/fondonutri.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+/* extras de pagina 5 */
+
+.headerAccesorios {
+    background-image: url(../assets/imagenes/fondoaccesorios.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.contenedorAccesorios1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorAccesorios2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorAccesorios1 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+.contenedorAccesorios2 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+/* extras de pagina 6 */
+
+.headerContacto {
+    background-image: url(../assets/imagenes/fondocontacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.contenedorFormulario {
+    display: flex;
+    justify-content: center;
+}
+
+.flexFormulario {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloFormulario {
+    font-size: 1.5rem;
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center;
+}
+
+form input {
+    padding: .625rem;
+    margin: .625rem;
+    width: 30rem;
+}
+
+form textarea {
+    width: 30rem;
+    padding: .625rem;
+    margin: .625rem;
+}
+
+.formasDeContacto {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.mailDeContacto {
+    text-align: center;
+    font-weight: lighter;
+    width: 30rem;
+}
+
+.contactoWhatsapp {
+    margin-left: 15rem;
+    margin-bottom: 1.25rem;
+}
+
+.botonEnviar {
+    font-size: 1.875rem;
+    background-color: #EBB995;
+    width: 9.375rem;
+    margin: .625rem;
+}
+
+/* extras de pagina 7 */
+
+.headerEnchufate {
+    background-image: url(../assets/imagenes/fondoenchufate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.gridEnchufate {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(13,1fr);
+    width: 100%;
+    height: 70rem;
+    grid-template-areas:
+    "tituloGim tituloGim tituloGim tituloGim tituloGim tituloGim"
+    "tituloGim tituloGim tituloGim tituloGim tituloGim tituloGim"
+    "musicaGim musicaGim musicaGim imagenGim1 imagenGim2 imagenGim3"
+    "musicaGim musicaGim musicaGim imagenGim1 imagenGim2 imagenGim3"
+    "musicaGim musicaGim musicaGim imagenGim1 imagenGim2 imagenGim3"
+    "musicaGim musicaGim musicaGim imagenGim4 imagenGim5 imagenGim6"
+    "musicaGim musicaGim musicaGim imagenGim4 imagenGim5 imagenGim6"
+    "musicaGim musicaGim musicaGim imagenGim4 imagenGim5 imagenGim6"
+    "musicaGim musicaGim musicaGim imagenGim7 imagenGim8 imagenGim9"
+    "musicaGim musicaGim musicaGim imagenGim7 imagenGim8 imagenGim9"
+    "musicaGim musicaGim musicaGim imagenGim7 imagenGim8 imagenGim9"
+    "musicaGim musicaGim musicaGim aEntrenar aEntrenar aEntrenar"
+    "musicaGim musicaGim musicaGim aEntrenar aEntrenar aEntrenar"
+    ;
+}
+    
+.tituloGim {
+    grid-area: tituloGim;
+    justify-self: center;
+    align-self: center;
+    font-size: 2rem;
+}
+
+.musicaGim {
+    display: flex;
+    flex-direction: column;
+    grid-area: musicaGim;
+    justify-self: center;
+}
+
+.musicaGim iframe {
+    height: 5.625rem;
+    width: 40rem;
+}
+
+.imagenGim1 {
+    grid-area: imagenGim1;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim2 {
+    grid-area: imagenGim2;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim3 {
+    grid-area: imagenGim3;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim4 {
+    grid-area: imagenGim4;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim5 {
+    grid-area: imagenGim5;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim6 {
+    grid-area: imagenGim6;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim7 {
+    grid-area: imagenGim7;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim8 {
+    grid-area: imagenGim8;
+    justify-self: center;
+    align-self: center;
+}
+
+.imagenGim9 {
+    grid-area: imagenGim9;
+    justify-self: center;
+    align-self: center;
+}
+
+.aEntrenar {
+    grid-area: aEntrenar;
+    justify-self: center;
+    align-self: top;
+    font-size: 2rem;
+}
+
+/* "@medias 1024 */
+/* "@medias 1024 index - OK*/
+
+@media (max-width: 1024px) {
+
+.fondoTitulo1 {
+    display: block;
+}
+
+.contenedorQueOfrecemos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cajaImagenRopa {
+    height: 30rem;
+    width: 25rem;
+}
+
+.cajaImagenRutina {
+    height: 30rem;
+    width: 25rem;
+}
+
+.cajaImagenPlan {
+    height: 30rem;
+    width: 25rem;
+}
+
+.cajaImagenAccesorios {
+    height: 30rem;
+    width: 25rem;
+}
+
+.resumenServicios {
+    width: 25rem;
+}
+
+.texto1 {
+    margin: 3rem;
+}
+
+.texto2 {
+    margin: 4rem;
+}
+
+.cadaOpinion p {
+    margin: 1.875rem 1.5rem;
+}
+
+/* "@medias 1024 ropa - OK*/
+
+.contenedorRopa1 {
+    flex-wrap: wrap;
+}
+
+.contenedorRopa2 {
+    flex-wrap: wrap;
+}
+
+.botonTienda {
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+/* "@medias 768 dieta - OK*/
+/* "@medias 768 rutina - OK*/
+
+/* "@medias 1024 accesorios - OK*/
+
+.contenedorAccesorios1 {
+    flex-wrap: wrap;
+}
+
+.contenedorAccesorios2 {
+    flex-wrap: wrap;
+}
+
+/* "@medias 1024 enchufate - OK*/
+
+.gridEnchufate {
+    gap: .3125rem;
+}
+.musicaGim iframe {
+    height: 5.625rem;
+    width: 25rem;
+}
+
+.responsiveImage {
+    padding-right: .625rem;
+}
+}
+
+/* "@medias 768 */
+/* "@medias 768 index OK */
+
+@media (max-width: 768px) {
+
+li a {
+    font-size: 1.35rem;
+}
+
+.texto1 {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+.texto2 {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+.cadaOpinion p {
+    margin: 1.875rem 1rem;
+    font-size: 1.2rem;
+}
+
+/* "@medias 768 ropa - OK*/
+
+.tituloServicios {
+    margin-top: 13rem;
+}
+
+/* "@medias 768 dieta - OK*/
+/* "@medias 768 rutina - OK*/
+/* "@medias 768 accesorios - OK*/
+
+/* "@medias 768 enchufate - OK*/
+
+.responsiveImage {
+    display: none;
+}
+
+.gridEnchufate {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(13,1fr);
+    width: 100%;
+    height: 76rem;
+    grid-template-areas:
+    "tituloGim"
+    "tituloGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim" 
+    "musicaGim"   
+    "aEntrenar"
+    ;
+}
+
+/* "@medias 768 contacto - OK*/
+
+.contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flexFormulario {
+    margin-left: 9rem;
+}
+
+.mailDeContacto {
+    margin: auto;
+}
+
+.contactoWhatsapp {
+    margin-left: 50%;
+}
+}
+
+/* "@medias 425 */
+/* "@medias 425 index - OK */
+
+@media (max-width: 426px) {
+
+.headerIndex {
+    background-position: left;
+}
+
+.fondoTitulo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 11.875rem;
+}
+
+.menuIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    width: 100%;
+    height: 3.75rem;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas:
+    "index1 ropa "
+    "plan rutina"
+    "accesorios enchufate"
+    "formularioss formularioss"
+}
+
+.index1 {
+    grid-area: index1;
+}
+
+.ropa {
+    grid-area: ropa;
+}
+
+.plan {
+    grid-area: plan;
+}
+
+.rutina {
+    grid-area: rutina;
+}
+
+.accesorios {
+    grid-area: accesorios;
+}
+
+.enchufate {
+    grid-area: enchufate;
+}
+
+.formularioss {
+    grid-area: formularioss;
+    justify-self: center;
+}
+
+.gridMusica {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    width: 100%;
+    height: 57rem;
+    background-color: #F6CDA0;
+    grid-template-areas:
+    "textoUno"
+    "photo"
+    "textoDos"
+    "clickAqui"
+    ;
+}
+
+.titulo1 {
+    font-size: 4rem;
+    padding-left: 1.25rem;
+}
+
+.titulo2 {
+    font-size: 2.4rem;
+    width: 20rem;
+}
+
+.contenedorOpiniones {
+    flex-direction: column;
+}
+
+.seguinos { 
+    font-size: 1.3rem;
+    align-self: center;
+}
+
+/* "@medias 425 ropa - OK */
+
+.contenedorRopa1 img {
+    margin-left: 5.625rem;
+}
+
+.contenedorRopa2 img {
+    margin-left: 5.625rem;
+}
+
+/* "@medias 425 dieta - OK */
+
+.titulo3 {
+    padding: 1.4rem;
+}
+
+.items {
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+
+/* "@medias 425 rutina - OK */
+/* "@medias 425 accesorios - OK */
+
+.contenedorAccesorios1 img {
+    margin-left: 6.875rem;
+}
+
+.contenedorAccesorios2 img {
+    margin-left: 6.875rem;
+}
+
+/* "@medias 425 enchufate - OK */
+
+.tituloGim {
+    grid-area: tituloGim;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.musicaGim {
+    display: flex;
+    flex-direction: column;
+    grid-area: musicaGim;
+    justify-self: center;
+}
+
+.musicaGim iframe {
+    height: 5.625rem;
+    width: 20rem;
+}
+
+.responsiveImage {
+    display: none;
+}
+
+.gridEnchufate {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(13,1fr);
+    width: 100%;
+    height: 76rem;
+    grid-template-areas:
+    "tituloGim"
+    "tituloGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim" 
+    "musicaGim"   
+    "aEntrenar"
+    ;
+}
+
+/* "@medias 425 contacto - OK*/
+
+.flexFormulario {
+    margin-left: 1rem;
+}
+
+form input {
+    width: 23rem;
+}
+
+form textarea {
+    width: 23rem;
+}
+
+.mailDeContacto {
+    width: 25rem;
+}
+}
+
+/* "@medias 320 */
+
+/* "@medias 320 index - OK */
+
+@media (max-width: 320px) {
+
+.titulo4 {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.cajaImagenRopa {
+    height: 25rem;
+    width: 20rem;
+}
+
+.cajaImagenRutina {
+    height: 25rem;
+    width: 20rem;
+}
+
+.cajaImagenPlan {
+    height: 25rem;
+    width: 20rem;
+}
+
+.cajaImagenAccesorios {
+    height: 25rem;
+    width: 20rem;
+}
+
+.resumenServicios {
+    width: 20rem;
+}
+
+.gridMusica {
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    height: 50rem;
+}
+
+.imagenMusica {
+    width: 20rem;
+}
+
+.pieDePagina {
+    padding: 1rem;
+}
+
+.seguinos { 
+    font-size: 1.3rem;
+}
+
+li a {
+    padding-left: 0.5rem;
+}
+
+/* "@medias 320 ropa - OK */
+
+.tituloServicios {
+    font-size: 2rem;
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 10rem;
+}
+
+.contenedorRopa1 img {
+    margin-left: 3rem;
+}
+
+.contenedorRopa2 img {
+    margin-left: 3rem;
+}
+
+/* "@medias 320 dieta - OK */
+
+.items {
+    margin: 0rem 2rem;
+}
+
+.titulo3 {
+    padding: 0.3;
+    font-size: 1.5rem;
+}
+
+/* "@medias 320 rutina OK */
+
+.fraseDePagina {
+    display: block;
+}
+
+.fraseDePagina img {
+    margin-left: 6.5rem;
+}
+
+/* "@medias 320 accesorios - OK */
+
+.contenedorAccesorios1 img {
+    margin-left: 3rem;
+}
+
+.contenedorAccesorios2 img {
+    margin-left: 3rem;
+}
+
+/* "@medias 320 enchufate - OK */
+
+.gridEnchufate {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12,1fr);
+    width: 100%;
+    height: 71rem;
+    grid-template-areas:
+    "tituloGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim" 
+    "musicaGim"   
+    "aEntrenar"
+    ;
+}
+
+/* "@medias 320 contacto - OK */
+
+.flexFormulario {
+    margin-left: 0;
+}
+
+form input {
+    width: 19rem;
+}
+
+form textarea {
+    width: 19rem;
+}
+
+.mailDeContacto {
+    width: 20rem;
+}
+
+.contactoWhatsapp {
+    margin-left: 9rem;
+}
+}

@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #663B3B;
+    font-family: 'Amaranth'
+}
+
+.headerIndex {
+    background-image: url(../assets/imagenes/fondoindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.fondoTitulo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .625rem;
+    background-color: #F9E9DD;
+    opacity: 0.6; /*El texto me queda opaco tambien*/
+}
+
+.titulo1 {
+    font-size: 5rem;
+    padding-left: 1.25rem;
+}
+
+.menuIndex li {
+    display: inline;
+}
+
+li a {
+    font-size: 1.5625rem;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.titulo2 {
+    font-size: 2.9375rem;
+    font-weight: bolder;
+    color: #4e2f2f;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 23.125rem;
+}
+
+.fraseDePagina {
+    display: flex;
+    justify-content: center;
+    background-color: #F9E9DD;
+    align-items: center;
+}
+
+.fraseDePagina img {
+    height: 4.2rem;
+    width: 7.5rem;
+}
+
+.titulo3 {
+
+    font-weight: lighter;
+    padding: 1.5625rem;
+    font-size: 1.5625rem;
+    text-align: center;
+}
+
+.titulo4 {
+    font-size: 2.9375rem;
+    text-align: center;
+    padding: 1.875rem;
+}
+
+.contenedorQueOfrecemos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cajaImagenRopa {
+    border: 1.25rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/ropadeportiva.png);
+    object-fit: contain; /*No me funcionó de hacer mas chica la foto para que se vea completa*/
+}
+
+.cajaImagenRutina {
+    border: 1.25rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/rutina.png);
+}
+
+.cajaImagenPlan {
+    border: 1.25rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/nutricion.png);
+}
+
+.cajaImagenAccesorios {
+    border: 1.25rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+    background-image: url(../assets/imagenes/accesorios.png);
+}
+
+.imagenesIndex {
+    border: 1.25rem solid #EBB995;
+    height: 25rem;
+    width: 20rem;
+}
+
+.titulo5 {
+    font-size: 1.4rem;
+    background-color: #F9E9DD;
+    padding: .625rem;
+    margin-top: 10%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.resumenServicios {
+    font-size: 1.20rem;
+    font-weight: lighter;
+    padding: 50px;
+    width: 20rem;
+    text-align: center;
+    background-color: #F9E9DD;
+    height: 13rem;
+}
+
+.contenedorResumenServicios {
+    display: flex;
+    flex-direction: column;
+}
+.masInfo {
+    text-decoration: none;
+    background-color: #F9E9DD;
+    text-align: right;
+    width: 20rem;
+    font-size: 1.40rem;
+    font-weight: bold;
+}
+
+.opiniones {
+    background-color: #EBB995;
+    padding: 3.125rem;
+    margin-top: 1.25rem;
+}
+
+.titulo6 {
+    font-size: 1.875rem;
+    padding-bottom: .9375rem;
+}
+
+.contenedorOpiniones {
+    display: flex;
+}
+
+.cadaOpinion p {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    padding: .3125rem;
+    /*No se como hacer una linea sobre y debajo de cada coment*/
+}
+
+.cadaOpinion h6 {
+    font-size: 1.25rem;
+}
+
+.pieDePagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9E9DD;
+    padding: 1.875rem;
+}
+
+.contenedorAccesoRapido {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorAccesoRapido a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.accesoRapido {
+    display: flex;
+    font-size: 1.25rem;
+}
+
+.contenedorRedesSociales {
+    display: flex;
+    justify-content: right;
+}
+
+.seguinos { 
+    font-size: 1.875rem;
+    text-align: right;
+}
+
+.redes li {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* extras de pagina 2 */
+
+.headerRopa {
+    background-image: url(../assets/imagenes/fondoropa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.tituloServicios {
+    font-size: 2.9375rem;
+    font-weight: lighter;
+    background-color: #F9E9DD;
+    width: 23rem ;
+    padding: 1rem;
+    margin: 7rem 3rem;
+    opacity: 0.6;
+    }
+
+.categoriasAccesoriosRopa {
+    font-size: 1.875rem;
+    padding-top: 1.875rem;
+    text-align: center;
+
+}
+
+.contenedorRopa1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorRopa2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorRopa1 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+.contenedorRopa2 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+.contenedorBoton {
+    display: flex;
+    justify-content: center;
+}
+
+.botonTienda {
+    font-size: 1.875rem;
+    background-color: #EBB995;
+    padding: 1rem;
+    margin: 1.25rem;
+}
+
+/* extras de pagina 3 */
+
+.headerRutina {
+    background-image: url(../assets/imagenes/fondoruti.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+main section section p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1.4rem;
+    padding-top: 2rem;
+}
+
+.items {
+    margin: 0rem 5.5rem;
+    list-style-image: url(../assets/imagenes/icono.png)
+}
+
+.items li {
+    padding: 0.5rem;
+}
+/* extras de pagina 4 */
+
+.headerPlan{
+    background-image: url(../assets/imagenes/fondonutri.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+/* extras de pagina 5 */
+
+.headerAccesorios {
+    background-image: url(../assets/imagenes/fondoaccesorios.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.contenedorAccesorios1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorAccesorios2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorAccesorios1 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+.contenedorAccesorios2 img {
+    height: 14rem;
+    width: 14rem;
+}
+
+/* extras de pagina 6 */
+
+.headerContacto {
+    background-image: url(../assets/imagenes/fondocontacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    background-position: top;
+}
+
+.contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    /* No logré que queden bien centrados */
+}
+
+.tituloFormulario {
+    font-size: 1.5rem;
+    padding: 2rem 0rem 1rem 0rem;
+    width: 30rem;
+    text-align: center;
+}
+
+form div input {
+    padding: .625rem;
+    margin: .625rem;
+    width: 30rem;
+}
+
+form div textarea {
+    width: 30rem;
+    padding: .625rem;
+    margin: .625rem;
+}
+
+.botonEnviar input {
+    font-size: 1.875rem;
+    background-color: #EBB995;
+    width: 9.375rem;
+    margin: .625rem 21.2rem;
+}
+
+.formasDeContacto {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.mailDeContacto {
+    text-align: center;
+    font-weight: lighter;
+    width: 30rem;
+}
+
+.contactoWhatsapp {
+    margin-left: 15rem;
+    margin-bottom: 1.25rem;
+}
