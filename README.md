@@ -18,6 +18,6 @@ Este es un proyecto creado especialmente para las mujeres. Se espera que puedan 
 - Aprender a aplicar Bootstrap y mejorar la estetica de la página.
 - Implementar Git y Github.
 
-### Duración del Proyecto:
+### Duración:
 ------------
 - 2 meses
