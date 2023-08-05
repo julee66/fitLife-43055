@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #663B3B;
     font-family: 'Amaranth'
 }
 
@@ -25,7 +24,6 @@
 .titulo1 {
     font-size: 5rem;
     padding-left: 1.25rem;
-
 }
 
 .menuIndex li {
@@ -309,13 +307,43 @@ li a {
     margin: 7rem 3rem;
 }
 
+.index1 {
+    color: #663B3B;
+}
+
+.plan {
+    color: #663B3B;
+}
+
+.rutina {
+    color: #663B3B;
+}
+
+.accesorios {
+    color: #663B3B;
+}
+
+.enchufate {
+    color: #663B3B;
+}
+
+.formularioss {
+    color: #663B3B;
+}
+
+.ropa {
+    color: #663B3B;
+}
+
 .categoriasAccesoriosRopa {
     font-size: 1.875rem;
     padding-top: 1.875rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
-.contenedorRopa1 {
+/*.contenedorRopa1 {
     display: flex;
     justify-content: center;
 }
@@ -323,7 +351,7 @@ li a {
 .contenedorRopa2 {
     display: flex;
     justify-content: center;
-}
+}*/
 
 .contenedorRopa1 img {
     height: 14rem;
@@ -345,9 +373,14 @@ li a {
     font-size: 1.5rem;
     text-align: center;
     background-color: #EBB995;
+    color: #663B3B;
     text-decoration: none;
     padding: 1rem;
     margin: 1rem 0rem 1rem 4.5rem;
+}
+
+.colorSubir {
+    color: #663B3B; 
 }
 
 /* extras de pagina 3 */
@@ -396,14 +429,12 @@ main section section p {
 }
 
 .contenedorAccesorios1 {
-    display: flex;
     justify-content: center;
 }
 
 .contenedorAccesorios2 {
-    display: flex;
     justify-content: center;
-}
+} 
 
 .contenedorAccesorios1 img {
     height: 14rem;
@@ -644,7 +675,7 @@ form textarea {
     margin: 1.875rem 1.5rem;
 }
 
-/* "@medias 1024 ropa - OK*/
+/* "@medias 1024 ropa - OK
 
 .contenedorRopa1 {
     flex-wrap: wrap;
@@ -652,7 +683,7 @@ form textarea {
 
 .contenedorRopa2 {
     flex-wrap: wrap;
-}
+}*/
 
 .botonTienda {
     margin: 1rem 0rem 1rem 1rem;
@@ -864,7 +895,7 @@ li a {
     align-self: center;
 }
 
-/* "@medias 425 ropa - OK */
+/* "@medias 425 ropa - OK 
 
 .contenedorRopa1 img {
     margin-left: 5.625rem;
@@ -872,7 +903,7 @@ li a {
 
 .contenedorRopa2 img {
     margin-left: 5.625rem;
-}
+}*/
 
 /* "@medias 425 dieta - OK */
 
@@ -1019,7 +1050,7 @@ li a {
     padding-left: 0.5rem;
 }
 
-/* "@medias 320 ropa - OK */
+/* "@medias 320 ropa - OK 
 
 .tituloServicios {
     font-size: 2rem;
@@ -1034,7 +1065,7 @@ li a {
 
 .contenedorRopa2 img {
     margin-left: 3rem;
-}
+}*/
 
 /* "@medias 320 dieta - OK */
 
