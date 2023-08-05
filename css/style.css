@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Amaranth'
+    font-family: 'Amaranth';
+    color: #663B3B;
 }
 
 .headerIndex {
@@ -24,6 +25,8 @@
 .titulo1 {
     font-size: 5rem;
     padding-left: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 .menuIndex li {
@@ -280,6 +283,7 @@ li a {
 .seguinos { 
     font-size: 1.875rem;
     text-align: right;
+    font-weight: lighter;
 }
 
 .redes li {
@@ -305,6 +309,12 @@ li a {
     width: 23rem ;
     padding: 1rem;
     margin: 7rem 3rem;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    margin-bottom: 0;
+    line-height: 1.5rem;
 }
 
 .index1 {
@@ -428,13 +438,13 @@ main section section p {
     background-position: top;
 }
 
-.contenedorAccesorios1 {
+/*.contenedorAccesorios1 {
     justify-content: center;
 }
 
 .contenedorAccesorios2 {
     justify-content: center;
-} 
+} */
 
 .contenedorAccesorios1 img {
     height: 14rem;
@@ -694,13 +704,13 @@ form textarea {
 
 /* "@medias 1024 accesorios - OK*/
 
-.contenedorAccesorios1 {
+/*.contenedorAccesorios1 {
     flex-wrap: wrap;
 }
 
 .contenedorAccesorios2 {
     flex-wrap: wrap;
-}
+}*/
 
 /* "@medias 1024 enchufate - OK*/
 
@@ -876,6 +886,10 @@ li a {
     ;
 }
 
+.imagenMusica {
+    width: 25rem;
+}
+
 .titulo1 {
     font-size: 4rem;
     padding-left: 1.25rem;
@@ -919,13 +933,13 @@ li a {
 /* "@medias 425 rutina - OK */
 /* "@medias 425 accesorios - OK */
 
-.contenedorAccesorios1 img {
+/*.contenedorAccesorios1 img {
     margin-left: 6.875rem;
 }
 
 .contenedorAccesorios2 img {
     margin-left: 6.875rem;
-}
+}*/
 
 /* "@medias 425 enchufate - OK */
 
@@ -994,11 +1008,73 @@ form textarea {
 }
 }
 
+/* "@medias 375 */
+
+/* "@medias 375 index - OK */
+
+@media (max-width: 376px) {
+
+.cajaImagenRopa {
+    height: 25rem;
+    width: 20rem;
+}
+
+.cajaImagenRutina {
+    height: 25rem;
+    width: 20rem;
+}
+
+.cajaImagenPlan {
+    height: 25rem;
+    width: 20rem;
+}
+
+.cajaImagenAccesorios {
+    height: 25rem;
+    width: 20rem;
+}
+
+.resumenServicios {
+    width: 20rem;
+}
+
+.imagenMusica {
+    width: 23rem;
+}
+
+/* "@medias 375 formulario - OK */
+
+.tituloServicios {
+    font-size: 2rem;
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 10rem;
+}
+
+form input {
+    width: 20rem;
+}
+
+form textarea {
+    width: 20rem;
+}
+
+.mailDeContacto {
+    width: 20rem;
+}
+
+}
+
 /* "@medias 320 */
 
 /* "@medias 320 index - OK */
 
 @media (max-width: 320px) {
+
+.titulo2 {
+    font-size: 2rem;
+    width: 12rem;
+}
 
 .titulo4 {
     font-size: 2rem;
@@ -1050,16 +1126,16 @@ li a {
     padding-left: 0.5rem;
 }
 
-/* "@medias 320 ropa - OK 
+/* "@medias 320 ropa - OK */
 
 .tituloServicios {
     font-size: 2rem;
-    width: 20rem;
-    margin-left: 2rem;
+    width: 18.5rem;
+    margin-left: 1rem;
     margin-top: 10rem;
 }
 
-.contenedorRopa1 img {
+/*.contenedorRopa1 img {
     margin-left: 3rem;
 }
 
@@ -1088,7 +1164,7 @@ li a {
     margin-left: 6.5rem;
 }
 
-/* "@medias 320 accesorios - OK */
+/* "@medias 320 accesorios - OK 
 
 .contenedorAccesorios1 img {
     margin-left: 3rem;
@@ -1096,7 +1172,7 @@ li a {
 
 .contenedorAccesorios2 img {
     margin-left: 3rem;
-}
+}*/
 
 /* "@medias 320 enchufate - OK */
 
