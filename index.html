@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitLife</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/vnd.icon" href="./assets/imagenes/naranja.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 
 <body>
     <header>
@@ -15,14 +16,14 @@
             <div class="fondoTitulo1">
                 <h1 id="subir" class="titulo1">FitLife</h1>
                 <nav>
-                    <ul class="menuIndex">
-                        <li class="index1"><a href="index.html">INICIO</a></li>
-                        <li class="ropa"><a href="./pages/ropa.html">ROPA</a></li>
-                        <li class="plan"><a href="./pages/plan.html">DIETAS</a></li>
-                        <li class="rutina"><a href="./pages/rutina.html">RUTINAS</a></li>
-                        <li class="accesorios"><a href="./pages/accesorios.html">ACCESORIOS</a></li>
-                        <li class="enchufate"><a href="./pages/enchufate.html">ENCHUFATE</a></li>
-                        <li class="formularioss"><a href="./pages/formulario.html">CONTACTO</a></li>
+                    <ul class="list-unstyled menuIndex">
+                        <li class="index1"><a class="index1" href="index.html">INICIO</a></li>
+                        <li class="ropa"><a class="ropa" href="./pages/ropa.html">ROPA</a></li>
+                        <li class="plan"><a class="plan" href="./pages/plan.html">DIETAS</a></li>
+                        <li class="rutina"><a class="rutina" href="./pages/rutina.html">RUTINAS</a></li>
+                        <li class="accesorios"><a class="accesorios" href="./pages/accesorios.html">ACCESORIOS</a></li>
+                        <li class="enchufate"><a class="enchufate" href="./pages/enchufate.html">ENCHUFATE</a></li>
+                        <li class="formularioss"><a class="formularioss" href="./pages/formulario.html">CONTACTO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -102,20 +103,35 @@
                     <a href="#flecha3"><img src="./assets/imagenes/icono2.png" alt="flecha para abajo"></a>
                 </div>
                 <h5 id="flecha3" class="titulo6">OPINIONES:</h5>
-                <div class="contenedorOpiniones">
-                    <div class="cadaOpinion">
-                        <p>Pedí una rutina y dieta personalizadas. Me encantó la atención y los tips!</p>
-                        <h6>GISE</h6>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div class="cadaOpinion">
-                        <p>Compré una remerita hermosa y unas mancuernas para empezar en casa. Gracias chicas!</p>
-                        <h6>ANTO</h6>
+                    <div class="carousel-inner contenedorOpiniones">
+                        <div class="carousel-item active cadaOpinion">
+                            <p class="d-block w-100"> Pedí una rutina y dieta personalizadas. Me encantó la atención y los tips!</p>
+                            <h6 class="d-block w-100">GISE</h6>
+                        </div>
+                        <div class="carousel-item cadaOpinion">
+                            <p class="d-block w-100">Compré una remerita hermosa y unas mancuernas para empezar en casa. Gracias chicas!</p>
+                            <h6 class="d-block w-100">ANTO</h6>
+                        </div>
+                        <div class="carousel-item cadaOpinion">
+                            <p class="d-block w-100">Me respondieron todas mis dudas y ajustaron el plan a mi rutina diaria, unas genias!!!</p>
+                            <h6 class="d-block w-100">CARO</h6>
+                        </div>
                     </div>
-                    <div class="cadaOpinion">
-                        <p>Me respondieron todas mis dudas y ajustaron el plan a mi rutina diaria, unas genias!!!</p>
-                        <h6>CARO</h6>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                     </div>
-                </div>
             </div>    
         </section>
     </main>
@@ -126,11 +142,13 @@
         </div>
         <div class="contenedorRedesSociales">
             <h6 class="seguinos">SEGUINOS EN:</h6>
-            <ul class="redes">
+            <ul class="list-unstyled redes">
                 <li><a href="#"><img src="./assets/imagenes/iconoFace.png" alt="Facebook"></a></li>
                 <li><a href="#"><img src="./assets/imagenes/iconoIns.png" alt="Instagram"></a></li>
             </ul>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -133,17 +133,17 @@ li a {
 
 .titulo5 {
     font-size: 1.4rem;
-    background-color: #F9E9DD;
+    background-color: rgba(249, 233, 221, 0.6);
     padding: .625rem;
     margin-top: 10%;
     text-align: center;
-    opacity: 0.6;
 }
 
 .resumenServicios {
     font-size: 1.20rem;
     font-weight: lighter;
     padding: 1.1rem 0.5rem;
+    margin-bottom: 0;
     width: 20rem;
     text-align: center;
     height: 7rem;
@@ -158,6 +158,7 @@ li a {
 
 .masInfo {
     text-decoration: none;
+    color: #663B3B;
     background-color: #EBB995;
     text-align: center;
     font-size: 1.40rem;
@@ -215,6 +216,7 @@ li a {
     align-self: center;
     font-size: 1.875rem;
     background-color: #F9E9DD;
+    color: #663B3B;
     padding: .9375rem;
     font-weight: bold;
     text-decoration: none;
@@ -235,12 +237,19 @@ li a {
     display: flex;
 }
 
+.carousel-control-prev-icon {
+    background-image: url(../assets/imagenes/iconoprevio.png)
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/imagenes/icono.png);
+}
+
 .cadaOpinion p {
     font-size: 1.25rem;
     font-weight: lighter;
     text-align: center;
     padding: .3125rem;
-    margin: 1.875rem 6.25rem;
     font-style: italic;
     /*No se como hacer una linea sobre y debajo de cada coment*/
 }
@@ -248,6 +257,7 @@ li a {
 .cadaOpinion h6 {
     font-size: 1.25rem;
     text-align: center;
+    font-weight: bold;
     margin-bottom: 1.875rem;
 }
 
@@ -266,6 +276,7 @@ li a {
 
 .contenedorAccesoRapido a {
     text-decoration: none;
+    color: #663B3B;
     list-style: none;
     font-size: 1.25rem;
 }
@@ -353,16 +364,6 @@ li a {
     text-align: center;
 }
 
-/*.contenedorRopa1 {
-    display: flex;
-    justify-content: center;
-}
-
-.contenedorRopa2 {
-    display: flex;
-    justify-content: center;
-}*/
-
 .contenedorRopa1 img {
     height: 14rem;
     width: 14rem;
@@ -437,14 +438,6 @@ main section section p {
     height: 40rem;
     background-position: top;
 }
-
-/*.contenedorAccesorios1 {
-    justify-content: center;
-}
-
-.contenedorAccesorios2 {
-    justify-content: center;
-} */
 
 .contenedorAccesorios1 img {
     height: 14rem;
@@ -634,8 +627,33 @@ form textarea {
     font-size: 2rem;
 }
 
+/* "@medias 1275 enchufate */
+
+@media (max-width: 1275px) {
+
+.musicaGim iframe {
+    width: 35rem;
+}
+}
+/* "@medias 1125 enchufate */
+
+@media (max-width: 1125px) {
+
+    .musicaGim iframe {
+        width: 30rem;
+    }
+}
+/* "@medias 1045 enchufate */
+
+@media (max-width: 1045px) {
+
+    .musicaGim iframe {
+        width: 25rem;
+    }
+}
+
 /* "@medias 1024 */
-/* "@medias 1024 index - OK*/
+/* "@medias 1024 index */
 
 @media (max-width: 1024px) {
 
@@ -685,15 +703,7 @@ form textarea {
     margin: 1.875rem 1.5rem;
 }
 
-/* "@medias 1024 ropa - OK
-
-.contenedorRopa1 {
-    flex-wrap: wrap;
-}
-
-.contenedorRopa2 {
-    flex-wrap: wrap;
-}*/
+/* "@medias 1024 ropa */
 
 .botonTienda {
     margin: 1rem 0rem 1rem 1rem;
@@ -701,18 +711,8 @@ form textarea {
 
 /* "@medias 768 dieta - OK*/
 /* "@medias 768 rutina - OK*/
-
 /* "@medias 1024 accesorios - OK*/
-
-/*.contenedorAccesorios1 {
-    flex-wrap: wrap;
-}
-
-.contenedorAccesorios2 {
-    flex-wrap: wrap;
-}*/
-
-/* "@medias 1024 enchufate - OK*/
+/* "@medias 1024 enchufate */
 
 .gridEnchufate {
     gap: .3125rem;
@@ -727,8 +727,129 @@ form textarea {
 }
 }
 
+/* "@medias 1000 enchufate */
+
+@media (max-width: 1000px) {
+
+    .musicaGim iframe {
+        width: 20rem;
+    }
+}
+
+/* "@medias 979 contacto */
+
+@media (max-width: 979px) {
+
+form input {
+    width: 25rem;
+}
+
+form textarea {
+    width: 25rem;
+}
+
+.formasDeContacto {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mailDeContacto {
+    width: 25rem;
+}
+
+.contactoWhatsapp {
+    margin-left: 12rem;
+}
+}
+
+/* "@medias 918 enchufate */
+
+@media (max-width: 918px) {
+
+    .musicaGim iframe {
+        width: 15rem;
+    }
+}
+
+/* "@medias 840 enchufate */
+
+@media (max-width: 840px) {
+
+    .musicaGim iframe {
+        width: 11rem;
+    }
+}
+
+/* "@medias 828 contacto */
+
+@media (max-width: 828px) {
+
+.contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.flexFormulario {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.centrarForm {
+    justify-self: center;
+    margin-top: 0.625;
+}
+
+.mailDeContacto {
+    margin: auto;
+}
+
+.contactoWhatsapp {
+    margin-left: 50%;
+}
+}
+
+/* "@medias 780 enchufate */
+
+@media (max-width: 780px) {
+
+.responsiveImage {
+    display: none;
+}
+    
+.gridEnchufate {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(13,1fr);
+    width: 100%;
+    height: 76rem;
+    grid-template-areas:
+    "tituloGim"
+    "tituloGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim"
+    "musicaGim" 
+    "musicaGim"   
+    "aEntrenar"
+;
+}
+
+.musicaGim iframe {
+    height: 5.625rem;
+    width: 20rem;
+}
+}
+
 /* "@medias 768 */
-/* "@medias 768 index OK */
+/* "@medias 768 index */
 
 @media (max-width: 768px) {
 
@@ -751,7 +872,7 @@ li a {
     font-size: 1.2rem;
 }
 
-/* "@medias 768 ropa - OK*/
+/* "@medias 768 ropa */
 
 .tituloServicios {
     margin-top: 13rem;
@@ -760,59 +881,47 @@ li a {
 /* "@medias 768 dieta - OK*/
 /* "@medias 768 rutina - OK*/
 /* "@medias 768 accesorios - OK*/
-
 /* "@medias 768 enchufate - OK*/
+/* "@medias 768 contacto - OK*/
 
-.responsiveImage {
-    display: none;
 }
 
-.gridEnchufate {
+/* "@medias 620 index */
+
+@media (max-width: 620px) {
+
+.gridMusica {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(13,1fr);
+    grid-template-rows: 1fr 3fr 1fr 1fr;
     width: 100%;
-    height: 76rem;
+    height: 57rem;
+    background-color: #F6CDA0;
     grid-template-areas:
-    "tituloGim"
-    "tituloGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim" 
-    "musicaGim"   
-    "aEntrenar"
+    "textoUno"
+    "photo"
+    "textoDos"
+    "clickAqui"
     ;
 }
 
-/* "@medias 768 contacto - OK*/
-
-.contenedorFormulario {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.imagenMusica {
+    width: 25rem;
 }
 
-.flexFormulario {
-    margin-left: 9rem;
+.titulo1 {
+    font-size: 4rem;
+    padding-left: 1.25rem;
 }
 
-.mailDeContacto {
-    margin: auto;
-}
-
-.contactoWhatsapp {
-    margin-left: 50%;
+.titulo2 {
+    font-size: 2.4rem;
+    width: 20rem;
 }
 }
 
 /* "@medias 425 */
-/* "@medias 425 index - OK */
+/* "@medias 425 index */
 
 @media (max-width: 426px) {
 
@@ -871,35 +980,6 @@ li a {
     justify-self: center;
 }
 
-.gridMusica {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 1fr 1fr;
-    width: 100%;
-    height: 57rem;
-    background-color: #F6CDA0;
-    grid-template-areas:
-    "textoUno"
-    "photo"
-    "textoDos"
-    "clickAqui"
-    ;
-}
-
-.imagenMusica {
-    width: 25rem;
-}
-
-.titulo1 {
-    font-size: 4rem;
-    padding-left: 1.25rem;
-}
-
-.titulo2 {
-    font-size: 2.4rem;
-    width: 20rem;
-}
-
 .contenedorOpiniones {
     flex-direction: column;
 }
@@ -909,17 +989,8 @@ li a {
     align-self: center;
 }
 
-/* "@medias 425 ropa - OK 
-
-.contenedorRopa1 img {
-    margin-left: 5.625rem;
-}
-
-.contenedorRopa2 img {
-    margin-left: 5.625rem;
-}*/
-
-/* "@medias 425 dieta - OK */
+/* "@medias 425 ropa - OK */
+/* "@medias 425 dieta */
 
 .titulo3 {
     padding: 1.4rem;
@@ -930,18 +1001,9 @@ li a {
     margin-right: 1rem;
 }
 
-/* "@medias 425 rutina - OK */
+/* "@medias 425 rutina - OK*/
 /* "@medias 425 accesorios - OK */
-
-/*.contenedorAccesorios1 img {
-    margin-left: 6.875rem;
-}
-
-.contenedorAccesorios2 img {
-    margin-left: 6.875rem;
-}*/
-
-/* "@medias 425 enchufate - OK */
+/* "@medias 425 enchufate */
 
 .tituloGim {
     grid-area: tituloGim;
@@ -950,6 +1012,12 @@ li a {
     font-size: 1.5rem;
 }
 
+.tituloServicios {
+    font-size: 2rem;
+    width: 14rem;
+    margin-left: 2rem;
+    margin-top: 10rem;
+}
 .musicaGim {
     display: flex;
     flex-direction: column;
@@ -962,34 +1030,7 @@ li a {
     width: 20rem;
 }
 
-.responsiveImage {
-    display: none;
-}
-
-.gridEnchufate {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(13,1fr);
-    width: 100%;
-    height: 76rem;
-    grid-template-areas:
-    "tituloGim"
-    "tituloGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim" 
-    "musicaGim"   
-    "aEntrenar"
-    ;
-}
-
-/* "@medias 425 contacto - OK*/
+/* "@medias 425 contacto */
 
 .flexFormulario {
     margin-left: 1rem;
@@ -1008,11 +1049,9 @@ form textarea {
 }
 }
 
-/* "@medias 375 */
+/* "@medias 400 index */
 
-/* "@medias 375 index - OK */
-
-@media (max-width: 376px) {
+@media (max-width: 400px) {
 
 .cajaImagenRopa {
     height: 25rem;
@@ -1039,17 +1078,15 @@ form textarea {
 }
 
 .imagenMusica {
-    width: 23rem;
+    width: 20rem;
+}
 }
 
+/* "@medias 375 */
+/* "@medias 375 index */
 /* "@medias 375 formulario - OK */
 
-.tituloServicios {
-    font-size: 2rem;
-    width: 20rem;
-    margin-left: 2rem;
-    margin-top: 10rem;
-}
+@media (max-width: 376px) {
 
 form input {
     width: 20rem;
@@ -1062,14 +1099,19 @@ form textarea {
 .mailDeContacto {
     width: 20rem;
 }
-
 }
 
-/* "@medias 320 */
+/* "@medias 368 index */
 
-/* "@medias 320 index - OK */
+@media (max-width: 360px) {
+    .imagenMusica {
+        width: 18rem;
+    }
+    }
 
-@media (max-width: 320px) {
+/* "@medias 350 index */
+
+@media (max-width: 350px) {
 
 .titulo2 {
     font-size: 2rem;
@@ -1107,11 +1149,7 @@ form textarea {
 
 .gridMusica {
     grid-template-rows: 1fr 2fr 1fr 1fr;
-    height: 50rem;
-}
-
-.imagenMusica {
-    width: 20rem;
+    height: 54rem;
 }
 
 .pieDePagina {
@@ -1125,8 +1163,13 @@ form textarea {
 li a {
     padding-left: 0.5rem;
 }
+}
 
-/* "@medias 320 ropa - OK */
+/* "@medias 320 */
+/* "@medias 320 index - OK */
+/* "@medias 320 ropa */
+
+@media (max-width: 320px) {
 
 .tituloServicios {
     font-size: 2rem;
@@ -1135,15 +1178,7 @@ li a {
     margin-top: 10rem;
 }
 
-/*.contenedorRopa1 img {
-    margin-left: 3rem;
-}
-
-.contenedorRopa2 img {
-    margin-left: 3rem;
-}*/
-
-/* "@medias 320 dieta - OK */
+/* "@medias 320 dieta */
 
 .items {
     margin: 0rem 2rem;
@@ -1154,7 +1189,7 @@ li a {
     font-size: 1.5rem;
 }
 
-/* "@medias 320 rutina OK */
+/* "@medias 320 rutina*/
 
 .fraseDePagina {
     display: block;
@@ -1164,17 +1199,8 @@ li a {
     margin-left: 6.5rem;
 }
 
-/* "@medias 320 accesorios - OK 
-
-.contenedorAccesorios1 img {
-    margin-left: 3rem;
-}
-
-.contenedorAccesorios2 img {
-    margin-left: 3rem;
-}*/
-
-/* "@medias 320 enchufate - OK */
+/* "@medias 320 accesorios - OK */
+/* "@medias 320 enchufate */
 
 .gridEnchufate {
     display: grid;
