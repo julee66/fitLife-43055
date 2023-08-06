@@ -101,7 +101,7 @@ li a {
     height: 25rem;
     width: 20rem;
     background-image: url(../assets/imagenes/ropadeportiva.png);
-    object-fit: contain; /*No me funcionó de hacer mas chica la foto para que se vea completa*/
+    object-fit: contain;
 }
 
 .cajaImagenRutina {
@@ -246,10 +246,11 @@ li a {
 }
 
 .cadaOpinion p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: lighter;
     text-align: center;
-    padding: .3125rem;
+    padding: 1rem 0 2rem 0;
+    margin: 0 5.5rem;
     font-style: italic;
     /*No se como hacer una linea sobre y debajo de cada coment*/
 }
@@ -303,7 +304,7 @@ li a {
     list-style: none;
 }
 
-/* extras de pagina 2 */
+/* extras de pagina 2 ROPA */
 
 .headerRopa {
     background-image: url(../assets/imagenes/fondoropa.png);
@@ -394,7 +395,7 @@ li a {
     color: #663B3B; 
 }
 
-/* extras de pagina 3 */
+/* extras de pagina 3 RUTINA */
 
 .headerRutina {
     background-image: url(../assets/imagenes/fondoruti.png);
@@ -419,7 +420,7 @@ main section section p {
 .items li {
     padding: 0.5rem;
 }
-/* extras de pagina 4 */
+/* extras de pagina 4 PLAN */
 
 .headerPlan{
     background-image: url(../assets/imagenes/fondonutri.png);
@@ -429,7 +430,7 @@ main section section p {
     background-position: top;
 }
 
-/* extras de pagina 5 */
+/* extras de pagina 5 ACCESORIOS */
 
 .headerAccesorios {
     background-image: url(../assets/imagenes/fondoaccesorios.png);
@@ -449,7 +450,7 @@ main section section p {
     width: 14rem;
 }
 
-/* extras de pagina 6 */
+/* extras de pagina 6 FORMULARIO */
 
 .headerContacto {
     background-image: url(../assets/imagenes/fondocontacto.png);
@@ -467,7 +468,7 @@ main section section p {
 .flexFormulario {
     justify-self: center;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* no logré que se centre automaticamrnte */
     flex-direction: column;
 }
 
@@ -514,7 +515,7 @@ form textarea {
     margin: .625rem;
 }
 
-/* extras de pagina 7 */
+/* extras de pagina 7 ENCHUFATE */
 
 .headerEnchufate {
     background-image: url(../assets/imagenes/fondoenchufate.png);
@@ -546,7 +547,7 @@ form textarea {
     "musicaGim musicaGim musicaGim aEntrenar aEntrenar aEntrenar"
     ;
 }
-    
+
 .tituloGim {
     grid-area: tituloGim;
     justify-self: center;
@@ -635,6 +636,7 @@ form textarea {
     width: 35rem;
 }
 }
+
 /* "@medias 1125 enchufate */
 
 @media (max-width: 1125px) {
@@ -643,6 +645,7 @@ form textarea {
         width: 30rem;
     }
 }
+
 /* "@medias 1045 enchufate */
 
 @media (max-width: 1045px) {
@@ -652,7 +655,6 @@ form textarea {
     }
 }
 
-/* "@medias 1024 */
 /* "@medias 1024 index */
 
 @media (max-width: 1024px) {
@@ -699,19 +701,12 @@ form textarea {
     margin: 4rem;
 }
 
-.cadaOpinion p {
-    margin: 1.875rem 1.5rem;
-}
-
 /* "@medias 1024 ropa */
 
 .botonTienda {
     margin: 1rem 0rem 1rem 1rem;
 }
 
-/* "@medias 768 dieta - OK*/
-/* "@medias 768 rutina - OK*/
-/* "@medias 1024 accesorios - OK*/
 /* "@medias 1024 enchufate */
 
 .gridEnchufate {
@@ -762,22 +757,37 @@ form textarea {
 }
 }
 
+/* "@medias 908 index */
+
+@media (max-width: 908px) {
+
+.texto1 {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+    
+.texto2 {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+}
+
 /* "@medias 918 enchufate */
 
 @media (max-width: 918px) {
 
-    .musicaGim iframe {
-        width: 15rem;
-    }
+.musicaGim iframe {
+    width: 15rem;
+}
 }
 
 /* "@medias 840 enchufate */
 
 @media (max-width: 840px) {
 
-    .musicaGim iframe {
-        width: 11rem;
-    }
+.musicaGim iframe {
+    width: 11rem;
+}
 }
 
 /* "@medias 828 contacto */
@@ -848,7 +858,6 @@ form textarea {
 }
 }
 
-/* "@medias 768 */
 /* "@medias 768 index */
 
 @media (max-width: 768px) {
@@ -857,33 +866,17 @@ li a {
     font-size: 1.35rem;
 }
 
-.texto1 {
-    margin: 1rem;
-    font-size: 1.3rem;
-}
-
-.texto2 {
-    margin: 1rem;
-    font-size: 1.3rem;
-}
-
-.cadaOpinion p {
-    margin: 1.875rem 1rem;
-    font-size: 1.2rem;
-}
-
 /* "@medias 768 ropa */
 
 .tituloServicios {
     margin-top: 13rem;
 }
 
-/* "@medias 768 dieta - OK*/
-/* "@medias 768 rutina - OK*/
-/* "@medias 768 accesorios - OK*/
-/* "@medias 768 enchufate - OK*/
-/* "@medias 768 contacto - OK*/
+/* "@medias 768 formulario */
 
+.flexFormulario {
+    margin-left: 10rem;
+}
 }
 
 /* "@medias 620 index */
@@ -920,7 +913,15 @@ li a {
 }
 }
 
-/* "@medias 425 */
+/* "@medias 449 index */
+
+@media (max-width: 449px) {
+
+.cadaOpinion {
+    font-size: 1rem;
+}
+}
+
 /* "@medias 425 index */
 
 @media (max-width: 426px) {
@@ -989,7 +990,6 @@ li a {
     align-self: center;
 }
 
-/* "@medias 425 ropa - OK */
 /* "@medias 425 dieta */
 
 .titulo3 {
@@ -1001,8 +1001,6 @@ li a {
     margin-right: 1rem;
 }
 
-/* "@medias 425 rutina - OK*/
-/* "@medias 425 accesorios - OK */
 /* "@medias 425 enchufate */
 
 .tituloGim {
@@ -1082,9 +1080,7 @@ form textarea {
 }
 }
 
-/* "@medias 375 */
-/* "@medias 375 index */
-/* "@medias 375 formulario - OK */
+/* "@medias 375 formulario */
 
 @media (max-width: 376px) {
 
@@ -1104,10 +1100,11 @@ form textarea {
 /* "@medias 368 index */
 
 @media (max-width: 360px) {
+
     .imagenMusica {
-        width: 18rem;
-    }
-    }
+    width: 18rem;
+}
+}
 
 /* "@medias 350 index */
 
@@ -1165,8 +1162,6 @@ li a {
 }
 }
 
-/* "@medias 320 */
-/* "@medias 320 index - OK */
 /* "@medias 320 ropa */
 
 @media (max-width: 320px) {
@@ -1199,7 +1194,6 @@ li a {
     margin-left: 6.5rem;
 }
 
-/* "@medias 320 accesorios - OK */
 /* "@medias 320 enchufate */
 
 .gridEnchufate {
@@ -1224,7 +1218,7 @@ li a {
     ;
 }
 
-/* "@medias 320 contacto - OK */
+/* "@medias 320 contacto */
 
 .flexFormulario {
     margin-left: 0;
