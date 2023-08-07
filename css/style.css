@@ -911,6 +911,21 @@ li a {
     font-size: 2.4rem;
     width: 20rem;
 }
+
+/* "@medias 620 formulario */
+
+.flexFormulario {
+    margin-left: 5rem;
+}
+}
+
+/* "@medias 540 formulario */
+
+@media (max-width: 540px) {
+
+.flexFormulario {
+    margin-left: 2rem;
+}
 }
 
 /* "@medias 449 index */
@@ -919,6 +934,12 @@ li a {
 
 .cadaOpinion {
     font-size: 1rem;
+}
+
+/* "@medias 449 formulario */
+
+.flexFormulario {
+    margin-left: 1rem;
 }
 }
 
@@ -1012,7 +1033,7 @@ li a {
 
 .tituloServicios {
     font-size: 2rem;
-    width: 14rem;
+    width: 18.5rem;
     margin-left: 2rem;
     margin-top: 10rem;
 }
@@ -1078,11 +1099,8 @@ form textarea {
 .imagenMusica {
     width: 20rem;
 }
-}
 
-/* "@medias 375 formulario */
-
-@media (max-width: 376px) {
+/* "@medias 400 formulario */
 
 form input {
     width: 20rem;
@@ -1101,7 +1119,7 @@ form textarea {
 
 @media (max-width: 360px) {
 
-    .imagenMusica {
+.imagenMusica {
     width: 18rem;
 }
 }
@@ -1160,20 +1178,42 @@ form textarea {
 li a {
     padding-left: 0.5rem;
 }
+
+/* "@medias 350 formulario */
+
+.flexFormulario {
+    margin-left: 0;
 }
 
-/* "@medias 320 ropa */
+form input {
+    width: 19rem;
+}
 
-@media (max-width: 320px) {
+form textarea {
+    width: 19rem;
+}
+
+.mailDeContacto {
+    width: 19rem;
+}
+
+.contactoWhatsapp {
+    margin-left: 9rem;
+}
+}
+
+/* "@medias 330 dieta */
+
+@media (max-width: 330px) {
 
 .tituloServicios {
-    font-size: 2rem;
-    width: 18.5rem;
     margin-left: 1rem;
-    margin-top: 10rem;
+}
 }
 
 /* "@medias 320 dieta */
+
+@media (max-width: 320px) {
 
 .items {
     margin: 0rem 2rem;
@@ -1216,27 +1256,5 @@ li a {
     "musicaGim"   
     "aEntrenar"
     ;
-}
-
-/* "@medias 320 contacto */
-
-.flexFormulario {
-    margin-left: 0;
-}
-
-form input {
-    width: 19rem;
-}
-
-form textarea {
-    width: 19rem;
-}
-
-.mailDeContacto {
-    width: 20rem;
-}
-
-.contactoWhatsapp {
-    margin-left: 9rem;
 }
 }
