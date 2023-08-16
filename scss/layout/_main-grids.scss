@@ -1,22 +1,25 @@
-.contenedorRopa1{
+main{
     div{
-        .categoriasAccesoriosRopa{
-            font-size: 1.875rem;
-            padding-top: 1.875rem;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
-            text-align: center;
-        }
-        div{
-            img{
-                height: 14rem;
-                width: 14rem;
+        .contenedorRopa1{
+            div{
+                .categoriasAccesoriosRopa{
+                    font-size: 1.875rem;
+                    padding-top: 1.875rem;
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                    text-align: center;
+                }
+                div{
+                    img{
+                        height: 14rem;
+                        width: 14rem;
+                    }
+                }
             }
         }
     }
-}
-
-.contenedorBoton {
-    display: flex;
-    justify-content: center;
+    .contenedorBoton{
+        display: flex;
+        justify-content: center;
+    }
 }

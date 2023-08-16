@@ -57,9 +57,8 @@ header .headerIndex {
           font-size: 1.5625rem;
           text-decoration: none;
           list-style: none;
-          padding-left: 1.25rem; }
-          header .headerIndex .fondoTitulo1 nav .menuIndex li a .index1 {
-            color: #663B3B; }
+          padding-left: 1.25rem;
+          color: #663B3B; }
   header .headerIndex .titulo2 {
     font-size: 2.9375rem;
     font-weight: bolder;
@@ -144,14 +143,13 @@ header .headerRopa {
           text-decoration: none;
           list-style: none;
           padding-left: 1.25rem; }
-
-header .tituloServicios {
-  font-size: 2.9375rem;
-  font-weight: lighter;
-  background-color: rgba(249, 233, 221, 0.6);
-  width: 23rem;
-  padding: 1rem;
-  margin: 7rem 3rem; }
+    header .headerRopa .fondoTitulo1 .tituloServicios {
+      font-size: 2.9375rem;
+      font-weight: lighter;
+      background-color: rgba(249, 233, 221, 0.6);
+      width: 23rem;
+      padding: 1rem;
+      margin: 7rem 3rem; }
 
 .fraseDePagina {
   display: flex;
@@ -721,18 +719,18 @@ main section section .items {
   padding: 1rem;
   margin: 1rem 0rem 1rem 4.5rem; }
 
-.contenedorRopa1 div .categoriasAccesoriosRopa {
+main div .contenedorRopa1 div .categoriasAccesoriosRopa {
   font-size: 1.875rem;
   padding-top: 1.875rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center; }
 
-.contenedorRopa1 div div img {
+main div .contenedorRopa1 div div img {
   height: 14rem;
   width: 14rem; }
 
-.contenedorBoton {
+main .contenedorBoton {
   display: flex;
   justify-content: center; }
 
@@ -781,43 +779,43 @@ main section section .items {
 @media (max-width: 1024px) {
   header .headerIndex .fondoTitulo1 {
     display: block; }
-  main div .contenedorQueOfrecemos {
+  main .backgroundColor .contenedorQueOfrecemos {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; }
-    main div .contenedorQueOfrecemos div div .cajaImagenRopa {
-      height: 90rem;
-      width: 25rem; }
-    main div .contenedorQueOfrecemos div div .resumenServicios {
-      width: 25rem; }
-    main div .contenedorQueOfrecemos div div .cajaImagenRutina {
+    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRopa {
       height: 30rem;
       width: 25rem; }
-    main div .contenedorQueOfrecemos div div .resumenServicios {
+    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
       width: 25rem; }
-    main div .contenedorQueOfrecemos div div .cajaImagenPlan {
+    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRutina {
       height: 30rem;
       width: 25rem; }
-    main div .contenedorQueOfrecemos div div .resumenServicios {
+    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
       width: 25rem; }
-    main div .contenedorQueOfrecemos div div .cajaImagenAccesorios {
+    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenPlan {
       height: 30rem;
       width: 25rem; }
-    main div .contenedorQueOfrecemos div div .resumenServicios {
+    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
       width: 25rem; }
-  section div .titulo4 .gridMusica .texto1 {
+    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenAccesorios {
+      height: 30rem;
+      width: 25rem; }
+    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
+      width: 25rem; }
+  section div .gridMusica .texto1 {
     margin: 3rem; }
-  section div .titulo4 .gridMusica .texto2 {
+  section div .gridMusica .texto2 {
     margin: 4rem; }
   /* "@medias 1024 ropa */
-  main div .botonTienda {
+  main .contenedorBoton .botonTienda {
     margin: 1rem 0rem 1rem 1rem; }
   /* "@medias 1024 enchufate */
-  main .gridEnchufate {
+  .gridEnchufate {
     gap: .3125rem; }
-    main .gridEnchufate .musicaGim iframe {
+    .gridEnchufate .musicaGim iframe {
       height: 5.625rem; }
-    main .gridEnchufate .responsiveImage {
+    .gridEnchufate .responsiveImage {
       padding-right: .625rem; } }
 
 /* "@medias 1000 enchufate */
@@ -855,7 +853,7 @@ main section section .items {
 
 /* "@medias 840 enchufate */
 @media (max-width: 840px) {
-  main .gridEnchufate .musicaGim iframe {
+  .gridEnchufate .musicaGim iframe {
     width: 11rem; } }
 
 /* "@medias 828 contacto */
@@ -879,25 +877,25 @@ main section section .items {
 
 /* "@medias 780 enchufate */
 @media (max-width: 780px) {
-  main .gridEnchufate {
+  .gridEnchufate {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(13, 1fr);
     width: 100%;
     height: 76rem;
     grid-template-areas: "tituloGim" "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim"  "musicaGim"    "aEntrenar"; }
-    main .gridEnchufate .musicaGim iframe {
+    .gridEnchufate .musicaGim iframe {
       height: 5.625rem;
       width: 20rem; }
-    main .gridEnchufate .responsiveImage {
+    .gridEnchufate .responsiveImage {
       display: none; } }
 
 /* "@medias 768 index */
 @media (max-width: 768px) {
-  header div div nav ul li a {
+  header .headerIndex .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
   /* "@medias 768 ropa */
-  header div .tituloServicios {
+  header .headerRopa .tituloServicios {
     margin-top: 13rem; }
   /* "@medias 768 formulario */
   main .contenedorFormulario .flexFormulario {
@@ -913,12 +911,12 @@ main section section .items {
     height: 57rem;
     background-color: #F6CDA0;
     grid-template-areas: "textoUno" "photo" "textoDos" "clickAqui"; }
-    main section div .gridMusica .titulo1 {
+    main section div .gridMusica .texto1 {
       font-size: 4rem;
       padding-left: 1.25rem; }
     main section div .gridMusica .imagenMusica {
       width: 25rem; }
-    main section div .gridMusica .titulo2 {
+    main section div .gridMusica .texto2 {
       font-size: 2.4rem;
       width: 20rem; }
   /* "@medias 620 formulario */
@@ -932,7 +930,7 @@ main section section .items {
 
 /* "@medias 449 index */
 @media (max-width: 449px) {
-  section div div div .cadaOpinion {
+  section .opiniones div div .cadaOpinion {
     font-size: 1rem; }
   /* "@medias 449 formulario */
   main .contenedorFormulario .flexFormulario {
@@ -956,47 +954,47 @@ main section section .items {
         justify-content: center;
         justify-items: center;
         grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .index1 {
+        header .headerIndex .fondoTitulo1 nav .menuIndex li .index1 {
           grid-area: index1; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .ropa {
+        header .headerIndex .fondoTitulo1 nav .menuIndex li .ropa {
           grid-area: ropa; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .plan {
+        header .headerIndex .fondoTitulo1 nav .menuIndex li .plan {
           grid-area: plan; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .rutina {
+        header .headerIndex .fondoTitulo1 nav .menuIndex li .rutina {
           grid-area: rutina; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .accesorios {
+        header .headerIndex .fondoTitulo1 nav .menuIndex li .accesorios {
           grid-area: accesorios; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .enchufate {
+        header .headerIndex .fondoTitulo1 nav .menuIndex li .enchufate {
           grid-area: enchufate; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .formularioss {
+        header .headerIndex .fondoTitulo1 nav .menuIndex li .formularioss {
           grid-area: formularioss;
           justify-self: center; }
-  footer div .seguinos {
+  .pieDePagina .contenedorRedesSociales .seguinos {
     font-size: 1.3rem;
     align-self: center; }
   /* "@medias 425 dieta(plan) */
-  header div .titulo3 {
+  header .fraseDePagina .titulo3 {
     padding: 1.4rem; }
   main section section .items {
     margin-left: 5rem;
     margin-right: 1rem; }
   /* "@medias 425 enchufate */
-  header div .tituloServicios {
+  header .headerEnchufate .tituloServicios {
     font-size: 2rem;
     width: 18.5rem;
     margin-left: 2rem;
     margin-top: 10rem; }
-  main .gridEnchufate .tituloGim {
+  .gridEnchufate .tituloGim {
     grid-area: tituloGim;
     justify-self: center;
     align-self: center;
     font-size: 1.5rem; }
-  main .gridEnchufate .musicaGim {
+  .gridEnchufate .musicaGim {
     display: flex;
     flex-direction: column;
     grid-area: musicaGim;
     justify-self: center; }
-    main .gridEnchufate .musicaGim iframe {
+    .gridEnchufate .musicaGim iframe {
       height: 5.625rem;
       width: 20rem; }
   /* "@medias 425 formulario */
@@ -1011,27 +1009,27 @@ main section section .items {
 
 /* "@medias 400 index */
 @media (max-width: 400px) {
-  main div section div div .cajaImagenRopa {
+  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRopa {
     height: 25rem;
     width: 20rem; }
-  main div section div div .resumenServicios {
+  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
     width: 20rem; }
-  main div section div div .cajaImagenRutina {
+  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRutina {
     height: 25rem;
     width: 20rem; }
-  main div section div div .resumenServicios {
+  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
     width: 20rem; }
-  main div section div div .cajaImagenPlan {
+  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenPlan {
     height: 25rem;
     width: 20rem; }
-  main div section div div .resumenServicios {
+  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
     width: 20rem; }
-  main div section div div .cajaImagenAccesorios {
+  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenAccesorios {
     height: 25rem;
     width: 20rem; }
-  main div section div div .resumenServicios {
+  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
     width: 20rem; }
-  main section div div .imagenMusica {
+  main section div .gridMusica .imagenMusica {
     width: 20rem; }
   /* "@medias 400 formulario */
   main section .flexFormulario input {
@@ -1043,12 +1041,12 @@ main section section .items {
 
 /* "@medias 368 index */
 @media (max-width: 360px) {
-  main section div div .imagenMusica {
+  main section div .gridMusica .imagenMusica {
     width: 18rem; } }
 
 /* "@medias 350 index */
 @media (max-width: 350px) {
-  header div .titulo2 {
+  header .headerIndex .titulo2 {
     font-size: 2rem;
     width: 12rem; }
   main section div .titulo4 {
@@ -1059,9 +1057,9 @@ main section section .items {
     height: 54rem; }
   .pieDePagina {
     padding: 1rem; }
-    .pieDePagina div .seguinos {
+    .pieDePagina .contenedorRedesSociales .seguinos {
       font-size: 1.3rem; }
-    .pieDePagina div ul li a {
+    .pieDePagina .contenedorRedesSociales .redes li a {
       padding-left: 0.5rem; }
   /* "@medias 350 formulario */
   main section .flexFormulario {
@@ -1077,9 +1075,9 @@ main section section .items {
 
 /* "@medias 330 dieta(plan) */
 @media (max-width: 330px) {
-  header div .tituloServicios {
+  header .headerPlan .tituloServicios {
     margin-left: 1rem; }
-  header div .titulo3 {
+  header .fraseDePagina .titulo3 {
     padding: 0.3;
     font-size: 1.5rem; }
   main section section .items {
@@ -1087,12 +1085,12 @@ main section section .items {
 
 /* "@medias 320 rutina*/
 @media (max-width: 320px) {
-  header div .fraseDePagina {
+  header .fraseDePagina {
     display: block; }
-    header div .fraseDePagina a img {
+    header .fraseDePagina a img {
       margin-left: 6.5rem; }
   /* "@medias 320 enchufate */
-  main .gridEnchufate {
+  .gridEnchufate {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);

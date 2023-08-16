@@ -3,7 +3,7 @@
 @media (max-width: 449px) {
 
 section{
-    div{
+    .opiniones{
         div{
             div{
                 .cadaOpinion {
@@ -51,37 +51,39 @@ header{
                     "plan rutina"
                     "accesorios enchufate"
                     "formularioss formularioss";
-                    .index1 {
-                        grid-area: index1;
+                    li{
+                        .index1 {
+                            grid-area: index1;
+                        }
+                        .ropa {
+                            grid-area: ropa;
+                        }
+                        .plan {
+                            grid-area: plan;
+                        }
+                        .rutina {
+                            grid-area: rutina;
+                        }
+                        .accesorios {
+                            grid-area: accesorios;
+                        }
+                        .enchufate {
+                            grid-area: enchufate;
+                        }
+                        .formularioss {
+                            grid-area: formularioss;
+                            justify-self: center;
+                        }
                     }
-                    .ropa {
-                        grid-area: ropa;
-                    }
-                    .plan {
-                        grid-area: plan;
-                    }
-                    .rutina {
-                        grid-area: rutina;
-                    }
-                    .accesorios {
-                        grid-area: accesorios;
-                    }
-                    .enchufate {
-                        grid-area: enchufate;
-                    }
-                    .formularioss {
-                        grid-area: formularioss;
-                        justify-self: center;
-                    }
-                }
+                }   
             }
         }
     }
 }
 
-footer{
-    div{
-        .seguinos { 
+.pieDePagina{
+    .contenedorRedesSociales{
+        .seguinos{ 
             font-size: 1.3rem;
             align-self: center;
         }
@@ -91,8 +93,8 @@ footer{
 /* "@medias 425 dieta(plan) */
 
 header{
-    div{
-        .titulo3 {
+    .fraseDePagina{
+        .titulo3{
             padding: 1.4rem;
         }
     }
@@ -101,7 +103,7 @@ header{
 main{
     section{
         section{
-            .items {
+            .items{
                 margin-left: 5rem;
                 margin-right: 1rem;
             }
@@ -112,7 +114,7 @@ main{
 /* "@medias 425 enchufate */
 
 header{
-    div{
+    .headerEnchufate{
         .tituloServicios {
             font-size: 2rem;
             width: 18.5rem;
@@ -122,23 +124,21 @@ header{
     }
 }
 
-main{
-    .gridEnchufate{
-        .tituloGim {
-            grid-area: tituloGim;
-            justify-self: center;
-            align-self: center;
-            font-size: 1.5rem;
-        } 
-        .musicaGim {
-            display: flex;
-            flex-direction: column;
-            grid-area: musicaGim;
-            justify-self: center;
-            iframe{
-                height: 5.625rem;
-                width: 20rem;
-            }
+.gridEnchufate{
+    .tituloGim {
+        grid-area: tituloGim;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.5rem;
+    } 
+    .musicaGim {
+        display: flex;
+        flex-direction: column;
+        grid-area: musicaGim;
+        justify-self: center;
+        iframe{
+            height: 5.625rem;
+            width: 20rem;
         }
     }
 }
@@ -170,8 +170,8 @@ main{
 @media (max-width: 400px) {
 
 main{
-    div{
-        section{
+    .backgroundColor{
+        .contenedorQueOfrecemos{
             div{
                 div{
                     .cajaImagenRopa{
@@ -179,7 +179,7 @@ main{
                         width: 20rem;
                     }
                 }
-                div{
+                .contenedorResumenServicios{
                     .resumenServicios{
                         width: 20rem;
                     }
@@ -187,12 +187,12 @@ main{
             }
             div{
                 div{
-                    .cajaImagenRutina {
+                    .cajaImagenRutina{
                         height: 25rem;
                         width: 20rem;
                     }
                 }
-                div{
+                .contenedorResumenServicios{
                     .resumenServicios{
                         width: 20rem;
                     }
@@ -200,12 +200,12 @@ main{
             }
             div{
                 div{
-                    .cajaImagenPlan {
+                    .cajaImagenPlan{
                         height: 25rem;
                         width: 20rem;
                     }
                 }
-                div{
+                .contenedorResumenServicios{
                     .resumenServicios{
                         width: 20rem;
                     }
@@ -213,12 +213,12 @@ main{
             }
             div{
                 div{
-                    .cajaImagenAccesorios {
+                    .cajaImagenAccesorios{
                         height: 25rem;
                         width: 20rem;
                     }
                 }
-                div{
+                .contenedorResumenServicios{
                     .resumenServicios{
                         width: 20rem;
                     }
@@ -228,7 +228,7 @@ main{
     }
     section{
         div{
-            div{
+            .gridMusica{
                 .imagenMusica{
                     width: 20rem;
                 }
