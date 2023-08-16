@@ -1,0 +1,30 @@
+main{
+    section{
+        section{
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+                padding: 1.4rem;
+                padding-top: 2rem;
+            }
+            .items{
+                margin: 0rem 5.5rem;
+                list-style-image: url(../assets/imagenes/icono.png);
+                li{
+                    padding: 0.7rem;
+                }
+            }
+        }
+    }
+}
+
+.botonTienda {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #EBB995;
+    color: #663B3B;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 4.5rem;
+}

@@ -1,0 +1,259 @@
+/* "@medias 449 index */
+
+@media (max-width: 449px) {
+
+section{
+    div{
+        div{
+            div{
+                .cadaOpinion {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+/* "@medias 449 formulario */
+
+main{
+    .contenedorFormulario {
+        .flexFormulario {
+            margin-left: 1rem;
+        }
+    }
+}
+}
+
+/* "@medias 425 index */
+
+@media (max-width: 426px) {
+
+header{
+    .headerIndex {
+        background-position: left;
+        .fondoTitulo1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            height: 11.875rem;
+            nav{
+                .menuIndex {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: repeat(4,1fr);
+                    width: 100%;
+                    height: 3.75rem;
+                    justify-content: center;
+                    justify-items: center;
+                    grid-template-areas:
+                    "index1 ropa "
+                    "plan rutina"
+                    "accesorios enchufate"
+                    "formularioss formularioss";
+                    .index1 {
+                        grid-area: index1;
+                    }
+                    .ropa {
+                        grid-area: ropa;
+                    }
+                    .plan {
+                        grid-area: plan;
+                    }
+                    .rutina {
+                        grid-area: rutina;
+                    }
+                    .accesorios {
+                        grid-area: accesorios;
+                    }
+                    .enchufate {
+                        grid-area: enchufate;
+                    }
+                    .formularioss {
+                        grid-area: formularioss;
+                        justify-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    div{
+        .seguinos { 
+            font-size: 1.3rem;
+            align-self: center;
+        }
+    }
+}
+
+/* "@medias 425 dieta(plan) */
+
+header{
+    div{
+        .titulo3 {
+            padding: 1.4rem;
+        }
+    }
+}
+
+main{
+    section{
+        section{
+            .items {
+                margin-left: 5rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+/* "@medias 425 enchufate */
+
+header{
+    div{
+        .tituloServicios {
+            font-size: 2rem;
+            width: 18.5rem;
+            margin-left: 2rem;
+            margin-top: 10rem;
+        }
+    }
+}
+
+main{
+    .gridEnchufate{
+        .tituloGim {
+            grid-area: tituloGim;
+            justify-self: center;
+            align-self: center;
+            font-size: 1.5rem;
+        } 
+        .musicaGim {
+            display: flex;
+            flex-direction: column;
+            grid-area: musicaGim;
+            justify-self: center;
+            iframe{
+                height: 5.625rem;
+                width: 20rem;
+            }
+        }
+    }
+}
+
+/* "@medias 425 formulario */
+
+main{
+    section{
+        .flexFormulario {
+            margin-left: 1rem;
+            input{
+                width: 23rem;
+            }
+            textarea{
+                width: 23rem;
+            }
+        }
+        section{
+            .mailDeContacto {
+                width: 25rem;
+            }
+        }
+    }
+}
+}
+
+/* "@medias 400 index */
+
+@media (max-width: 400px) {
+
+main{
+    div{
+        section{
+            div{
+                div{
+                    .cajaImagenRopa{
+                        height: 25rem;
+                        width: 20rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 20rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenRutina {
+                        height: 25rem;
+                        width: 20rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 20rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenPlan {
+                        height: 25rem;
+                        width: 20rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 20rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenAccesorios {
+                        height: 25rem;
+                        width: 20rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 20rem;
+                    }
+                }
+            }
+        }
+    }
+    section{
+        div{
+            div{
+                .imagenMusica{
+                    width: 20rem;
+                }
+            }
+        }
+    }
+}
+
+/* "@medias 400 formulario */
+
+main{
+    section{
+        .flexFormulario {
+            input{
+                width: 20rem;
+            }
+            textarea{
+                width: 20rem;
+            }
+        }
+        section{
+            .mailDeContacto {
+                width: 20rem;
+            }
+        }
+    }
+}
+}

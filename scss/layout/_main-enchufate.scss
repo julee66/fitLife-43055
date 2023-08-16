@@ -1,0 +1,89 @@
+.gridEnchufate{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(13,1fr);
+    width: 100%;
+    height: 70rem;
+    grid-template-areas:
+    "tituloGim tituloGim tituloGim tituloGim tituloGim tituloGim"
+    "tituloGim tituloGim tituloGim tituloGim tituloGim tituloGim"
+    "musicaGim musicaGim musicaGim imagenGim1 imagenGim2 imagenGim3"
+    "musicaGim musicaGim musicaGim imagenGim1 imagenGim2 imagenGim3"
+    "musicaGim musicaGim musicaGim imagenGim1 imagenGim2 imagenGim3"
+    "musicaGim musicaGim musicaGim imagenGim4 imagenGim5 imagenGim6"
+    "musicaGim musicaGim musicaGim imagenGim4 imagenGim5 imagenGim6"
+    "musicaGim musicaGim musicaGim imagenGim4 imagenGim5 imagenGim6"
+    "musicaGim musicaGim musicaGim imagenGim7 imagenGim8 imagenGim9"
+    "musicaGim musicaGim musicaGim imagenGim7 imagenGim8 imagenGim9"
+    "musicaGim musicaGim musicaGim imagenGim7 imagenGim8 imagenGim9"
+    "musicaGim musicaGim musicaGim aEntrenar aEntrenar aEntrenar"
+    "musicaGim musicaGim musicaGim aEntrenar aEntrenar aEntrenar"
+    ;
+    .tituloGim{
+        grid-area: tituloGim;
+        justify-self: center;
+        align-self: center;
+        font-size: 2rem;
+    }
+    .musicaGim{
+        display: flex;
+        flex-direction: column;
+        grid-area: musicaGim;
+        justify-self: center;
+        iframe{
+            height: 5.625rem;
+            width: 40rem;
+        }
+    }
+    .imagenGim1 {
+        grid-area: imagenGim1;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim2 {
+        grid-area: imagenGim2;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim3 {
+        grid-area: imagenGim3;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim4 {
+        grid-area: imagenGim4;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim5 {
+        grid-area: imagenGim5;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim6 {
+        grid-area: imagenGim6;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim7 {
+        grid-area: imagenGim7;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim8 {
+        grid-area: imagenGim8;
+        justify-self: center;
+        align-self: center;
+    }
+    .imagenGim9 {
+        grid-area: imagenGim9;
+        justify-self: center;
+        align-self: center;
+    }
+    .aEntrenar {
+    grid-area: aEntrenar;
+    justify-self: center;
+    align-self: top;
+    font-size: 2rem;
+}
+}

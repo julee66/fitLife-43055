@@ -1,0 +1,319 @@
+main{
+    .backgroundColor{
+        background-image: linear-gradient(#f7decb , #ffffff);
+        .flechaAbajo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1.25rem;
+            a{
+                img{
+                    height: 4.2rem;
+                    width: 7.5rem;
+                }
+            }
+        }
+        .titulo4{
+            font-size: 2.9375rem;
+            text-align: center;
+            padding: 1.875rem;
+        }
+        .contenedorQueOfrecemos{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            div{
+                div{
+                    .cajaImagenRopa{
+                        border: 0.5rem solid #EBB995;
+                        height: 25rem;
+                        width: 20rem;
+                        background-image: url(../assets/imagenes/ropadeportiva.png);
+                        object-fit: contain;
+                        .titulo5{
+                            font-size: 1.4rem;
+                            background-color: rgba(249, 233, 221, 0.6);
+                            padding: .625rem;
+                            margin-top: 10%;
+                            text-align: center;
+                        }
+                    }
+                }
+                .contenedorResumenServicios{
+                    display: flex;
+                    flex-direction: column;
+                    .resumenServicios{
+                        font-size: 1.20rem;
+                        font-weight: lighter;
+                        padding: 1.1rem 0.5rem;
+                        margin-bottom: 0;
+                        width: 20rem;
+                        text-align: center;
+                        height: 7rem;
+                        border-left: 0.5rem solid #EBB995;
+                        border-right: 0.5rem solid #EBB995;
+                    }
+                    .masInfo{
+                        text-decoration: none;
+                        color: #663B3B;
+                        background-color: #EBB995;
+                        text-align: center;
+                        font-size: 1.40rem;
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenRutina{
+                        border: 0.5rem solid #EBB995;
+                        height: 25rem;
+                        width: 20rem;
+                        background-image: url(../assets/imagenes/rutina.png);
+                        .titulo5{
+                            font-size: 1.4rem;
+                            background-color: rgba(249, 233, 221, 0.6);
+                            padding: .625rem;
+                            margin-top: 10%;
+                            text-align: center;
+                        }
+                    }
+                }
+                .contenedorResumenServicios{
+                    display: flex;
+                    flex-direction: column;
+                    .resumenServicios{
+                        font-size: 1.20rem;
+                        font-weight: lighter;
+                        padding: 1.1rem 0.5rem;
+                        margin-bottom: 0;
+                        width: 20rem;
+                        text-align: center;
+                        height: 7rem;
+                        border-left: 0.5rem solid #EBB995;
+                        border-right: 0.5rem solid #EBB995;
+                    }
+                    .masInfo{
+                        text-decoration: none;
+                        color: #663B3B;
+                        background-color: #EBB995;
+                        text-align: center;
+                        font-size: 1.40rem;
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenPlan{
+                        border: 0.5rem solid #EBB995;
+                        height: 25rem;
+                        width: 20rem;
+                        background-image: url(../assets/imagenes/nutricion.png);
+                        .titulo5{
+                            font-size: 1.4rem;
+                            background-color: rgba(249, 233, 221, 0.6);
+                            padding: .625rem;
+                            margin-top: 10%;
+                            text-align: center;
+                        }
+                    }
+                }
+                .contenedorResumenServicios{
+                    display: flex;
+                    flex-direction: column;
+                    .resumenServicios{
+                        font-size: 1.20rem;
+                        font-weight: lighter;
+                        padding: 1.1rem 0.5rem;
+                        margin-bottom: 0;
+                        width: 20rem;
+                        text-align: center;
+                        height: 7rem;
+                        border-left: 0.5rem solid #EBB995;
+                        border-right: 0.5rem solid #EBB995;
+                    }
+                    .masInfo{
+                        text-decoration: none;
+                        color: #663B3B;
+                        background-color: #EBB995;
+                        text-align: center;
+                        font-size: 1.40rem;
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenAccesorios{
+                        border: 0.5rem solid #EBB995;
+                        height: 25rem;
+                        width: 20rem;
+                        background-image: url(../assets/imagenes/accesorios.png);
+                        .titulo5{
+                            font-size: 1.4rem;
+                            background-color: rgba(249, 233, 221, 0.6);
+                            padding: .625rem;
+                            margin-top: 10%;
+                            text-align: center;
+                        }
+                    }
+                }
+                .contenedorResumenServicios{
+                    display: flex;
+                    flex-direction: column;
+                    .resumenServicios{
+                        font-size: 1.20rem;
+                        font-weight: lighter;
+                        padding: 1.1rem 0.5rem;
+                        margin-bottom: 0;
+                        width: 20rem;
+                        text-align: center;
+                        height: 7rem;
+                        border-left: 0.5rem solid #EBB995;
+                        border-right: 0.5rem solid #EBB995;
+                    }
+                    .masInfo{
+                        text-decoration: none;
+                        color: #663B3B;
+                        background-color: #EBB995;
+                        text-align: center;
+                        font-size: 1.40rem;
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    section{
+        .flechaAbajo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1.25rem;
+            a{
+                img{
+                    height: 4.2rem;
+                    width: 7.5rem;
+                }
+            }
+        }
+        div{
+            .titulo4{
+                font-size: 2.9375rem;
+                text-align: center;
+                padding: 1.875rem;
+            }
+            .gridMusica{
+                display: grid;
+                grid-template-columns: repeat(6,1fr);
+                grid-template-rows: repeat(5,1fr);
+                width: 100%;
+                height: 34.375rem;
+                background-color: #F6CDA0;
+                grid-template-areas:
+                "textoUno textoUno photo photo textoDos textoDos"
+                "textoUno textoUno photo photo textoDos textoDos"
+                "textoUno textoUno photo photo textoDos textoDos"
+                "textoUno textoUno photo photo clickAqui clickAqui"
+                "textoUno textoUno photo photo clickAqui clickAqui"
+                ;
+                .texto1{
+                    grid-area: textoUno;
+                    justify-self: center;
+                    align-self: center;
+                    text-align: center;
+                    background-color: #F6CDA0;
+                    margin: 7rem;
+                    font-size: 1.5625rem;
+                    order: 2;
+                }
+                .imagenMusica{
+                    grid-area: photo;
+                    justify-self: center;
+                    order: 1;
+                }
+                .texto2{
+                    grid-area: textoDos;
+                    justify-self: center;
+                    align-self: center;
+                    text-align: center;
+                    background-color: #F6CDA0;
+                    margin: 8rem;
+                    font-size: 1.5625rem;
+                    order: 3;
+                }
+                .clickAqui{
+                    grid-area: clickAqui;
+                    justify-self: center;
+                    align-self: center;
+                    font-size: 1.875rem;
+                    background-color: #F9E9DD;
+                    color: #663B3B;
+                    padding: .9375rem;
+                    font-weight: bold;
+                    text-decoration: none;
+                    order: 4;
+                }
+            }
+        }
+    }
+    section{
+        .opiniones{
+            background-color: linear-gradient (#F6CDA0 , #ffffff);
+            .flechaAbajo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 1.25rem;
+                a{
+                    img{
+                        height: 4.2rem;
+                        width: 7.5rem;
+                    }
+                }
+            }
+            .titulo6{
+                font-size: 2.9375rem;
+                padding: 2rem;
+                text-align: center;
+            }
+            div{
+                div{
+                    .cadaOpinion{
+                        p{
+                            font-size: 1.1rem;
+                            font-weight: lighter;
+                            text-align: center;
+                            padding: 1rem 0 2rem 0;
+                            margin: 0 5.5rem;
+                            font-style: italic;
+                        }
+                        h6{
+                            font-size: 1.25rem;
+                            text-align: center;
+                            font-weight: bold;
+                            margin-bottom: 1.875rem;
+                        }
+                    }
+                }
+                button{
+                    .carousel-control-prev-icon{
+                        background-image: url(../assets/imagenes/iconoprevio.png)
+                    }
+                }
+                button{
+                    .carousel-control-next-icon{
+                        background-image: url(../assets/imagenes/icono.png);
+                    }
+                }
+            }
+            
+        }
+    }
+}
+

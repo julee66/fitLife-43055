@@ -1,0 +1,33 @@
+.pieDePagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9E9DD;
+    padding: 1.875rem;
+    .contenedorAccesoRapido{
+        display: flex;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            color: #663B3B;
+            list-style: none;
+            font-size: 1.25rem;
+        }
+    }
+    .contenedorRedesSociales{
+        display: flex;
+        justify-content: right;
+        .seguinos{
+            font-size: 1.875rem;
+            text-align: right;
+            font-weight: lighter;
+        }
+        .redes{
+            li{
+                display: inline;
+                text-decoration: none;
+                list-style: none;
+            }
+        }
+    }
+}

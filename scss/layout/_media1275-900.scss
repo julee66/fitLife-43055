@@ -1,0 +1,224 @@
+/* "@medias 1275 enchufate */
+@media (max-width: 1275px){
+    .gridEnchufate{      
+        .musicaGim{
+            iframe{
+                width: 35rem;
+            }
+        }
+    }
+}
+
+/* "@medias 1125 enchufate */
+@media (max-width: 1125px){
+    .gridEnchufate{      
+        .musicaGim{
+            iframe{
+                width: 30rem;
+            }
+        }
+    }
+}
+
+/* "@medias 1045 enchufate */
+@media (max-width: 1045px){
+    .gridEnchufate{      
+        .musicaGim{
+            iframe{
+                width: 25rem;
+            }
+        }
+    }
+}
+
+/* "@medias 1024 index */
+@media (max-width: 1024px){
+header{
+    .headerIndex{
+        .fondoTitulo1{
+            display: block;
+        }
+    }
+}
+
+main{
+    div{
+        .contenedorQueOfrecemos{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            div{
+                div{
+                    .cajaImagenRopa{
+                        height: 90rem;
+                        width: 25rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 25rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenRutina{
+                        height: 30rem;
+                        width: 25rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 25rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenPlan{
+                        height: 30rem;
+                        width: 25rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 25rem;
+                    }
+                }
+            }
+            div{
+                div{
+                    .cajaImagenAccesorios{
+                        height: 30rem;
+                        width: 25rem;
+                    }
+                }
+                div{
+                    .resumenServicios{
+                        width: 25rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section{
+    div{
+        .titulo4{
+            .gridMusica{
+                .texto1 {
+                    margin: 3rem;
+                }
+                .texto2 {
+                    margin: 4rem;
+                }
+            }
+        }
+    }
+}
+
+/* "@medias 1024 ropa */
+
+main{
+    div{
+        .botonTienda {
+            margin: 1rem 0rem 1rem 1rem;
+        }
+    }
+}
+
+/* "@medias 1024 enchufate */
+
+main{
+    .gridEnchufate{     
+        gap: .3125rem;
+        .musicaGim{
+            iframe{
+                height: 5.625rem;
+            }
+        }
+        .responsiveImage {
+            padding-right: .625rem;
+        }
+    }
+}  
+}
+
+/* "@medias 1000 enchufate */
+
+@media (max-width: 1000px) {
+
+.gridEnchufate{      
+    .musicaGim{
+        iframe{
+            width: 20rem;
+        }
+    }
+}
+}
+
+/* "@medias 979 contacto */
+
+@media (max-width: 979px) {
+
+main{
+    section{
+        form{
+            input{
+                width: 25rem;
+            }
+            textarea{
+                width: 25rem;
+            }
+        }
+        section{
+            .formasDeContacto {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .mailDeContacto {
+                width: 25rem;
+            }
+            .contactoWhatsapp {
+                margin-left: 12rem;
+            }
+        }
+    }
+}
+}
+
+/* "@medias 908 index */
+
+@media (max-width: 908px) {
+
+main{
+    section{
+        div{
+            .gridMusica{
+                .texto1 {
+                    margin: 1rem;
+                    font-size: 1.3rem;
+                }
+                .texto2 {
+                    margin: 1rem;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+}
+
+/* "@medias 918 enchufate */
+
+@media (max-width: 918px) {
+
+.gridEnchufate{      
+    .musicaGim{
+        iframe{
+            width: 15rem;
+        }
+    }
+}
+}

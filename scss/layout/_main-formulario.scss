@@ -1,0 +1,50 @@
+main{
+    .tituloFormulario{
+        font-size: 1.5rem;
+        padding: 2rem 0rem 1rem 0rem;
+        text-align: center;
+    }
+    .contenedorFormulario{
+        display: flex;
+        justify-content: center;
+        .flexFormulario{
+            justify-self: center;
+            display: flex;
+            justify-content: center; /* no logré que se centre automaticamrnte */
+            flex-direction: column;
+            input{
+                padding: .625rem;
+                margin: .625rem;
+                width: 30rem;
+            }
+            textarea{
+                width: 30rem;
+                padding: .625rem;
+                margin: .625rem;
+            }
+            .botonEnviar{
+                font-size: 1.875rem;
+                background-color: #EBB995;
+                width: 9.375rem;
+                margin: .625rem;
+            }
+        }
+        section{
+            .formasDeContacto {
+                font-size: 1.25rem;
+                font-weight: bold;
+                padding: 1.5rem;
+                text-align: center;
+            }
+            .mailDeContacto {
+                text-align: center;
+                font-weight: lighter;
+                width: 30rem;
+            }
+            .contactoWhatsapp {
+                margin-left: 15rem;
+                margin-bottom: 1.25rem;
+            }
+        }
+    }
+}

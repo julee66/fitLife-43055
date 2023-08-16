@@ -1,0 +1,50 @@
+header{
+    .headerIndex{
+        background-image: url(../assets/imagenes/fondoindex.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+        background-position: top;
+        .fondoTitulo1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: .625rem;
+            background-color: rgba(249, 233, 221, 0.6);
+            .titulo1{
+                font-size: 5rem;
+                padding-left: 1.25rem;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+            nav{
+                .menuIndex{
+                    padding-left: 0;
+                    margin-bottom: 0;
+                    line-height: 1.5rem;
+                    li{
+                        display: inline;
+                        a{
+                            font-size: 1.5625rem;
+                            text-decoration: none;
+                            list-style: none;
+                            padding-left: 1.25rem;
+                            .index1{
+                                color: #663B3B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .titulo2{
+            font-size: 2.9375rem;
+            font-weight: bolder;
+            color: #4e2f2f;
+            margin-top: 5rem;
+            margin-left: 2rem;
+            width: 23.125rem;
+        }
+    }
+}
+
