@@ -11,16 +11,17 @@
             text-decoration: none;
             color: #663B3B;
             list-style: none;
-            font-size: 1.25rem;
+            font-size: 1.20rem;
         }
     }
     .contenedorRedesSociales{
         display: flex;
         justify-content: right;
         .seguinos{
-            font-size: 1.875rem;
+            font-size: 1.20rem;
             text-align: right;
             font-weight: lighter;
+            align-self: center;
         }
         .redes{
             li{

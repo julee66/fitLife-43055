@@ -693,7 +693,7 @@ main .contenedorFormulario {
     text-align: center;
     font-weight: lighter;
     width: 30rem; }
-  main .contenedorFormulario section .contactoWhatsapp {
+  main .contenedorFormulario section a .contactoWhatsapp {
     margin-left: 15rem;
     margin-bottom: 1.25rem; }
 
@@ -747,18 +747,26 @@ main .contenedorBoton {
       text-decoration: none;
       color: #663B3B;
       list-style: none;
-      font-size: 1.25rem; }
+      font-size: 1.20rem; }
   .pieDePagina .contenedorRedesSociales {
     display: flex;
     justify-content: right; }
     .pieDePagina .contenedorRedesSociales .seguinos {
-      font-size: 1.875rem;
+      font-size: 1.20rem;
       text-align: right;
-      font-weight: lighter; }
+      font-weight: lighter;
+      align-self: center; }
     .pieDePagina .contenedorRedesSociales .redes li {
       display: inline;
       text-decoration: none;
       list-style: none; }
+
+/* "@medias 1285 index */
+@media (max-width: 1285px) {
+  main section div .gridMusica .texto1 {
+    margin: 3rem; }
+  main section div .gridMusica .texto2 {
+    margin: 4rem; } }
 
 /* "@medias 1275 enchufate */
 @media (max-width: 1275px) {
@@ -803,38 +811,50 @@ main .contenedorBoton {
       width: 25rem; }
     main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
       width: 25rem; }
-  section div .gridMusica .texto1 {
-    margin: 3rem; }
-  section div .gridMusica .texto2 {
-    margin: 4rem; }
   /* "@medias 1024 ropa */
+  header .headerRopa .fondoTitulo1 {
+    display: block; }
   main .contenedorBoton .botonTienda {
     margin: 1rem 0rem 1rem 1rem; }
+  /* "@medias 1024 accesorios */
+  header .headerAccesorios .fondoTitulo1 {
+    display: block; }
+  /* "@medias 1024 rutina */
+  header .headerRutina .fondoTitulo1 {
+    display: block; }
+  /* "@medias 1024 plan */
+  header .headerPlan .fondoTitulo1 {
+    display: block; }
   /* "@medias 1024 enchufate */
+  header .headerEnchufate .fondoTitulo1 {
+    display: block; }
   .gridEnchufate {
     gap: .3125rem; }
     .gridEnchufate .musicaGim iframe {
       height: 5.625rem; }
     .gridEnchufate .responsiveImage {
-      padding-right: .625rem; } }
+      padding-right: .625rem; }
+  /* "@medias 1024 formulario */
+  header .headerContacto .fondoTitulo1 {
+    display: block; } }
 
 /* "@medias 1000 enchufate */
 @media (max-width: 1000px) {
   .gridEnchufate .musicaGim iframe {
     width: 20rem; } }
 
-/* "@medias 979 contacto */
+/* "@medias 979 formulario */
 @media (max-width: 979px) {
-  main section form input {
+  main .contenedorFormulario .flexFormulario input {
     width: 25rem; }
-  main section form textarea {
+  main .contenedorFormulario .flexFormulario textarea {
     width: 25rem; }
-  main section section .formasDeContacto {
+  main .contenedorFormulario section .formasDeContacto {
     padding-left: 0;
     padding-right: 0; }
-  main section section .mailDeContacto {
+  main .contenedorFormulario section .mailDeContacto {
     width: 25rem; }
-  main section section .contactoWhatsapp {
+  main .contenedorFormulario section .contactoWhatsapp {
     margin-left: 12rem; } }
 
 /* "@medias 908 index */
@@ -856,7 +876,7 @@ main .contenedorBoton {
   .gridEnchufate .musicaGim iframe {
     width: 11rem; } }
 
-/* "@medias 828 contacto */
+/* "@medias 828 formulario */
 @media (max-width: 828px) {
   main .contenedorFormulario {
     display: flex;
@@ -867,7 +887,10 @@ main .contenedorBoton {
       display: flex;
       justify-items: center;
       justify-content: center; }
-      main .contenedorFormulario .flexFormulario .centrarForm {
+      main .contenedorFormulario .flexFormulario input {
+        justify-self: center;
+        margin-top: 0.625; }
+      main .contenedorFormulario .flexFormulario textarea {
         justify-self: center;
         margin-top: 0.625; }
     main .contenedorFormulario section .mailDeContacto {
@@ -894,15 +917,41 @@ main .contenedorBoton {
 @media (max-width: 768px) {
   header .headerIndex .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
+  /* "@medias 768 accesorios */
+  header .headerAccesorios .fondoTitulo1 nav .menuIndex li a {
+    font-size: 1.35rem; }
+  /* "@medias 768 rutina */
+  header .headerRutina .fondoTitulo1 nav .menuIndex li a {
+    font-size: 1.35rem; }
+  /* "@medias 768 enchufate */
+  header .headerEnchufate .fondoTitulo1 nav .menuIndex li a {
+    font-size: 1.35rem; }
+  /* "@medias 768 dieta(plan) */
+  header .headerPlan .fondoTitulo1 nav .menuIndex li a {
+    font-size: 1.35rem; }
   /* "@medias 768 ropa */
-  header .headerRopa .tituloServicios {
+  header .headerRopa .fondoTitulo1 nav .menuIndex li a {
+    font-size: 1.35rem; }
+  header .headerRopa .fondoTitulo1 .tituloServicios {
     margin-top: 13rem; }
   /* "@medias 768 formulario */
+  header .headerContacto .fondoTitulo1 nav .menuIndex li a {
+    font-size: 1.35rem; }
   main .contenedorFormulario .flexFormulario {
     margin-left: 10rem; } }
 
 /* "@medias 620 index */
 @media (max-width: 620px) {
+  header .headerIndex .fondoTitulo1 .titulo1 {
+    font-size: 4rem;
+    padding-left: 1.25rem; }
+  header .headerIndex .titulo2 {
+    font-size: 2.4rem;
+    width: 20rem; }
+  main .backgroundColor .titulo4 {
+    font-size: 2rem; }
+  main section div .titulo4 {
+    font-size: 2rem; }
   main section div .gridMusica {
     display: grid;
     grid-template-columns: 1fr;
@@ -911,14 +960,10 @@ main .contenedorBoton {
     height: 57rem;
     background-color: #F6CDA0;
     grid-template-areas: "textoUno" "photo" "textoDos" "clickAqui"; }
-    main section div .gridMusica .texto1 {
-      font-size: 4rem;
-      padding-left: 1.25rem; }
     main section div .gridMusica .imagenMusica {
       width: 25rem; }
-    main section div .gridMusica .texto2 {
-      font-size: 2.4rem;
-      width: 20rem; }
+  main section .opiniones .titulo6 {
+    font-size: 2rem; }
   /* "@medias 620 formulario */
   main .contenedorFormulario .flexFormulario {
     margin-left: 5rem; } }
@@ -936,7 +981,7 @@ main .contenedorBoton {
   main .contenedorFormulario .flexFormulario {
     margin-left: 1rem; } }
 
-/* "@medias 425 index */
+/* "@medias 426 index */
 @media (max-width: 426px) {
   header .headerIndex {
     background-position: left; }
@@ -954,24 +999,21 @@ main .contenedorBoton {
         justify-content: center;
         justify-items: center;
         grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li .index1 {
+        header .headerIndex .fondoTitulo1 nav .menuIndex .index1 {
           grid-area: index1; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li .ropa {
+        header .headerIndex .fondoTitulo1 nav .menuIndex .ropa {
           grid-area: ropa; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li .plan {
+        header .headerIndex .fondoTitulo1 nav .menuIndex .plan {
           grid-area: plan; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li .rutina {
+        header .headerIndex .fondoTitulo1 nav .menuIndex .rutina {
           grid-area: rutina; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li .accesorios {
+        header .headerIndex .fondoTitulo1 nav .menuIndex .accesorios {
           grid-area: accesorios; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li .enchufate {
+        header .headerIndex .fondoTitulo1 nav .menuIndex .enchufate {
           grid-area: enchufate; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li .formularioss {
+        header .headerIndex .fondoTitulo1 nav .menuIndex .formularioss {
           grid-area: formularioss;
           justify-self: center; }
-  .pieDePagina .contenedorRedesSociales .seguinos {
-    font-size: 1.3rem;
-    align-self: center; }
   /* "@medias 425 dieta(plan) */
   header .fraseDePagina .titulo3 {
     padding: 1.4rem; }
@@ -998,13 +1040,13 @@ main .contenedorBoton {
       height: 5.625rem;
       width: 20rem; }
   /* "@medias 425 formulario */
-  main section .flexFormulario {
+  main .contenedorFormulario .flexFormulario {
     margin-left: 1rem; }
-    main section .flexFormulario input {
+    main .contenedorFormulario .flexFormulario input {
       width: 23rem; }
-    main section .flexFormulario textarea {
+    main .contenedorFormulario .flexFormulario textarea {
       width: 23rem; }
-  main section section .mailDeContacto {
+  main .contenedorFormulario section .mailDeContacto {
     width: 25rem; } }
 
 /* "@medias 400 index */
@@ -1032,12 +1074,17 @@ main .contenedorBoton {
   main section div .gridMusica .imagenMusica {
     width: 20rem; }
   /* "@medias 400 formulario */
-  main section .flexFormulario input {
+  main .contenedorFormulario .flexFormulario input {
     width: 20rem; }
-  main section .flexFormulario textarea {
+  main .contenedorFormulario .flexFormulario textarea {
     width: 20rem; }
-  main section section .mailDeContacto {
+  main .contenedorFormulario section .mailDeContacto {
     width: 20rem; } }
+
+/* "@medias 375 footer todos */
+@media (max-width: 376px) {
+  .pieDePagina .contenedorRedesSociales .seguinos {
+    display: none; } }
 
 /* "@medias 368 index */
 @media (max-width: 360px) {
@@ -1062,15 +1109,15 @@ main .contenedorBoton {
     .pieDePagina .contenedorRedesSociales .redes li a {
       padding-left: 0.5rem; }
   /* "@medias 350 formulario */
-  main section .flexFormulario {
+  main .contenedorFormulario .flexFormulario {
     margin-left: 0; }
-    main section .flexFormulario input {
+    main .contenedorFormulario .flexFormulario input {
       width: 19rem; }
-    main section .flexFormulario textarea {
+    main .contenedorFormulario .flexFormulario textarea {
       width: 19rem; }
-  main section section .mailDeContacto {
+  main .contenedorFormulario section .mailDeContacto {
     width: 19rem; }
-  main section section a .contactoWhatsapp {
+  main .contenedorFormulario section a .contactoWhatsapp {
     margin-left: 9rem; } }
 
 /* "@medias 330 dieta(plan) */

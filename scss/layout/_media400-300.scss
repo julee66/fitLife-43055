@@ -1,3 +1,16 @@
+/* "@medias 375 footer todos */
+
+@media (max-width: 376px) {
+
+.pieDePagina{
+    .contenedorRedesSociales{
+        .seguinos{ 
+            display: none;
+        }
+    }
+}
+}
+
 /* "@medias 368 index */
 
 @media (max-width: 360px) {
@@ -62,7 +75,7 @@ main{
 /* "@medias 350 formulario */
 
 main{
-    section{
+    .contenedorFormulario{
         .flexFormulario {
             margin-left: 0;
             input{

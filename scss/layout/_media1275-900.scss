@@ -1,3 +1,23 @@
+/* "@medias 1285 index */
+
+@media (max-width: 1285px){
+
+main{
+    section{
+        div{
+            .gridMusica{
+                .texto1 {
+                    margin: 3rem;
+                }
+                .texto2 {
+                    margin: 4rem;
+                }
+            }
+        }
+    }
+}
+}
+
 /* "@medias 1275 enchufate */
 @media (max-width: 1275px){
     .gridEnchufate{      
@@ -103,21 +123,15 @@ main{
     }
 }
 
-section{
-    div{
-        .gridMusica{
-            .texto1 {
-                margin: 3rem;
-            }
-            .texto2 {
-                margin: 4rem;
-            }
+/* "@medias 1024 ropa */
+
+header{
+    .headerRopa{
+        .fondoTitulo1{
+            display: block;
         }
     }
 }
-
-
-/* "@medias 1024 ropa */
 
 main{
     .contenedorBoton{
@@ -127,7 +141,46 @@ main{
     }
 }
 
+/* "@medias 1024 accesorios */
+
+header{
+    .headerAccesorios{
+        .fondoTitulo1{
+            display: block;
+        }
+    }
+}
+
+/* "@medias 1024 rutina */
+
+header{
+    .headerRutina{
+        .fondoTitulo1{
+            display: block;
+        }
+    }
+}
+
+/* "@medias 1024 plan */
+
+header{
+    .headerPlan{
+        .fondoTitulo1{
+            display: block;
+        }
+    }
+}
+
+
 /* "@medias 1024 enchufate */
+
+header{
+    .headerEnchufate{
+        .fondoTitulo1{
+            display: block;
+        }
+    }
+}
 
 .gridEnchufate{     
     gap: .3125rem;
@@ -138,6 +191,15 @@ main{
     }
     .responsiveImage {
         padding-right: .625rem;
+    }
+}
+/* "@medias 1024 formulario */
+
+header{
+    .headerContacto{
+        .fondoTitulo1{
+            display: block;
+        }
     }
 }
 
@@ -156,13 +218,13 @@ main{
 }
 }
 
-/* "@medias 979 contacto */
+/* "@medias 979 formulario */
 
 @media (max-width: 979px) {
 
 main{
-    section{
-        form{
+    .contenedorFormulario{
+        .flexFormulario{
             input{
                 width: 25rem;
             }
@@ -183,8 +245,9 @@ main{
             }
         }
     }
-}
-}
+}   
+}   
+
 
 /* "@medias 908 index */
 

@@ -11,21 +11,25 @@
 }
 }
 
-/* "@medias 828 contacto */
+/* "@medias 828 formulario */
 
 @media (max-width: 828px) {
 
 main{
-    .contenedorFormulario {
+    .contenedorFormulario{
         display: flex;
         justify-content: center;
         flex-direction: column;
         justify-items: center;
-        .flexFormulario {
+        .flexFormulario{
             display: flex;
             justify-items: center;
             justify-content: center;
-            .centrarForm {
+            input{
+                justify-self: center;
+                margin-top: 0.625;
+            }
+            textarea{
                 justify-self: center;
                 margin-top: 0.625;
             }
@@ -101,17 +105,116 @@ header{
     }
 }
 
+/* "@medias 768 accesorios */
+
+header{
+    .headerAccesorios{
+        .fondoTitulo1{
+            nav{
+                .menuIndex{
+                    li{
+                        a{
+                            font-size: 1.35rem; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* "@medias 768 rutina */
+
+header{
+    .headerRutina{
+        .fondoTitulo1{
+            nav{
+                .menuIndex{
+                    li{
+                        a{
+                            font-size: 1.35rem; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* "@medias 768 enchufate */
+
+header{
+    .headerEnchufate{
+        .fondoTitulo1{
+            nav{
+                .menuIndex{
+                    li{
+                        a{
+                            font-size: 1.35rem; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* "@medias 768 dieta(plan) */
+
+header{
+    .headerPlan{
+        .fondoTitulo1{
+            nav{
+                .menuIndex{
+                    li{
+                        a{
+                            font-size: 1.35rem; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* "@medias 768 ropa */
 
 header{
     .headerRopa{
+        .fondoTitulo1{
+            nav{
+                .menuIndex{
+                    li{
+                        a{
+                            font-size: 1.35rem; 
+                        }
+                    }
+                }
+            }
         .tituloServicios {
             margin-top: 13rem;
+        }
         }
     }
 }
 
 /* "@medias 768 formulario */
+
+header{
+    .headerContacto{
+        .fondoTitulo1{
+            nav{
+                .menuIndex{
+                    li{
+                        a{
+                            font-size: 1.35rem; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 main{
     .contenedorFormulario {
@@ -126,9 +229,32 @@ main{
 
 @media (max-width: 620px){
 
+header{
+    .headerIndex{
+        .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+                padding-left: 1.25rem;
+            }
+        }
+        .titulo2 {
+            font-size: 2.4rem;
+            width: 20rem;
+        }
+    }
+}
+
 main{
+    .backgroundColor{
+        .titulo4{
+            font-size: 2rem;
+        }
+    }
     section{
         div{
+            .titulo4{
+                font-size: 2rem;
+            }
             .gridMusica{
                 display: grid;
                 grid-template-columns: 1fr;
@@ -142,27 +268,27 @@ main{
                 "textoDos"
                 "clickAqui"
                 ;
-                .texto1{
-                    font-size: 4rem;
-                    padding-left: 1.25rem;
-                }
                 .imagenMusica{
                     width: 25rem;
                 }
-                .texto2{
-                    font-size: 2.4rem;
-                    width: 20rem;
-                }
+            }
+        }
+    }
+    section{
+        .opiniones{
+            .titulo6{
+                font-size: 2rem;
             }
         }
     }
 }
 
+
 /* "@medias 620 formulario */
 
 main{
-    .contenedorFormulario {
-        .flexFormulario {
+    .contenedorFormulario{
+        .flexFormulario{
             margin-left: 5rem;
         }
     }
@@ -174,8 +300,8 @@ main{
 @media (max-width: 540px) {
 
 main{
-    .contenedorFormulario {
-        .flexFormulario {
+    .contenedorFormulario{
+        .flexFormulario{
             margin-left: 2rem;
         }
     }

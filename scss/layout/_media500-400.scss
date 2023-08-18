@@ -17,15 +17,15 @@ section{
 /* "@medias 449 formulario */
 
 main{
-    .contenedorFormulario {
-        .flexFormulario {
+    .contenedorFormulario{
+        .flexFormulario{
             margin-left: 1rem;
         }
     }
 }
 }
 
-/* "@medias 425 index */
+/* "@medias 426 index */
 
 @media (max-width: 426px) {
 
@@ -51,41 +51,30 @@ header{
                     "plan rutina"
                     "accesorios enchufate"
                     "formularioss formularioss";
-                    li{
-                        .index1 {
-                            grid-area: index1;
-                        }
-                        .ropa {
-                            grid-area: ropa;
-                        }
-                        .plan {
-                            grid-area: plan;
-                        }
-                        .rutina {
-                            grid-area: rutina;
-                        }
-                        .accesorios {
-                            grid-area: accesorios;
-                        }
-                        .enchufate {
-                            grid-area: enchufate;
-                        }
-                        .formularioss {
-                            grid-area: formularioss;
-                            justify-self: center;
-                        }
+                    .index1 {
+                        grid-area: index1;
+                    }
+                    .ropa {
+                        grid-area: ropa;
+                    }
+                    .plan {
+                        grid-area: plan;
+                    }
+                    .rutina {
+                        grid-area: rutina;
+                    }
+                    .accesorios {
+                        grid-area: accesorios;
+                    }
+                    .enchufate {
+                        grid-area: enchufate;
+                    }
+                    .formularioss {
+                        grid-area: formularioss;
+                        justify-self: center;
                     }
                 }   
             }
-        }
-    }
-}
-
-.pieDePagina{
-    .contenedorRedesSociales{
-        .seguinos{ 
-            font-size: 1.3rem;
-            align-self: center;
         }
     }
 }
@@ -146,8 +135,8 @@ header{
 /* "@medias 425 formulario */
 
 main{
-    section{
-        .flexFormulario {
+    .contenedorFormulario{
+        .flexFormulario{
             margin-left: 1rem;
             input{
                 width: 23rem;
@@ -157,7 +146,7 @@ main{
             }
         }
         section{
-            .mailDeContacto {
+            .mailDeContacto{
                 width: 25rem;
             }
         }
@@ -240,7 +229,7 @@ main{
 /* "@medias 400 formulario */
 
 main{
-    section{
+    .contenedorFormulario{
         .flexFormulario {
             input{
                 width: 20rem;
