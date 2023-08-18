@@ -915,36 +915,63 @@ main .contenedorBoton {
 
 /* "@medias 768 index */
 @media (max-width: 768px) {
+  header .headerIndex .fondoTitulo1 .titulo1 {
+    font-size: 4rem; }
   header .headerIndex .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
   /* "@medias 768 accesorios */
+  header .headerAccesorios .fondoTitulo1 .titulo1 {
+    font-size: 4rem; }
   header .headerAccesorios .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
+  header .headerAccesorios .tituloServicios {
+    font-size: 2rem;
+    width: 15rem; }
   /* "@medias 768 rutina */
+  header .headerRutina .fondoTitulo1 .titulo1 {
+    font-size: 4rem; }
   header .headerRutina .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
+  header .headerRutina .tituloServicios {
+    font-size: 2rem;
+    width: 15rem; }
   /* "@medias 768 enchufate */
+  header .headerEnchufate .fondoTitulo1 .titulo1 {
+    font-size: 4rem; }
   header .headerEnchufate .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
+  header .headerEnchufate .tituloServicios {
+    font-size: 2rem;
+    width: 15rem; }
   /* "@medias 768 dieta(plan) */
+  header .headerPlan .fondoTitulo1 .titulo1 {
+    font-size: 4rem; }
   header .headerPlan .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
+  header .headerPlan .tituloServicios {
+    font-size: 2rem;
+    width: 15rem; }
   /* "@medias 768 ropa */
+  header .headerRopa .fondoTitulo1 .titulo1 {
+    font-size: 4rem; }
   header .headerRopa .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
-  header .headerRopa .fondoTitulo1 .tituloServicios {
-    margin-top: 13rem; }
+  header .headerRopa .tituloServicios {
+    font-size: 2rem;
+    width: 15rem; }
   /* "@medias 768 formulario */
+  header .headerContacto .fondoTitulo1 .titulo1 {
+    font-size: 4rem; }
   header .headerContacto .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
+  header .headerContacto .tituloServicios {
+    font-size: 2rem;
+    width: 15rem; }
   main .contenedorFormulario .flexFormulario {
     margin-left: 10rem; } }
 
 /* "@medias 620 index */
 @media (max-width: 620px) {
-  header .headerIndex .fondoTitulo1 .titulo1 {
-    font-size: 4rem;
-    padding-left: 1.25rem; }
   header .headerIndex .titulo2 {
     font-size: 2.4rem;
     width: 20rem; }
@@ -1015,17 +1042,178 @@ main .contenedorBoton {
           grid-area: formularioss;
           justify-self: center; }
   /* "@medias 425 dieta(plan) */
+  header .headerPlan {
+    background-position: left; }
+    header .headerPlan .fondoTitulo1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 11.875rem; }
+      header .headerPlan .fondoTitulo1 nav .menuIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        height: 3.75rem;
+        justify-content: center;
+        justify-items: center;
+        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
+        header .headerPlan .fondoTitulo1 nav .menuIndex .index1 {
+          grid-area: index1; }
+        header .headerPlan .fondoTitulo1 nav .menuIndex .ropa {
+          grid-area: ropa; }
+        header .headerPlan .fondoTitulo1 nav .menuIndex .plan {
+          grid-area: plan; }
+        header .headerPlan .fondoTitulo1 nav .menuIndex .rutina {
+          grid-area: rutina; }
+        header .headerPlan .fondoTitulo1 nav .menuIndex .accesorios {
+          grid-area: accesorios; }
+        header .headerPlan .fondoTitulo1 nav .menuIndex .enchufate {
+          grid-area: enchufate; }
+        header .headerPlan .fondoTitulo1 nav .menuIndex .formularioss {
+          grid-area: formularioss;
+          justify-self: center; }
   header .fraseDePagina .titulo3 {
     padding: 1.4rem; }
   main section section .items {
     margin-left: 5rem;
     margin-right: 1rem; }
+  /* "@medias 425 accesorio */
+  header .headerAccesorios {
+    background-position: left; }
+    header .headerAccesorios .fondoTitulo1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 11.875rem; }
+      header .headerAccesorios .fondoTitulo1 nav .menuIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        height: 3.75rem;
+        justify-content: center;
+        justify-items: center;
+        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
+        header .headerAccesorios .fondoTitulo1 nav .menuIndex .index1 {
+          grid-area: index1; }
+        header .headerAccesorios .fondoTitulo1 nav .menuIndex .ropa {
+          grid-area: ropa; }
+        header .headerAccesorios .fondoTitulo1 nav .menuIndex .plan {
+          grid-area: plan; }
+        header .headerAccesorios .fondoTitulo1 nav .menuIndex .rutina {
+          grid-area: rutina; }
+        header .headerAccesorios .fondoTitulo1 nav .menuIndex .accesorios {
+          grid-area: accesorios; }
+        header .headerAccesorios .fondoTitulo1 nav .menuIndex .enchufate {
+          grid-area: enchufate; }
+        header .headerAccesorios .fondoTitulo1 nav .menuIndex .formularioss {
+          grid-area: formularioss;
+          justify-self: center; }
+  header .fraseDePagina .titulo3 {
+    padding: 1.4rem; }
+  /* "@medias 425 ropa */
+  header .headerRopa {
+    background-position: left; }
+    header .headerRopa .fondoTitulo1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 11.875rem; }
+      header .headerRopa .fondoTitulo1 nav .menuIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        height: 3.75rem;
+        justify-content: center;
+        justify-items: center;
+        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
+        header .headerRopa .fondoTitulo1 nav .menuIndex .index1 {
+          grid-area: index1; }
+        header .headerRopa .fondoTitulo1 nav .menuIndex .ropa {
+          grid-area: ropa; }
+        header .headerRopa .fondoTitulo1 nav .menuIndex .plan {
+          grid-area: plan; }
+        header .headerRopa .fondoTitulo1 nav .menuIndex .rutina {
+          grid-area: rutina; }
+        header .headerRopa .fondoTitulo1 nav .menuIndex .accesorios {
+          grid-area: accesorios; }
+        header .headerRopa .fondoTitulo1 nav .menuIndex .enchufate {
+          grid-area: enchufate; }
+        header .headerRopa .fondoTitulo1 nav .menuIndex .formularioss {
+          grid-area: formularioss;
+          justify-self: center; }
+  header .fraseDePagina .titulo3 {
+    padding: 1.4rem; }
+  /* "@medias 425 rutina */
+  header .headerRutina {
+    background-position: left; }
+    header .headerRutina .fondoTitulo1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 11.875rem; }
+      header .headerRutina .fondoTitulo1 nav .menuIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        height: 3.75rem;
+        justify-content: center;
+        justify-items: center;
+        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
+        header .headerRutina .fondoTitulo1 nav .menuIndex .index1 {
+          grid-area: index1; }
+        header .headerRutina .fondoTitulo1 nav .menuIndex .ropa {
+          grid-area: ropa; }
+        header .headerRutina .fondoTitulo1 nav .menuIndex .plan {
+          grid-area: plan; }
+        header .headerRutina .fondoTitulo1 nav .menuIndex .rutina {
+          grid-area: rutina; }
+        header .headerRutina .fondoTitulo1 nav .menuIndex .accesorios {
+          grid-area: accesorios; }
+        header .headerRutina .fondoTitulo1 nav .menuIndex .enchufate {
+          grid-area: enchufate; }
+        header .headerRutina .fondoTitulo1 nav .menuIndex .formularioss {
+          grid-area: formularioss;
+          justify-self: center; }
+  header .fraseDePagina .titulo3 {
+    padding: 1.4rem; }
   /* "@medias 425 enchufate */
-  header .headerEnchufate .tituloServicios {
-    font-size: 2rem;
-    width: 18.5rem;
-    margin-left: 2rem;
-    margin-top: 10rem; }
+  header .headerEnchufate {
+    background-position: left; }
+    header .headerEnchufate .fondoTitulo1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 11.875rem; }
+      header .headerEnchufate .fondoTitulo1 nav .menuIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        height: 3.75rem;
+        justify-content: center;
+        justify-items: center;
+        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
+        header .headerEnchufate .fondoTitulo1 nav .menuIndex .index1 {
+          grid-area: index1; }
+        header .headerEnchufate .fondoTitulo1 nav .menuIndex .ropa {
+          grid-area: ropa; }
+        header .headerEnchufate .fondoTitulo1 nav .menuIndex .plan {
+          grid-area: plan; }
+        header .headerEnchufate .fondoTitulo1 nav .menuIndex .rutina {
+          grid-area: rutina; }
+        header .headerEnchufate .fondoTitulo1 nav .menuIndex .accesorios {
+          grid-area: accesorios; }
+        header .headerEnchufate .fondoTitulo1 nav .menuIndex .enchufate {
+          grid-area: enchufate; }
+        header .headerEnchufate .fondoTitulo1 nav .menuIndex .formularioss {
+          grid-area: formularioss;
+          justify-self: center; }
+  header .fraseDePagina .titulo3 {
+    padding: 1.4rem; }
   .gridEnchufate .tituloGim {
     grid-area: tituloGim;
     justify-self: center;
@@ -1040,6 +1228,39 @@ main .contenedorBoton {
       height: 5.625rem;
       width: 20rem; }
   /* "@medias 425 formulario */
+  header .headerContacto {
+    background-position: left; }
+    header .headerContacto .fondoTitulo1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 11.875rem; }
+      header .headerContacto .fondoTitulo1 nav .menuIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        height: 3.75rem;
+        justify-content: center;
+        justify-items: center;
+        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
+        header .headerContacto .fondoTitulo1 nav .menuIndex .index1 {
+          grid-area: index1; }
+        header .headerContacto .fondoTitulo1 nav .menuIndex .ropa {
+          grid-area: ropa; }
+        header .headerContacto .fondoTitulo1 nav .menuIndex .plan {
+          grid-area: plan; }
+        header .headerContacto .fondoTitulo1 nav .menuIndex .rutina {
+          grid-area: rutina; }
+        header .headerContacto .fondoTitulo1 nav .menuIndex .accesorios {
+          grid-area: accesorios; }
+        header .headerContacto .fondoTitulo1 nav .menuIndex .enchufate {
+          grid-area: enchufate; }
+        header .headerContacto .fondoTitulo1 nav .menuIndex .formularioss {
+          grid-area: formularioss;
+          justify-self: center; }
+  header .fraseDePagina .titulo3 {
+    padding: 1.4rem; }
   main .contenedorFormulario .flexFormulario {
     margin-left: 1rem; }
     main .contenedorFormulario .flexFormulario input {

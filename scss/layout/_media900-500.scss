@@ -92,6 +92,9 @@ main{
 header{
     .headerIndex{
         .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+            }
             nav{
                 .menuIndex{
                     li{
@@ -110,6 +113,9 @@ header{
 header{
     .headerAccesorios{
         .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+            }
             nav{
                 .menuIndex{
                     li{
@@ -119,6 +125,10 @@ header{
                     }
                 }
             }
+        }
+        .tituloServicios{
+            font-size: 2rem;
+            width: 15rem;
         }
     }
 }
@@ -128,6 +138,9 @@ header{
 header{
     .headerRutina{
         .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+            }
             nav{
                 .menuIndex{
                     li{
@@ -137,6 +150,10 @@ header{
                     }
                 }
             }
+        }
+        .tituloServicios{
+            font-size: 2rem;
+            width: 15rem;
         }
     }
 }
@@ -146,6 +163,9 @@ header{
 header{
     .headerEnchufate{
         .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+            }
             nav{
                 .menuIndex{
                     li{
@@ -155,6 +175,10 @@ header{
                     }
                 }
             }
+        }
+        .tituloServicios{
+            font-size: 2rem;
+            width: 15rem;
         }
     }
 }
@@ -164,6 +188,9 @@ header{
 header{
     .headerPlan{
         .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+            }
             nav{
                 .menuIndex{
                     li{
@@ -173,6 +200,10 @@ header{
                     }
                 }
             }
+        }
+        .tituloServicios{
+            font-size: 2rem;
+            width: 15rem;
         }
     }
 }
@@ -182,6 +213,9 @@ header{
 header{
     .headerRopa{
         .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+            }
             nav{
                 .menuIndex{
                     li{
@@ -191,9 +225,10 @@ header{
                     }
                 }
             }
-        .tituloServicios {
-            margin-top: 13rem;
         }
+        .tituloServicios{
+            font-size: 2rem;
+            width: 15rem;
         }
     }
 }
@@ -203,6 +238,9 @@ header{
 header{
     .headerContacto{
         .fondoTitulo1{
+            .titulo1 {
+                font-size: 4rem;
+            }
             nav{
                 .menuIndex{
                     li{
@@ -212,6 +250,10 @@ header{
                     }
                 }
             }
+        }
+        .tituloServicios{
+            font-size: 2rem;
+            width: 15rem;
         }
     }
 }
@@ -231,12 +273,6 @@ main{
 
 header{
     .headerIndex{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-                padding-left: 1.25rem;
-            }
-        }
         .titulo2 {
             font-size: 2.4rem;
             width: 20rem;
