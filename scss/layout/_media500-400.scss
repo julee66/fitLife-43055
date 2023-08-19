@@ -1,30 +1,3 @@
-/* "@medias 475 formulario */
-
-@media (max-width: 475px) {
-
-main{
-    .tituloFormulario{
-        font-size: 1.2rem;
-    }
-    .contenedorFormulario{
-        .flexFormulario {
-            input{
-                width: 20rem;
-            }
-            textarea{
-                width: 20rem;
-            }
-        }
-        section{
-            .mailDeContacto {
-                width: 20rem;
-            }
-        }
-    }
-}
-}
-
-
 /* "@medias 449 index */
 
 @media (max-width: 449px) {
@@ -37,6 +10,16 @@ section{
                     font-size: 1rem;
                 }
             }
+        }
+    }
+}
+
+/* "@medias 449 formulario */
+
+main{
+    .contenedorFormulario{
+        .flexFormulario{
+            margin-left: 1rem;
         }
     }
 }
@@ -467,6 +450,25 @@ header{
         }
     }
 }
+
+main{
+    .contenedorFormulario{
+        .flexFormulario{
+            margin-left: 1rem;
+            input{
+                width: 23rem;
+            }
+            textarea{
+                width: 23rem;
+            }
+        }
+        section{
+            .mailDeContacto{
+                width: 25rem;
+            }
+        }
+    }
+}
 }
 
 /* "@medias 400 index */
@@ -536,6 +538,26 @@ main{
                 .imagenMusica{
                     width: 20rem;
                 }
+            }
+        }
+    }
+}
+
+/* "@medias 400 formulario */
+
+main{
+    .contenedorFormulario{
+        .flexFormulario {
+            input{
+                width: 20rem;
+            }
+            textarea{
+                width: 20rem;
+            }
+        }
+        section{
+            .mailDeContacto {
+                width: 20rem;
             }
         }
     }
