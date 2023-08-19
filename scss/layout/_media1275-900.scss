@@ -222,31 +222,31 @@ header{
 
 @media (max-width: 979px) {
 
-main{
-    .contenedorFormulario{
-        .flexFormulario{
-            input{
-                width: 25rem;
+    main{
+        .contenedorFormulario{
+            .flexFormulario{
+                input{
+                    width: 25rem;
+                }
+                textarea{
+                    width: 25rem;
+                }
             }
-            textarea{
-                width: 25rem;
+            section{
+                .formasDeContacto {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .mailDeContacto {
+                    width: 25rem;
+                }
+                .contactoWhatsapp {
+                    margin-left: 12rem;
+                }
             }
         }
-        section{
-            .formasDeContacto {
-                padding-left: 0;
-                padding-right: 0;
-            }
-            .mailDeContacto {
-                width: 25rem;
-            }
-            .contactoWhatsapp {
-                margin-left: 12rem;
-            }
-        }
-    }
-}   
-}   
+    }   
+    }   
 
 
 /* "@medias 908 index */

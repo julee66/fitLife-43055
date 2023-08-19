@@ -257,14 +257,6 @@ header{
         }
     }
 }
-
-main{
-    .contenedorFormulario {
-        .flexFormulario {
-            margin-left: 10rem;
-        }
-    }
-}
 }
 
 /* "@medias 620 index */
@@ -315,30 +307,6 @@ main{
             .titulo6{
                 font-size: 2rem;
             }
-        }
-    }
-}
-
-
-/* "@medias 620 formulario */
-
-main{
-    .contenedorFormulario{
-        .flexFormulario{
-            margin-left: 5rem;
-        }
-    }
-}
-}
-
-/* "@medias 540 formulario */
-
-@media (max-width: 540px) {
-
-main{
-    .contenedorFormulario{
-        .flexFormulario{
-            margin-left: 2rem;
         }
     }
 }

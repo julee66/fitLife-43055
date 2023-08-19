@@ -657,45 +657,48 @@ main section .opiniones {
   main section .opiniones div button .carousel-control-next-icon {
     background-image: url(../assets/imagenes/icono.png); }
 
-main .tituloFormulario {
-  font-size: 1.5rem;
-  padding: 2rem 0rem 1rem 0rem;
-  text-align: center; }
-
-main .contenedorFormulario {
+main {
   display: flex;
-  justify-content: center; }
-  main .contenedorFormulario .flexFormulario {
-    justify-self: center;
-    display: flex;
-    justify-content: center;
-    /* no logré que se centre automaticamrnte */
-    flex-direction: column; }
-    main .contenedorFormulario .flexFormulario input {
-      padding: .625rem;
-      margin: .625rem;
-      width: 30rem; }
-    main .contenedorFormulario .flexFormulario textarea {
-      width: 30rem;
-      padding: .625rem;
-      margin: .625rem; }
-    main .contenedorFormulario .flexFormulario .botonEnviar {
-      font-size: 1.875rem;
-      background-color: #EBB995;
-      width: 9.375rem;
-      margin: .625rem; }
-  main .contenedorFormulario section .formasDeContacto {
-    font-size: 1.25rem;
-    font-weight: bold;
-    padding: 1.5rem;
+  flex-direction: column;
+  align-items: center; }
+  main .tituloFormulario {
+    font-size: 1.5rem;
+    padding: 2rem 0rem 1rem 0rem;
     text-align: center; }
-  main .contenedorFormulario section .mailDeContacto {
-    text-align: center;
-    font-weight: lighter;
-    width: 30rem; }
-  main .contenedorFormulario section a .contactoWhatsapp {
-    margin-left: 15rem;
-    margin-bottom: 1.25rem; }
+  main .contenedorFormulario {
+    display: flex;
+    justify-content: center; }
+    main .contenedorFormulario .flexFormulario {
+      justify-self: center;
+      display: flex;
+      justify-content: center;
+      /* no logré que se centre automaticamrnte */
+      flex-direction: column; }
+      main .contenedorFormulario .flexFormulario input {
+        padding: .625rem;
+        margin: .625rem;
+        width: 30rem; }
+      main .contenedorFormulario .flexFormulario textarea {
+        width: 30rem;
+        padding: .625rem;
+        margin: .625rem; }
+      main .contenedorFormulario .flexFormulario .botonEnviar {
+        font-size: 1.875rem;
+        background-color: #EBB995;
+        width: 9.375rem;
+        margin: .625rem; }
+    main .contenedorFormulario section .formasDeContacto {
+      font-size: 1.25rem;
+      font-weight: bold;
+      padding: 1.5rem;
+      text-align: center; }
+    main .contenedorFormulario section .mailDeContacto {
+      text-align: center;
+      font-weight: lighter;
+      width: 30rem; }
+    main .contenedorFormulario section a .contactoWhatsapp {
+      margin-left: 15rem;
+      margin-bottom: 1.25rem; }
 
 main section section p {
   font-size: 1.25rem;
@@ -966,9 +969,7 @@ main .contenedorBoton {
     font-size: 1.35rem; }
   header .headerContacto .tituloServicios {
     font-size: 2rem;
-    width: 15rem; }
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 10rem; } }
+    width: 15rem; } }
 
 /* "@medias 620 index */
 @media (max-width: 620px) {
@@ -990,23 +991,23 @@ main .contenedorBoton {
     main section div .gridMusica .imagenMusica {
       width: 25rem; }
   main section .opiniones .titulo6 {
-    font-size: 2rem; }
-  /* "@medias 620 formulario */
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 5rem; } }
+    font-size: 2rem; } }
 
-/* "@medias 540 formulario */
-@media (max-width: 540px) {
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 2rem; } }
+/* "@medias 475 formulario */
+@media (max-width: 475px) {
+  main .tituloFormulario {
+    font-size: 1.2rem; }
+  main .contenedorFormulario .flexFormulario input {
+    width: 20rem; }
+  main .contenedorFormulario .flexFormulario textarea {
+    width: 20rem; }
+  main .contenedorFormulario section .mailDeContacto {
+    width: 20rem; } }
 
 /* "@medias 449 index */
 @media (max-width: 449px) {
   section .opiniones div div .cadaOpinion {
-    font-size: 1rem; }
-  /* "@medias 449 formulario */
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 1rem; } }
+    font-size: 1rem; } }
 
 /* "@medias 426 index */
 @media (max-width: 426px) {
@@ -1260,15 +1261,7 @@ main .contenedorBoton {
           grid-area: formularioss;
           justify-self: center; }
   header .fraseDePagina .titulo3 {
-    padding: 1.4rem; }
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 1rem; }
-    main .contenedorFormulario .flexFormulario input {
-      width: 23rem; }
-    main .contenedorFormulario .flexFormulario textarea {
-      width: 23rem; }
-  main .contenedorFormulario section .mailDeContacto {
-    width: 25rem; } }
+    padding: 1.4rem; } }
 
 /* "@medias 400 index */
 @media (max-width: 400px) {
@@ -1293,13 +1286,6 @@ main .contenedorBoton {
   main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
     width: 20rem; }
   main section div .gridMusica .imagenMusica {
-    width: 20rem; }
-  /* "@medias 400 formulario */
-  main .contenedorFormulario .flexFormulario input {
-    width: 20rem; }
-  main .contenedorFormulario .flexFormulario textarea {
-    width: 20rem; }
-  main .contenedorFormulario section .mailDeContacto {
     width: 20rem; } }
 
 /* "@medias 375 footer todos */
@@ -1330,6 +1316,8 @@ main .contenedorBoton {
     .pieDePagina .contenedorRedesSociales .redes li a {
       padding-left: 0.5rem; }
   /* "@medias 350 formulario */
+  main .tituloFormulario {
+    width: 15rem; }
   main .contenedorFormulario .flexFormulario {
     margin-left: 0; }
     main .contenedorFormulario .flexFormulario input {
