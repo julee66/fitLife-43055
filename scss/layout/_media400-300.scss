@@ -1,7 +1,5 @@
 /* "@medias 375 footer todos */
-
 @media (max-width: 376px) {
-
 .pieDePagina{
     .contenedorRedesSociales{
         .seguinos{ 
@@ -12,9 +10,7 @@
 }
 
 /* "@medias 368 index */
-
 @media (max-width: 360px) {
-
 main{
     section{
         div{
@@ -29,9 +25,7 @@ main{
 }
 
 /* "@medias 350 index */
-
 @media (max-width: 350px){
-
 header{
     .headerIndex{
         .titulo2 {
@@ -71,38 +65,10 @@ main{
         }
     }
 }
-
-/* "@medias 350 formulario */
-
-main{
-    .contenedorFormulario{
-        .flexFormulario {
-            margin-left: 0;
-            input{
-                width: 19rem;
-            }
-            textarea{
-                width: 19rem;
-            }
-        }
-        section{
-            .mailDeContacto {
-                width: 19rem;
-            }
-            a{
-                .contactoWhatsapp {
-                    margin-left: 9rem;
-                }
-            }
-        }
-    }
-}
 }
 
 /* "@medias 330 dieta(plan) */
-
 @media (max-width: 330px) {
-
 header{
     .headerPlan{
         .tituloServicios {
@@ -129,9 +95,7 @@ main{
 }
 
 /* "@medias 320 rutina*/
-
 @media (max-width: 320px) {
-
 header{
     .fraseDePagina {
         display: block;
@@ -144,26 +108,8 @@ header{
 }
 
 /* "@medias 320 enchufate */
-
 .gridEnchufate {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12,1fr);
     width: 100%;
     height: 71rem;
-    grid-template-areas:
-    "tituloGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim" 
-    "musicaGim"   
-    "aEntrenar"
-    ;
 }
 }

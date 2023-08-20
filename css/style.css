@@ -1,4 +1,3 @@
-@charset "UTF-8";
 nav ul li .index1 {
   color: #663B3B; }
 
@@ -30,219 +29,113 @@ nav ul li .colorSubir {
   font-family: 'Amaranth';
   color: #663B3B; }
 
-header .headerIndex {
-  background-image: url(../assets/imagenes/fondoindex.png);
+/*Background image for Header*/
+.headerEnchufate {
+  background-image: url(../assets/imagenes/fondoenchufate.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
   background-position: top; }
-  header .headerIndex .fondoTitulo1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: .625rem;
-    background-color: rgba(249, 233, 221, 0.6); }
-    header .headerIndex .fondoTitulo1 .titulo1 {
-      font-size: 5rem;
-      padding-left: 1.25rem;
-      font-weight: bold;
-      margin-bottom: 0; }
-    header .headerIndex .fondoTitulo1 nav .menuIndex {
-      padding-left: 0;
-      margin-bottom: 0;
-      line-height: 1.5rem; }
-      header .headerIndex .fondoTitulo1 nav .menuIndex li {
-        display: inline; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex li a {
-          font-size: 1.5625rem;
-          text-decoration: none;
-          list-style: none;
-          padding-left: 1.25rem;
-          color: #663B3B; }
-  header .headerIndex .titulo2 {
-    font-size: 2.9375rem;
-    font-weight: bolder;
-    color: #4e2f2f;
-    margin-top: 5rem;
-    margin-left: 2rem;
-    width: 23.125rem; }
 
-header .headerPlan {
-  background-image: url(../assets/imagenes/fondonutri.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40rem;
-  background-position: top; }
-  header .headerPlan .fondoTitulo1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: .625rem;
-    background-color: rgba(249, 233, 221, 0.6); }
-    header .headerPlan .fondoTitulo1 .titulo1 {
-      font-size: 5rem;
-      padding-left: 1.25rem;
-      font-weight: bold;
-      margin-bottom: 0; }
-    header .headerPlan .fondoTitulo1 nav .menuIndex li {
-      display: inline; }
-      header .headerPlan .fondoTitulo1 nav .menuIndex li a {
-        font-size: 1.5625rem;
-        text-decoration: none;
-        list-style: none;
-        padding-left: 1.25rem; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex li a .index1 {
-          color: #663B3B; }
-  header .headerPlan .tituloServicios {
-    font-size: 2.9375rem;
-    font-weight: lighter;
-    background-color: rgba(249, 233, 221, 0.6);
-    width: 23rem;
-    padding: 1rem;
-    margin: 7rem 3rem; }
-
-header .fraseDePagina {
-  display: flex;
-  justify-content: center;
-  background-color: #F9E9DD;
-  align-items: center; }
-  header .fraseDePagina .titulo3 {
-    font-weight: lighter;
-    padding: 1.5625rem;
-    font-size: 1.5625rem;
-    text-align: center; }
-  header .fraseDePagina a img {
-    height: 4.2rem;
-    width: 7.5rem; }
-
-header .headerRopa {
-  background-image: url(../assets/imagenes/fondoropa.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40rem;
-  background-position: top; }
-  header .headerRopa .fondoTitulo1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: .625rem;
-    background-color: rgba(249, 233, 221, 0.6); }
-    header .headerRopa .fondoTitulo1 .titulo1 {
-      font-size: 5rem;
-      padding-left: 1.25rem;
-      font-weight: bold;
-      margin-bottom: 0; }
-    header .headerRopa .fondoTitulo1 nav .menuIndex {
-      padding-left: 0;
-      margin-bottom: 0;
-      line-height: 1.5rem; }
-      header .headerRopa .fondoTitulo1 nav .menuIndex li {
-        display: inline; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex li a {
-          font-size: 1.5625rem;
-          text-decoration: none;
-          list-style: none;
-          padding-left: 1.25rem; }
-    header .headerRopa .fondoTitulo1 .tituloServicios {
-      font-size: 2.9375rem;
-      font-weight: lighter;
-      background-color: rgba(249, 233, 221, 0.6);
-      width: 23rem;
-      padding: 1rem;
-      margin: 7rem 3rem; }
-
-.fraseDePagina {
-  display: flex;
-  justify-content: center;
-  background-color: #F9E9DD;
-  align-items: center; }
-  .fraseDePagina .titulo3 {
-    font-weight: lighter;
-    padding: 1.5625rem;
-    font-size: 1.5625rem;
-    text-align: center; }
-  .fraseDePagina a img {
-    height: 4.2rem;
-    width: 7.5rem; }
-
-header .headerRutina {
-  background-image: url(../assets/imagenes/fondoruti.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40rem;
-  background-position: top; }
-  header .headerRutina .fondoTitulo1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: .625rem;
-    background-color: rgba(249, 233, 221, 0.6); }
-    header .headerRutina .fondoTitulo1 .titulo1 {
-      font-size: 5rem;
-      padding-left: 1.25rem;
-      font-weight: bold;
-      margin-bottom: 0; }
-    header .headerRutina .fondoTitulo1 nav .menuIndex li {
-      display: inline; }
-      header .headerRutina .fondoTitulo1 nav .menuIndex li a {
-        font-size: 1.5625rem;
-        text-decoration: none;
-        list-style: none;
-        padding-left: 1.25rem; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex li a .index1 {
-          color: #663B3B; }
-  header .headerRutina .tituloServicios {
-    font-size: 2.9375rem;
-    font-weight: lighter;
-    background-color: rgba(249, 233, 221, 0.6);
-    width: 23rem;
-    padding: 1rem;
-    margin: 7rem 3rem; }
-
-header .fraseDePagina {
-  display: flex;
-  justify-content: center;
-  background-color: #F9E9DD;
-  align-items: center; }
-  header .fraseDePagina .titulo3 {
-    font-weight: lighter;
-    padding: 1.5625rem;
-    font-size: 1.5625rem;
-    text-align: center; }
-  header .fraseDePagina a img {
-    height: 4.2rem;
-    width: 7.5rem; }
-
-header .headerAccesorios {
+.headerAccesorios {
   background-image: url(../assets/imagenes/fondoaccesorios.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
   background-position: top; }
-  header .headerAccesorios .fondoTitulo1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: .625rem;
-    background-color: rgba(249, 233, 221, 0.6); }
-    header .headerAccesorios .fondoTitulo1 .titulo1 {
-      font-size: 5rem;
-      padding-left: 1.25rem;
-      font-weight: bold;
-      margin-bottom: 0; }
-    header .headerAccesorios .fondoTitulo1 nav .menuIndex {
-      padding-left: 0;
-      margin-bottom: 0;
-      line-height: 1.5rem; }
-      header .headerAccesorios .fondoTitulo1 nav .menuIndex li {
-        display: inline; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex li a {
-          font-size: 1.5625rem;
-          text-decoration: none;
-          list-style: none;
-          padding-left: 1.25rem; }
 
-header .tituloServicios {
+.headerContacto {
+  background-image: url(../assets/imagenes/fondocontacto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: top; }
+
+.headerIndex {
+  background-image: url(../assets/imagenes/fondoindex.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: top; }
+
+.headerPlan {
+  background-image: url(../assets/imagenes/fondonutri.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: top; }
+
+.headerRopa {
+  background-image: url(../assets/imagenes/fondoropa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: top; }
+
+.headerRutina {
+  background-image: url(../assets/imagenes/fondoruti.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: top; }
+
+/*Background image for Index Boxes*/
+.cajaImagenRopa {
+  background-image: url(../assets/imagenes/ropadeportiva.png);
+  border: 0.5rem solid #EBB995;
+  height: 25rem;
+  width: 20rem; }
+
+.cajaImagenRutina {
+  background-image: url(../assets/imagenes/rutina.png);
+  border: 0.5rem solid #EBB995;
+  height: 25rem;
+  width: 20rem; }
+
+.cajaImagenPlan {
+  background-image: url(../assets/imagenes/nutricion.png);
+  border: 0.5rem solid #EBB995;
+  height: 25rem;
+  width: 20rem; }
+
+.cajaImagenAccesorios {
+  background-image: url(../assets/imagenes/accesorios.png);
+  border: 0.5rem solid #EBB995;
+  height: 25rem;
+  width: 20rem; }
+
+/*Solo index*/
+.titulo2 {
+  font-size: 2.9375rem;
+  font-weight: bolder;
+  color: #4e2f2f;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  width: 23.125rem; }
+
+/*Todos*/
+header div .fondoTitulo1 {
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: none;
+  padding-right: .625rem;
+  background-color: rgba(249, 233, 221, 0.6); }
+  header div .fondoTitulo1 .titulo1 {
+    font-size: 5rem;
+    padding-left: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0; }
+  header div .fondoTitulo1 nav .menuIndex li {
+    display: inline; }
+    header div .fondoTitulo1 nav .menuIndex li a {
+      font-size: 1.5625rem;
+      text-decoration: none;
+      list-style: none;
+      padding-left: 1.25rem; }
+
+header div .tituloServicios {
   font-size: 2.9375rem;
   font-weight: lighter;
   background-color: rgba(249, 233, 221, 0.6);
@@ -250,19 +143,207 @@ header .tituloServicios {
   padding: 1rem;
   margin: 7rem 3rem; }
 
-.fraseDePagina {
+header .fraseDePagina {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: none;
   display: flex;
   justify-content: center;
   background-color: #F9E9DD;
   align-items: center; }
-  .fraseDePagina .titulo3 {
+  header .fraseDePagina .titulo3 {
     font-weight: lighter;
     padding: 1.5625rem;
     font-size: 1.5625rem;
     text-align: center; }
-  .fraseDePagina a img {
+  header .fraseDePagina a img {
     height: 4.2rem;
     width: 7.5rem; }
+
+main .backgroundColor {
+  background-image: linear-gradient(#f7decb, #ffffff); }
+  main .backgroundColor .flechaAbajo {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: none;
+    padding-top: 1.25rem; }
+    main .backgroundColor .flechaAbajo a img {
+      height: 4.2rem;
+      width: 7.5rem; }
+  main .backgroundColor .titulo4 {
+    font-size: 2.9375rem;
+    text-align: center;
+    padding: 1.875rem; }
+  main .backgroundColor .contenedorQueOfrecemos {
+    display: flex;
+    flex-direction: none;
+    justify-content: space-evenly;
+    align-items: none;
+    flex-wrap: wrap; }
+    main .backgroundColor .contenedorQueOfrecemos div div div .titulo5 {
+      font-size: 1.4rem;
+      background-color: rgba(249, 233, 221, 0.6);
+      padding: .625rem;
+      margin-top: 10%;
+      text-align: center; }
+    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios {
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      align-items: none;
+      flex-wrap: none; }
+      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
+        font-size: 1.20rem;
+        font-weight: lighter;
+        padding: 1.1rem 0.5rem;
+        margin-bottom: 0;
+        width: 20rem;
+        text-align: center;
+        height: 7rem;
+        border-left: 0.5rem solid #EBB995;
+        border-right: 0.5rem solid #EBB995; }
+      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .masInfo {
+        text-decoration: none;
+        color: #663B3B;
+        background-color: #EBB995;
+        text-align: center;
+        font-size: 1.40rem;
+        font-weight: bold;
+        margin-bottom: 1rem; }
+
+main section .flechaAbajo {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: none;
+  padding-top: 1.25rem; }
+  main section .flechaAbajo a img {
+    height: 4.2rem;
+    width: 7.5rem; }
+
+main section div .titulo4 {
+  font-size: 2.9375rem;
+  text-align: center;
+  padding: 1.875rem; }
+
+main section div .gridMusica {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas: "textoUno textoUno photo photo textoDos textoDos" "textoUno textoUno photo photo textoDos textoDos" "textoUno textoUno photo photo textoDos textoDos" "textoUno textoUno photo photo clickAqui clickAqui" "textoUno textoUno photo photo clickAqui clickAqui";
+  width: 100%;
+  height: 34.375rem;
+  background-color: #F6CDA0; }
+  main section div .gridMusica .texto1, main section div .gridMusica .texto2 {
+    grid-area: textoUno;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    background-color: #F6CDA0;
+    margin: 7rem;
+    font-size: 1.5625rem;
+    order: 2; }
+  main section div .gridMusica .imagenMusica {
+    grid-area: photo;
+    justify-self: center;
+    order: 1; }
+  main section div .gridMusica .texto2 {
+    grid-area: textoDos;
+    margin: 8rem;
+    order: 3; }
+  main section div .gridMusica .clickAqui {
+    grid-area: clickAqui;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.875rem;
+    background-color: #F9E9DD;
+    color: #663B3B;
+    padding: .9375rem;
+    font-weight: bold;
+    text-decoration: none;
+    order: 4; }
+
+main section .opiniones {
+  background-color: linear-gradient #F6CDA0, #ffffff; }
+  main section .opiniones .flechaAbajo {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: none;
+    padding-top: 1.25rem; }
+    main section .opiniones .flechaAbajo a img {
+      height: 4.2rem;
+      width: 7.5rem; }
+  main section .opiniones .titulo6 {
+    font-size: 2.9375rem;
+    padding: 2rem;
+    text-align: center; }
+  main section .opiniones div div .cadaOpinion p {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+    margin: 0 5.5rem;
+    font-style: italic; }
+  main section .opiniones div div .cadaOpinion h6 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1.875rem; }
+  main section .opiniones div button .carousel-control-prev-icon {
+    background-image: url(../assets/imagenes/iconoprevio.png); }
+  main section .opiniones div button .carousel-control-next-icon {
+    background-image: url(../assets/imagenes/icono.png); }
+
+.mainFormulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: center;
+  flex-wrap: none; }
+  .mainFormulario .tituloFormulario {
+    font-size: 1.5rem;
+    padding: 2rem 0rem 1rem 0rem;
+    text-align: center; }
+  .mainFormulario .contenedorFormulario {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: none;
+    flex-wrap: none; }
+    .mainFormulario .contenedorFormulario .flexFormulario {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: none;
+      flex-wrap: none; }
+      .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
+        padding: .625rem;
+        margin: .625rem;
+        width: 30rem; }
+      .mainFormulario .contenedorFormulario .flexFormulario .botonEnviar {
+        font-size: 1.875rem;
+        background-color: #EBB995;
+        width: 9.375rem;
+        margin: .625rem; }
+    .mainFormulario .contenedorFormulario section .formasDeContacto {
+      font-size: 1.25rem;
+      font-weight: bold;
+      padding: 1.5rem;
+      text-align: center; }
+    .mainFormulario .contenedorFormulario section .mailDeContacto {
+      text-align: center;
+      font-weight: lighter;
+      width: 30rem; }
+    .mainFormulario .contenedorFormulario section a .contactoWhatsapp {
+      margin-left: 50%;
+      margin-bottom: 1.25rem; }
 
 .gridEnchufate {
   display: grid;
@@ -326,377 +407,6 @@ header .tituloServicios {
     align-self: top;
     font-size: 2rem; }
 
-header .headerContacto {
-  background-image: url(../assets/imagenes/fondocontacto.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40rem;
-  background-position: top; }
-  header .headerContacto .fondoTitulo1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: .625rem;
-    background-color: rgba(249, 233, 221, 0.6); }
-    header .headerContacto .fondoTitulo1 .titulo1 {
-      font-size: 5rem;
-      padding-left: 1.25rem;
-      font-weight: bold;
-      margin-bottom: 0; }
-    header .headerContacto .fondoTitulo1 nav .menuIndex li {
-      display: inline; }
-      header .headerContacto .fondoTitulo1 nav .menuIndex li a {
-        font-size: 1.5625rem;
-        text-decoration: none;
-        list-style: none;
-        padding-left: 1.25rem; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex li a .index1 {
-          color: #663B3B; }
-  header .headerContacto .tituloServicios {
-    font-size: 2.9375rem;
-    font-weight: lighter;
-    background-color: rgba(249, 233, 221, 0.6);
-    width: 23rem;
-    padding: 1rem;
-    margin: 7rem 3rem; }
-
-header .fraseDePagina {
-  display: flex;
-  justify-content: center;
-  background-color: #F9E9DD;
-  align-items: center; }
-  header .fraseDePagina .titulo3 {
-    font-weight: lighter;
-    padding: 1.5625rem;
-    font-size: 1.5625rem;
-    text-align: center; }
-  header .fraseDePagina a img {
-    height: 4.2rem;
-    width: 7.5rem; }
-
-header .headerEnchufate {
-  background-image: url(../assets/imagenes/fondoenchufate.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40rem;
-  background-position: top; }
-  header .headerEnchufate .fondoTitulo1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: .625rem;
-    background-color: rgba(249, 233, 221, 0.6); }
-    header .headerEnchufate .fondoTitulo1 .titulo1 {
-      font-size: 5rem;
-      padding-left: 1.25rem;
-      font-weight: bold;
-      margin-bottom: 0; }
-    header .headerEnchufate .fondoTitulo1 nav .menuIndex li {
-      display: inline; }
-      header .headerEnchufate .fondoTitulo1 nav .menuIndex li a {
-        font-size: 1.5625rem;
-        text-decoration: none;
-        list-style: none;
-        padding-left: 1.25rem; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex li a .index1 {
-          color: #663B3B; }
-  header .headerEnchufate .tituloServicios {
-    font-size: 2.9375rem;
-    font-weight: lighter;
-    background-color: rgba(249, 233, 221, 0.6);
-    width: 23rem;
-    padding: 1rem;
-    margin: 7rem 3rem; }
-
-header .fraseDePagina {
-  display: flex;
-  justify-content: center;
-  background-color: #F9E9DD;
-  align-items: center; }
-  header .fraseDePagina .titulo3 {
-    font-weight: lighter;
-    padding: 1.5625rem;
-    font-size: 1.5625rem;
-    text-align: center; }
-  header .fraseDePagina a img {
-    height: 4.2rem;
-    width: 7.5rem; }
-
-main .backgroundColor {
-  background-image: linear-gradient(#f7decb, #ffffff); }
-  main .backgroundColor .flechaAbajo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1.25rem; }
-    main .backgroundColor .flechaAbajo a img {
-      height: 4.2rem;
-      width: 7.5rem; }
-  main .backgroundColor .titulo4 {
-    font-size: 2.9375rem;
-    text-align: center;
-    padding: 1.875rem; }
-  main .backgroundColor .contenedorQueOfrecemos {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRopa {
-      border: 0.5rem solid #EBB995;
-      height: 25rem;
-      width: 20rem;
-      background-image: url(../assets/imagenes/ropadeportiva.png);
-      object-fit: contain; }
-      main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRopa .titulo5 {
-        font-size: 1.4rem;
-        background-color: rgba(249, 233, 221, 0.6);
-        padding: .625rem;
-        margin-top: 10%;
-        text-align: center; }
-    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios {
-      display: flex;
-      flex-direction: column; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-        font-size: 1.20rem;
-        font-weight: lighter;
-        padding: 1.1rem 0.5rem;
-        margin-bottom: 0;
-        width: 20rem;
-        text-align: center;
-        height: 7rem;
-        border-left: 0.5rem solid #EBB995;
-        border-right: 0.5rem solid #EBB995; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .masInfo {
-        text-decoration: none;
-        color: #663B3B;
-        background-color: #EBB995;
-        text-align: center;
-        font-size: 1.40rem;
-        font-weight: bold;
-        margin-bottom: 1rem; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRutina {
-      border: 0.5rem solid #EBB995;
-      height: 25rem;
-      width: 20rem;
-      background-image: url(../assets/imagenes/rutina.png); }
-      main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRutina .titulo5 {
-        font-size: 1.4rem;
-        background-color: rgba(249, 233, 221, 0.6);
-        padding: .625rem;
-        margin-top: 10%;
-        text-align: center; }
-    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios {
-      display: flex;
-      flex-direction: column; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-        font-size: 1.20rem;
-        font-weight: lighter;
-        padding: 1.1rem 0.5rem;
-        margin-bottom: 0;
-        width: 20rem;
-        text-align: center;
-        height: 7rem;
-        border-left: 0.5rem solid #EBB995;
-        border-right: 0.5rem solid #EBB995; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .masInfo {
-        text-decoration: none;
-        color: #663B3B;
-        background-color: #EBB995;
-        text-align: center;
-        font-size: 1.40rem;
-        font-weight: bold;
-        margin-bottom: 1rem; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenPlan {
-      border: 0.5rem solid #EBB995;
-      height: 25rem;
-      width: 20rem;
-      background-image: url(../assets/imagenes/nutricion.png); }
-      main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenPlan .titulo5 {
-        font-size: 1.4rem;
-        background-color: rgba(249, 233, 221, 0.6);
-        padding: .625rem;
-        margin-top: 10%;
-        text-align: center; }
-    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios {
-      display: flex;
-      flex-direction: column; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-        font-size: 1.20rem;
-        font-weight: lighter;
-        padding: 1.1rem 0.5rem;
-        margin-bottom: 0;
-        width: 20rem;
-        text-align: center;
-        height: 7rem;
-        border-left: 0.5rem solid #EBB995;
-        border-right: 0.5rem solid #EBB995; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .masInfo {
-        text-decoration: none;
-        color: #663B3B;
-        background-color: #EBB995;
-        text-align: center;
-        font-size: 1.40rem;
-        font-weight: bold;
-        margin-bottom: 1rem; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenAccesorios {
-      border: 0.5rem solid #EBB995;
-      height: 25rem;
-      width: 20rem;
-      background-image: url(../assets/imagenes/accesorios.png); }
-      main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenAccesorios .titulo5 {
-        font-size: 1.4rem;
-        background-color: rgba(249, 233, 221, 0.6);
-        padding: .625rem;
-        margin-top: 10%;
-        text-align: center; }
-    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios {
-      display: flex;
-      flex-direction: column; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-        font-size: 1.20rem;
-        font-weight: lighter;
-        padding: 1.1rem 0.5rem;
-        margin-bottom: 0;
-        width: 20rem;
-        text-align: center;
-        height: 7rem;
-        border-left: 0.5rem solid #EBB995;
-        border-right: 0.5rem solid #EBB995; }
-      main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .masInfo {
-        text-decoration: none;
-        color: #663B3B;
-        background-color: #EBB995;
-        text-align: center;
-        font-size: 1.40rem;
-        font-weight: bold;
-        margin-bottom: 1rem; }
-
-main section .flechaAbajo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1.25rem; }
-  main section .flechaAbajo a img {
-    height: 4.2rem;
-    width: 7.5rem; }
-
-main section div .titulo4 {
-  font-size: 2.9375rem;
-  text-align: center;
-  padding: 1.875rem; }
-
-main section div .gridMusica {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  width: 100%;
-  height: 34.375rem;
-  background-color: #F6CDA0;
-  grid-template-areas: "textoUno textoUno photo photo textoDos textoDos" "textoUno textoUno photo photo textoDos textoDos" "textoUno textoUno photo photo textoDos textoDos" "textoUno textoUno photo photo clickAqui clickAqui" "textoUno textoUno photo photo clickAqui clickAqui"; }
-  main section div .gridMusica .texto1 {
-    grid-area: textoUno;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    background-color: #F6CDA0;
-    margin: 7rem;
-    font-size: 1.5625rem;
-    order: 2; }
-  main section div .gridMusica .imagenMusica {
-    grid-area: photo;
-    justify-self: center;
-    order: 1; }
-  main section div .gridMusica .texto2 {
-    grid-area: textoDos;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    background-color: #F6CDA0;
-    margin: 8rem;
-    font-size: 1.5625rem;
-    order: 3; }
-  main section div .gridMusica .clickAqui {
-    grid-area: clickAqui;
-    justify-self: center;
-    align-self: center;
-    font-size: 1.875rem;
-    background-color: #F9E9DD;
-    color: #663B3B;
-    padding: .9375rem;
-    font-weight: bold;
-    text-decoration: none;
-    order: 4; }
-
-main section .opiniones {
-  background-color: linear-gradient #F6CDA0, #ffffff; }
-  main section .opiniones .flechaAbajo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1.25rem; }
-    main section .opiniones .flechaAbajo a img {
-      height: 4.2rem;
-      width: 7.5rem; }
-  main section .opiniones .titulo6 {
-    font-size: 2.9375rem;
-    padding: 2rem;
-    text-align: center; }
-  main section .opiniones div div .cadaOpinion p {
-    font-size: 1.1rem;
-    font-weight: lighter;
-    text-align: center;
-    padding: 1rem 0 2rem 0;
-    margin: 0 5.5rem;
-    font-style: italic; }
-  main section .opiniones div div .cadaOpinion h6 {
-    font-size: 1.25rem;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 1.875rem; }
-  main section .opiniones div button .carousel-control-prev-icon {
-    background-image: url(../assets/imagenes/iconoprevio.png); }
-  main section .opiniones div button .carousel-control-next-icon {
-    background-image: url(../assets/imagenes/icono.png); }
-
-main .tituloFormulario {
-  font-size: 1.5rem;
-  padding: 2rem 0rem 1rem 0rem;
-  text-align: center; }
-
-main .contenedorFormulario {
-  display: flex;
-  justify-content: center; }
-  main .contenedorFormulario .flexFormulario {
-    justify-self: center;
-    display: flex;
-    justify-content: center;
-    /* no logré que se centre automaticamrnte */
-    flex-direction: column; }
-    main .contenedorFormulario .flexFormulario input {
-      padding: .625rem;
-      margin: .625rem;
-      width: 30rem; }
-    main .contenedorFormulario .flexFormulario textarea {
-      width: 30rem;
-      padding: .625rem;
-      margin: .625rem; }
-    main .contenedorFormulario .flexFormulario .botonEnviar {
-      font-size: 1.875rem;
-      background-color: #EBB995;
-      width: 9.375rem;
-      margin: .625rem; }
-  main .contenedorFormulario section .formasDeContacto {
-    font-size: 1.25rem;
-    font-weight: bold;
-    padding: 1.5rem;
-    text-align: center; }
-  main .contenedorFormulario section .mailDeContacto {
-    text-align: center;
-    font-weight: lighter;
-    width: 30rem; }
-  main .contenedorFormulario section a .contactoWhatsapp {
-    margin-left: 15rem;
-    margin-bottom: 1.25rem; }
-
 main section section p {
   font-size: 1.25rem;
   font-weight: bold;
@@ -732,7 +442,10 @@ main div .contenedorRopa1 div div img {
 
 main .contenedorBoton {
   display: flex;
-  justify-content: center; }
+  flex-direction: none;
+  justify-content: center;
+  align-items: none;
+  flex-wrap: none; }
 
 .pieDePagina {
   display: flex;
@@ -763,7 +476,7 @@ main .contenedorBoton {
 
 /* "@medias 1285 index */
 @media (max-width: 1285px) {
-  main section div .gridMusica .texto1 {
+  main section div .gridMusica .texto1, main section div .gridMusica .texto2 {
     margin: 3rem; }
   main section div .gridMusica .texto2 {
     margin: 4rem; } }
@@ -771,63 +484,33 @@ main .contenedorBoton {
 /* "@medias 1275 enchufate */
 @media (max-width: 1275px) {
   .gridEnchufate .musicaGim iframe {
-    width: 35rem; } }
-
-/* "@medias 1125 enchufate */
-@media (max-width: 1125px) {
-  .gridEnchufate .musicaGim iframe {
     width: 30rem; } }
 
 /* "@medias 1045 enchufate */
 @media (max-width: 1045px) {
   .gridEnchufate .musicaGim iframe {
-    width: 25rem; } }
+    width: 22rem; } }
 
-/* "@medias 1024 index */
+/* "@medias 1024 todos */
 @media (max-width: 1024px) {
-  header .headerIndex .fondoTitulo1 {
+  header div .fondoTitulo1 {
     display: block; }
+  /* "@medias 1024 index */
   main .backgroundColor .contenedorQueOfrecemos {
     display: flex;
+    flex-direction: none;
     justify-content: space-evenly;
+    align-items: none;
     flex-wrap: wrap; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRopa {
-      height: 30rem;
-      width: 25rem; }
-    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-      width: 25rem; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRutina {
-      height: 30rem;
-      width: 25rem; }
-    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-      width: 25rem; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenPlan {
-      height: 30rem;
-      width: 25rem; }
-    main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-      width: 25rem; }
-    main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenAccesorios {
+    main .backgroundColor .contenedorQueOfrecemos div div div {
       height: 30rem;
       width: 25rem; }
     main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
       width: 25rem; }
   /* "@medias 1024 ropa */
-  header .headerRopa .fondoTitulo1 {
-    display: block; }
   main .contenedorBoton .botonTienda {
     margin: 1rem 0rem 1rem 1rem; }
-  /* "@medias 1024 accesorios */
-  header .headerAccesorios .fondoTitulo1 {
-    display: block; }
-  /* "@medias 1024 rutina */
-  header .headerRutina .fondoTitulo1 {
-    display: block; }
-  /* "@medias 1024 plan */
-  header .headerPlan .fondoTitulo1 {
-    display: block; }
   /* "@medias 1024 enchufate */
-  header .headerEnchufate .fondoTitulo1 {
-    display: block; }
   .gridEnchufate {
     gap: .3125rem; }
     .gridEnchufate .musicaGim iframe {
@@ -835,41 +518,31 @@ main .contenedorBoton {
     .gridEnchufate .responsiveImage {
       padding-right: .625rem; }
   /* "@medias 1024 formulario */
-  header .headerContacto .fondoTitulo1 {
-    display: block; } }
+  .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 25rem; }
+  .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 25rem; }
+  .mainFormulario .contenedorFormulario section .formasDeContacto {
+    padding-left: 0;
+    padding-right: 0; }
+  .mainFormulario .contenedorFormulario section .mailDeContacto {
+    width: 25rem; }
+  .mainFormulario .contenedorFormulario section .contactoWhatsapp {
+    margin-left: 12rem; } }
 
 /* "@medias 1000 enchufate */
 @media (max-width: 1000px) {
   .gridEnchufate .musicaGim iframe {
-    width: 20rem; } }
-
-/* "@medias 979 formulario */
-@media (max-width: 979px) {
-  main .contenedorFormulario .flexFormulario input {
-    width: 25rem; }
-  main .contenedorFormulario .flexFormulario textarea {
-    width: 25rem; }
-  main .contenedorFormulario section .formasDeContacto {
-    padding-left: 0;
-    padding-right: 0; }
-  main .contenedorFormulario section .mailDeContacto {
-    width: 25rem; }
-  main .contenedorFormulario section .contactoWhatsapp {
-    margin-left: 12rem; } }
+    width: 15rem; } }
 
 /* "@medias 908 index */
 @media (max-width: 908px) {
-  main section div .gridMusica .texto1 {
+  main section div .gridMusica .texto1, main section div .gridMusica .texto2 {
     margin: 1rem;
     font-size: 1.3rem; }
   main section div .gridMusica .texto2 {
     margin: 1rem;
     font-size: 1.3rem; } }
-
-/* "@medias 918 enchufate */
-@media (max-width: 918px) {
-  .gridEnchufate .musicaGim iframe {
-    width: 15rem; } }
 
 /* "@medias 840 enchufate */
 @media (max-width: 840px) {
@@ -878,97 +551,52 @@ main .contenedorBoton {
 
 /* "@medias 828 formulario */
 @media (max-width: 828px) {
-  main .contenedorFormulario {
+  .mainFormulario .contenedorFormulario {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: none;
+    flex-wrap: none;
     justify-items: center; }
-    main .contenedorFormulario .flexFormulario {
+    .mainFormulario .contenedorFormulario .flexFormulario {
       display: flex;
-      justify-items: center;
-      justify-content: center; }
-      main .contenedorFormulario .flexFormulario input {
+      flex-direction: none;
+      justify-content: center;
+      align-items: none;
+      flex-wrap: none;
+      justify-items: center; }
+      .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
         justify-self: center;
         margin-top: 0.625; }
-      main .contenedorFormulario .flexFormulario textarea {
+      .mainFormulario .contenedorFormulario .flexFormulario textarea {
         justify-self: center;
-        margin-top: 0.625; }
-    main .contenedorFormulario section .mailDeContacto {
-      margin: auto; }
-    main .contenedorFormulario section a .contactoWhatsapp {
-      margin-left: 50%; } }
+        margin-top: 0.625; } }
 
 /* "@medias 780 enchufate */
 @media (max-width: 780px) {
   .gridEnchufate {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(13, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "aEntrenar";
     width: 100%;
-    height: 76rem;
-    grid-template-areas: "tituloGim" "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim"  "musicaGim"    "aEntrenar"; }
+    height: 76rem; }
     .gridEnchufate .musicaGim iframe {
       height: 5.625rem;
       width: 20rem; }
     .gridEnchufate .responsiveImage {
       display: none; } }
 
-/* "@medias 768 index */
+/* "@medias 768 todos */
 @media (max-width: 768px) {
   header .headerIndex .fondoTitulo1 .titulo1 {
     font-size: 4rem; }
   header .headerIndex .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
-  /* "@medias 768 accesorios */
-  header .headerAccesorios .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header .headerAccesorios .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  header .headerAccesorios .tituloServicios {
+  /* "@medias 768 todos salvo index */
+  .tituloServicios {
     font-size: 2rem;
-    width: 15rem; }
-  /* "@medias 768 rutina */
-  header .headerRutina .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header .headerRutina .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  header .headerRutina .tituloServicios {
-    font-size: 2rem;
-    width: 15rem; }
-  /* "@medias 768 enchufate */
-  header .headerEnchufate .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header .headerEnchufate .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  header .headerEnchufate .tituloServicios {
-    font-size: 2rem;
-    width: 15rem; }
-  /* "@medias 768 dieta(plan) */
-  header .headerPlan .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header .headerPlan .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  header .headerPlan .tituloServicios {
-    font-size: 2rem;
-    width: 15rem; }
-  /* "@medias 768 ropa */
-  header .headerRopa .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header .headerRopa .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  header .headerRopa .tituloServicios {
-    font-size: 2rem;
-    width: 15rem; }
-  /* "@medias 768 formulario */
-  header .headerContacto .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header .headerContacto .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  header .headerContacto .tituloServicios {
-    font-size: 2rem;
-    width: 15rem; }
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 10rem; } }
+    width: 15rem; } }
 
 /* "@medias 620 index */
 @media (max-width: 620px) {
@@ -983,237 +611,60 @@ main .contenedorBoton {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 1fr 1fr;
+    grid-template-areas: "textoUno" "photo" "textoDos" "clickAqui";
     width: 100%;
     height: 57rem;
-    background-color: #F6CDA0;
-    grid-template-areas: "textoUno" "photo" "textoDos" "clickAqui"; }
+    background-color: #F6CDA0; }
     main section div .gridMusica .imagenMusica {
       width: 25rem; }
   main section .opiniones .titulo6 {
-    font-size: 2rem; }
-  /* "@medias 620 formulario */
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 5rem; } }
-
-/* "@medias 540 formulario */
-@media (max-width: 540px) {
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 2rem; } }
+    font-size: 2rem; } }
 
 /* "@medias 449 index */
 @media (max-width: 449px) {
   section .opiniones div div .cadaOpinion {
-    font-size: 1rem; }
-  /* "@medias 449 formulario */
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 1rem; } }
+    font-size: 1rem; } }
 
 /* "@medias 426 index */
 @media (max-width: 426px) {
-  header .headerIndex {
+  header div {
     background-position: left; }
-    header .headerIndex .fondoTitulo1 {
+    header div .fondoTitulo1 {
       display: flex;
       flex-direction: column;
       justify-content: start;
+      align-items: none;
+      flex-wrap: none;
       height: 11.875rem; }
-      header .headerIndex .fondoTitulo1 nav .menuIndex {
+      header div .fondoTitulo1 nav .menuIndex {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "index1 ropa" "plan rutina" "accesorios enchufate" "formularioss formularioss";
         width: 100%;
         height: 3.75rem;
         justify-content: center;
-        justify-items: center;
-        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .index1 {
+        justify-items: center; }
+        header div .fondoTitulo1 nav .menuIndex .index1 {
           grid-area: index1; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .ropa {
+        header div .fondoTitulo1 nav .menuIndex .ropa {
           grid-area: ropa; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .plan {
+        header div .fondoTitulo1 nav .menuIndex .plan {
           grid-area: plan; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .rutina {
+        header div .fondoTitulo1 nav .menuIndex .rutina {
           grid-area: rutina; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .accesorios {
+        header div .fondoTitulo1 nav .menuIndex .accesorios {
           grid-area: accesorios; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .enchufate {
+        header div .fondoTitulo1 nav .menuIndex .enchufate {
           grid-area: enchufate; }
-        header .headerIndex .fondoTitulo1 nav .menuIndex .formularioss {
+        header div .fondoTitulo1 nav .menuIndex .formularioss {
           grid-area: formularioss;
           justify-self: center; }
   /* "@medias 425 dieta(plan) */
-  header .headerPlan {
-    background-position: left; }
-    header .headerPlan .fondoTitulo1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      height: 11.875rem; }
-      header .headerPlan .fondoTitulo1 nav .menuIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        width: 100%;
-        height: 3.75rem;
-        justify-content: center;
-        justify-items: center;
-        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex .index1 {
-          grid-area: index1; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex .ropa {
-          grid-area: ropa; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex .plan {
-          grid-area: plan; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex .rutina {
-          grid-area: rutina; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex .accesorios {
-          grid-area: accesorios; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex .enchufate {
-          grid-area: enchufate; }
-        header .headerPlan .fondoTitulo1 nav .menuIndex .formularioss {
-          grid-area: formularioss;
-          justify-self: center; }
-  header .fraseDePagina .titulo3 {
-    padding: 1.4rem; }
   main section section .items {
     margin-left: 5rem;
     margin-right: 1rem; }
-  /* "@medias 425 accesorio */
-  header .headerAccesorios {
-    background-position: left; }
-    header .headerAccesorios .fondoTitulo1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      height: 11.875rem; }
-      header .headerAccesorios .fondoTitulo1 nav .menuIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        width: 100%;
-        height: 3.75rem;
-        justify-content: center;
-        justify-items: center;
-        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex .index1 {
-          grid-area: index1; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex .ropa {
-          grid-area: ropa; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex .plan {
-          grid-area: plan; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex .rutina {
-          grid-area: rutina; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex .accesorios {
-          grid-area: accesorios; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex .enchufate {
-          grid-area: enchufate; }
-        header .headerAccesorios .fondoTitulo1 nav .menuIndex .formularioss {
-          grid-area: formularioss;
-          justify-self: center; }
-  header .fraseDePagina .titulo3 {
-    padding: 1.4rem; }
-  /* "@medias 425 ropa */
-  header .headerRopa {
-    background-position: left; }
-    header .headerRopa .fondoTitulo1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      height: 11.875rem; }
-      header .headerRopa .fondoTitulo1 nav .menuIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        width: 100%;
-        height: 3.75rem;
-        justify-content: center;
-        justify-items: center;
-        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex .index1 {
-          grid-area: index1; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex .ropa {
-          grid-area: ropa; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex .plan {
-          grid-area: plan; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex .rutina {
-          grid-area: rutina; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex .accesorios {
-          grid-area: accesorios; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex .enchufate {
-          grid-area: enchufate; }
-        header .headerRopa .fondoTitulo1 nav .menuIndex .formularioss {
-          grid-area: formularioss;
-          justify-self: center; }
-  header .fraseDePagina .titulo3 {
-    padding: 1.4rem; }
-  /* "@medias 425 rutina */
-  header .headerRutina {
-    background-position: left; }
-    header .headerRutina .fondoTitulo1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      height: 11.875rem; }
-      header .headerRutina .fondoTitulo1 nav .menuIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        width: 100%;
-        height: 3.75rem;
-        justify-content: center;
-        justify-items: center;
-        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex .index1 {
-          grid-area: index1; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex .ropa {
-          grid-area: ropa; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex .plan {
-          grid-area: plan; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex .rutina {
-          grid-area: rutina; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex .accesorios {
-          grid-area: accesorios; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex .enchufate {
-          grid-area: enchufate; }
-        header .headerRutina .fondoTitulo1 nav .menuIndex .formularioss {
-          grid-area: formularioss;
-          justify-self: center; }
-  header .fraseDePagina .titulo3 {
-    padding: 1.4rem; }
   /* "@medias 425 enchufate */
-  header .headerEnchufate {
-    background-position: left; }
-    header .headerEnchufate .fondoTitulo1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      height: 11.875rem; }
-      header .headerEnchufate .fondoTitulo1 nav .menuIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        width: 100%;
-        height: 3.75rem;
-        justify-content: center;
-        justify-items: center;
-        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex .index1 {
-          grid-area: index1; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex .ropa {
-          grid-area: ropa; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex .plan {
-          grid-area: plan; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex .rutina {
-          grid-area: rutina; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex .accesorios {
-          grid-area: accesorios; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex .enchufate {
-          grid-area: enchufate; }
-        header .headerEnchufate .fondoTitulo1 nav .menuIndex .formularioss {
-          grid-area: formularioss;
-          justify-self: center; }
-  header .fraseDePagina .titulo3 {
-    padding: 1.4rem; }
   .gridEnchufate .tituloGim {
     grid-area: tituloGim;
     justify-self: center;
@@ -1222,72 +673,28 @@ main .contenedorBoton {
   .gridEnchufate .musicaGim {
     display: flex;
     flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    flex-wrap: none;
     grid-area: musicaGim;
     justify-self: center; }
     .gridEnchufate .musicaGim iframe {
       height: 5.625rem;
       width: 20rem; }
-  /* "@medias 425 formulario */
-  header .headerContacto {
-    background-position: left; }
-    header .headerContacto .fondoTitulo1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      height: 11.875rem; }
-      header .headerContacto .fondoTitulo1 nav .menuIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        width: 100%;
-        height: 3.75rem;
-        justify-content: center;
-        justify-items: center;
-        grid-template-areas: "index1 ropa " "plan rutina" "accesorios enchufate" "formularioss formularioss"; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex .index1 {
-          grid-area: index1; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex .ropa {
-          grid-area: ropa; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex .plan {
-          grid-area: plan; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex .rutina {
-          grid-area: rutina; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex .accesorios {
-          grid-area: accesorios; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex .enchufate {
-          grid-area: enchufate; }
-        header .headerContacto .fondoTitulo1 nav .menuIndex .formularioss {
-          grid-area: formularioss;
-          justify-self: center; }
-  header .fraseDePagina .titulo3 {
+  /* "@medias 425 todas no index */
+  .fraseDePagina .titulo3 {
     padding: 1.4rem; }
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 1rem; }
-    main .contenedorFormulario .flexFormulario input {
-      width: 23rem; }
-    main .contenedorFormulario .flexFormulario textarea {
-      width: 23rem; }
-  main .contenedorFormulario section .mailDeContacto {
-    width: 25rem; } }
+  /* "@medias 425 formulario */
+  .mainFormulario .tituloFormulario {
+    font-size: 1.2rem; }
+  .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 23rem; }
+  .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 23rem; } }
 
 /* "@medias 400 index */
 @media (max-width: 400px) {
-  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRopa {
-    height: 25rem;
-    width: 20rem; }
-  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-    width: 20rem; }
-  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenRutina {
-    height: 25rem;
-    width: 20rem; }
-  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-    width: 20rem; }
-  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenPlan {
-    height: 25rem;
-    width: 20rem; }
-  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
-    width: 20rem; }
-  main .backgroundColor .contenedorQueOfrecemos div div .cajaImagenAccesorios {
+  main .backgroundColor .contenedorQueOfrecemos div div div {
     height: 25rem;
     width: 20rem; }
   main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
@@ -1295,12 +702,14 @@ main .contenedorBoton {
   main section div .gridMusica .imagenMusica {
     width: 20rem; }
   /* "@medias 400 formulario */
-  main .contenedorFormulario .flexFormulario input {
-    width: 20rem; }
-  main .contenedorFormulario .flexFormulario textarea {
-    width: 20rem; }
-  main .contenedorFormulario section .mailDeContacto {
-    width: 20rem; } }
+  .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 19rem; }
+  .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 19rem; }
+  .mainFormulario .contenedorFormulario section .mailDeContacto {
+    width: 19rem; }
+  .mainFormulario .contenedorFormulario section a .contactoWhatsapp {
+    margin-left: 50%; } }
 
 /* "@medias 375 footer todos */
 @media (max-width: 376px) {
@@ -1328,18 +737,7 @@ main .contenedorBoton {
     .pieDePagina .contenedorRedesSociales .seguinos {
       font-size: 1.3rem; }
     .pieDePagina .contenedorRedesSociales .redes li a {
-      padding-left: 0.5rem; }
-  /* "@medias 350 formulario */
-  main .contenedorFormulario .flexFormulario {
-    margin-left: 0; }
-    main .contenedorFormulario .flexFormulario input {
-      width: 19rem; }
-    main .contenedorFormulario .flexFormulario textarea {
-      width: 19rem; }
-  main .contenedorFormulario section .mailDeContacto {
-    width: 19rem; }
-  main .contenedorFormulario section a .contactoWhatsapp {
-    margin-left: 9rem; } }
+      padding-left: 0.5rem; } }
 
 /* "@medias 330 dieta(plan) */
 @media (max-width: 330px) {
@@ -1359,9 +757,5 @@ main .contenedorBoton {
       margin-left: 6.5rem; }
   /* "@medias 320 enchufate */
   .gridEnchufate {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
     width: 100%;
-    height: 71rem;
-    grid-template-areas: "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim"  "musicaGim"    "aEntrenar"; } }
+    height: 71rem; } }

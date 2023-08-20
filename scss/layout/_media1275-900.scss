@@ -1,7 +1,5 @@
 /* "@medias 1285 index */
-
 @media (max-width: 1285px){
-
 main{
     section{
         div{
@@ -23,17 +21,6 @@ main{
     .gridEnchufate{      
         .musicaGim{
             iframe{
-                width: 35rem;
-            }
-        }
-    }
-}
-
-/* "@medias 1125 enchufate */
-@media (max-width: 1125px){
-    .gridEnchufate{      
-        .musicaGim{
-            iframe{
                 width: 30rem;
             }
         }
@@ -45,70 +32,30 @@ main{
     .gridEnchufate{      
         .musicaGim{
             iframe{
-                width: 25rem;
+                width: 22rem;
             }
         }
     }
 }
 
-/* "@medias 1024 index */
+/* "@medias 1024 todos */
 @media (max-width: 1024px){
 header{
-    .headerIndex{
+    div{
         .fondoTitulo1{
             display: block;
         }
     }
 }
 
+/* "@medias 1024 index */
 main{
     .backgroundColor{
         .contenedorQueOfrecemos{
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
+            @include flex(flex,none,space-evenly,none,wrap);
             div{
                 div{
-                    .cajaImagenRopa{
-                        height: 30rem;
-                        width: 25rem;
-                    }
-                }
-                .contenedorResumenServicios{
-                    .resumenServicios{
-                        width: 25rem;
-                    }
-                }
-            }
-            div{
-                div{
-                    .cajaImagenRutina{
-                        height: 30rem;
-                        width: 25rem;
-                    }
-                }
-                .contenedorResumenServicios{
-                    .resumenServicios{
-                        width: 25rem;
-                    }
-                }
-            }
-            div{
-                div{
-                    .cajaImagenPlan{
-                        height: 30rem;
-                        width: 25rem;
-                    }
-                }
-                .contenedorResumenServicios{
-                    .resumenServicios{
-                        width: 25rem;
-                    }
-                }
-            }
-            div{
-                div{
-                    .cajaImagenAccesorios{
+                    div{
                         height: 30rem;
                         width: 25rem;
                     }
@@ -124,15 +71,6 @@ main{
 }
 
 /* "@medias 1024 ropa */
-
-header{
-    .headerRopa{
-        .fondoTitulo1{
-            display: block;
-        }
-    }
-}
-
 main{
     .contenedorBoton{
         .botonTienda {
@@ -141,47 +79,7 @@ main{
     }
 }
 
-/* "@medias 1024 accesorios */
-
-header{
-    .headerAccesorios{
-        .fondoTitulo1{
-            display: block;
-        }
-    }
-}
-
-/* "@medias 1024 rutina */
-
-header{
-    .headerRutina{
-        .fondoTitulo1{
-            display: block;
-        }
-    }
-}
-
-/* "@medias 1024 plan */
-
-header{
-    .headerPlan{
-        .fondoTitulo1{
-            display: block;
-        }
-    }
-}
-
-
 /* "@medias 1024 enchufate */
-
-header{
-    .headerEnchufate{
-        .fondoTitulo1{
-            display: block;
-        }
-    }
-}
-
 .gridEnchufate{     
     gap: .3125rem;
     .musicaGim{
@@ -193,36 +91,9 @@ header{
         padding-right: .625rem;
     }
 }
+
 /* "@medias 1024 formulario */
-
-header{
-    .headerContacto{
-        .fondoTitulo1{
-            display: block;
-        }
-    }
-}
-
-}
-
-/* "@medias 1000 enchufate */
-
-@media (max-width: 1000px) {
-
-.gridEnchufate{      
-    .musicaGim{
-        iframe{
-            width: 20rem;
-        }
-    }
-}
-}
-
-/* "@medias 979 formulario */
-
-@media (max-width: 979px) {
-
-main{
+.mainFormulario{
     .contenedorFormulario{
         .flexFormulario{
             input{
@@ -246,13 +117,21 @@ main{
         }
     }
 }   
-}   
+}
 
+/* "@medias 1000 enchufate */
+@media (max-width: 1000px) {
+.gridEnchufate{      
+    .musicaGim{
+        iframe{
+            width: 15rem;
+        }
+    }
+}
+}
 
 /* "@medias 908 index */
-
 @media (max-width: 908px) {
-
 main{
     section{
         div{
@@ -266,19 +145,6 @@ main{
                     font-size: 1.3rem;
                 }
             }
-        }
-    }
-}
-}
-
-/* "@medias 918 enchufate */
-
-@media (max-width: 918px) {
-
-.gridEnchufate{      
-    .musicaGim{
-        iframe{
-            width: 15rem;
         }
     }
 }

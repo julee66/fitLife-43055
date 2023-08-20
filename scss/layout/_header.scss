@@ -1,14 +1,18 @@
+/*Solo index*/
+.titulo2{
+    font-size: 2.9375rem;
+    font-weight: bolder;
+    color: #4e2f2f;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 23.125rem;
+}
+
+/*Todos*/
 header{
-    .headerRopa{
-        background-image: url(../assets/imagenes/fondoropa.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 40rem;
-        background-position: top;
+    div{
         .fondoTitulo1{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            @include flex(flex,none,space-between,center,none);
             padding-right: .625rem;
             background-color: rgba(249, 233, 221, 0.6);
             .titulo1{
@@ -19,9 +23,6 @@ header{
             }
             nav{
                 .menuIndex{
-                    padding-left: 0;
-                    margin-bottom: 0;
-                    line-height: 1.5rem;
                     li{
                         display: inline;
                         a{
@@ -33,6 +34,7 @@ header{
                     }
                 }
             }
+        }
         .tituloServicios {
             font-size: 2.9375rem;
             font-weight: lighter;
@@ -42,24 +44,23 @@ header{
             margin: 7rem 3rem;
         }
     }
-}
-}
-
-.fraseDePagina{
-    display: flex;
-    justify-content: center;
-    background-color: #F9E9DD;
-    align-items: center;
-    .titulo3{
-        font-weight: lighter;
-        padding: 1.5625rem;
-        font-size: 1.5625rem;
-        text-align: center;
-    }
-    a{
-        img{
-            height: 4.2rem;
-            width: 7.5rem;
+    .fraseDePagina {
+        @include flex(flex,none,center,center,none);
+        display: flex;
+        justify-content: center;
+        background-color: #F9E9DD;
+        align-items: center;
+        .titulo3 {
+            font-weight: lighter;
+            padding: 1.5625rem;
+            font-size: 1.5625rem;
+            text-align: center;
+        }
+        a{
+            img{
+                height: 4.2rem;
+                width: 7.5rem;
+            }
         }
     }
 }

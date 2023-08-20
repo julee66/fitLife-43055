@@ -1,26 +1,21 @@
-main{
+.mainFormulario{
+    @include flex(flex,column,none,center,none);
     .tituloFormulario{
         font-size: 1.5rem;
         padding: 2rem 0rem 1rem 0rem;
         text-align: center;
     }
     .contenedorFormulario{
-        display: flex;
-        justify-content: center;
+        @include flex(flex,none,center,none,none);
         .flexFormulario{
-            justify-self: center;
-            display: flex;
-            justify-content: center; /* no logré que se centre automaticamrnte */
-            flex-direction: column;
+            @include flex(flex,column,center,none,none);
             input{
                 padding: .625rem;
                 margin: .625rem;
                 width: 30rem;
             }
             textarea{
-                width: 30rem;
-                padding: .625rem;
-                margin: .625rem;
+                @extend input;
             }
             .botonEnviar{
                 font-size: 1.875rem;
@@ -43,7 +38,7 @@ main{
             }
             a{
                 .contactoWhatsapp {
-                    margin-left: 15rem;
+                    margin-left: 50%;
                     margin-bottom: 1.25rem;
                 }
             }

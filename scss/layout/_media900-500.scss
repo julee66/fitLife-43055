@@ -1,7 +1,5 @@
 /* "@medias 840 enchufate */
-
 @media (max-width: 840px) {
-
 .gridEnchufate{      
     .musicaGim{
         iframe{
@@ -12,19 +10,14 @@
 }
 
 /* "@medias 828 formulario */
-
 @media (max-width: 828px) {
-
-main{
+.mainFormulario{
     .contenedorFormulario{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        @include flex(flex,column,center,none,none);
         justify-items: center;
         .flexFormulario{
-            display: flex;
+            @include flex(flex,none,center,none,none);
             justify-items: center;
-            justify-content: center;
             input{
                 justify-self: center;
                 margin-top: 0.625;
@@ -34,45 +27,16 @@ main{
                 margin-top: 0.625;
             }
         }
-        section{
-            .mailDeContacto {
-                margin: auto;
-            }
-            a{
-                .contactoWhatsapp {
-                    margin-left: 50%;
-                }
-            }
-        }
     }
 }
 }
 
 /* "@medias 780 enchufate */
-
 @media (max-width: 780px) {
-
 .gridEnchufate {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(13,1fr);
+    @include grid(grid,1fr,repeat(12,1fr),"tituloGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""aEntrenar");
     width: 100%;
     height: 76rem;
-    grid-template-areas:
-    "tituloGim"
-    "tituloGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim"
-    "musicaGim" 
-    "musicaGim"   
-    "aEntrenar"
-    ;
     .musicaGim{
         iframe{
             height: 5.625rem;
@@ -85,10 +49,8 @@ main{
 }
 }
 
-/* "@medias 768 index */
-
+/* "@medias 768 todos */
 @media (max-width: 768px){
-
 header{
     .headerIndex{
         .fondoTitulo1{
@@ -108,169 +70,15 @@ header{
     }
 }
 
-/* "@medias 768 accesorios */
-
-header{
-    .headerAccesorios{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-            }
-            nav{
-                .menuIndex{
-                    li{
-                        a{
-                            font-size: 1.35rem; 
-                        }
-                    }
-                }
-            }
-        }
-        .tituloServicios{
-            font-size: 2rem;
-            width: 15rem;
-        }
+/* "@medias 768 todos salvo index */
+    .tituloServicios{
+        font-size: 2rem;
+        width: 15rem;
     }
-}
-
-/* "@medias 768 rutina */
-
-header{
-    .headerRutina{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-            }
-            nav{
-                .menuIndex{
-                    li{
-                        a{
-                            font-size: 1.35rem; 
-                        }
-                    }
-                }
-            }
-        }
-        .tituloServicios{
-            font-size: 2rem;
-            width: 15rem;
-        }
-    }
-}
-
-/* "@medias 768 enchufate */
-
-header{
-    .headerEnchufate{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-            }
-            nav{
-                .menuIndex{
-                    li{
-                        a{
-                            font-size: 1.35rem; 
-                        }
-                    }
-                }
-            }
-        }
-        .tituloServicios{
-            font-size: 2rem;
-            width: 15rem;
-        }
-    }
-}
-
-/* "@medias 768 dieta(plan) */
-
-header{
-    .headerPlan{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-            }
-            nav{
-                .menuIndex{
-                    li{
-                        a{
-                            font-size: 1.35rem; 
-                        }
-                    }
-                }
-            }
-        }
-        .tituloServicios{
-            font-size: 2rem;
-            width: 15rem;
-        }
-    }
-}
-
-/* "@medias 768 ropa */
-
-header{
-    .headerRopa{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-            }
-            nav{
-                .menuIndex{
-                    li{
-                        a{
-                            font-size: 1.35rem; 
-                        }
-                    }
-                }
-            }
-        }
-        .tituloServicios{
-            font-size: 2rem;
-            width: 15rem;
-        }
-    }
-}
-
-/* "@medias 768 formulario */
-
-header{
-    .headerContacto{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-            }
-            nav{
-                .menuIndex{
-                    li{
-                        a{
-                            font-size: 1.35rem; 
-                        }
-                    }
-                }
-            }
-        }
-        .tituloServicios{
-            font-size: 2rem;
-            width: 15rem;
-        }
-    }
-}
-
-main{
-    .contenedorFormulario {
-        .flexFormulario {
-            margin-left: 10rem;
-        }
-    }
-}
 }
 
 /* "@medias 620 index */
-
 @media (max-width: 620px){
-
 header{
     .headerIndex{
         .titulo2 {
@@ -292,18 +100,10 @@ main{
                 font-size: 2rem;
             }
             .gridMusica{
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr 3fr 1fr 1fr;
+                @include grid(grid,1fr,1fr 3fr 1fr 1fr,"textoUno""photo""textoDos""clickAqui");
                 width: 100%;
                 height: 57rem;
                 background-color: #F6CDA0;
-                grid-template-areas:
-                "textoUno"
-                "photo"
-                "textoDos"
-                "clickAqui"
-                ;
                 .imagenMusica{
                     width: 25rem;
                 }
@@ -315,30 +115,6 @@ main{
             .titulo6{
                 font-size: 2rem;
             }
-        }
-    }
-}
-
-
-/* "@medias 620 formulario */
-
-main{
-    .contenedorFormulario{
-        .flexFormulario{
-            margin-left: 5rem;
-        }
-    }
-}
-}
-
-/* "@medias 540 formulario */
-
-@media (max-width: 540px) {
-
-main{
-    .contenedorFormulario{
-        .flexFormulario{
-            margin-left: 2rem;
         }
     }
 }

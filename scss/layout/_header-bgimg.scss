@@ -1,0 +1,47 @@
+/*Background image for Header*/
+.headerEnchufate {
+    background-image: url(../assets/imagenes/fondoenchufate.png);
+    @include backgroundHeader;
+}
+.headerAccesorios {
+    background-image: url(../assets/imagenes/fondoaccesorios.png);
+    @include backgroundHeader;
+}
+.headerContacto{
+    background-image: url(../assets/imagenes/fondocontacto.png);
+    @include backgroundHeader;
+}
+.headerIndex{
+    background-image: url(../assets/imagenes/fondoindex.png);
+    @include backgroundHeader;
+}
+.headerPlan{
+    background-image: url(../assets/imagenes/fondonutri.png);
+    @include backgroundHeader;
+}
+.headerRopa{
+    background-image: url(../assets/imagenes/fondoropa.png);
+    @include backgroundHeader;
+}
+.headerRutina{
+    background-image: url(../assets/imagenes/fondoruti.png);
+    @include backgroundHeader;
+}
+
+/*Background image for Index Boxes*/
+.cajaImagenRopa{
+    background-image: url(../assets/imagenes/ropadeportiva.png);
+    @include indexBoxes;
+}
+.cajaImagenRutina{
+    background-image: url(../assets/imagenes/rutina.png);
+    @include indexBoxes;
+}
+.cajaImagenPlan{
+    background-image: url(../assets/imagenes/nutricion.png);
+    @include indexBoxes;
+}
+.cajaImagenAccesorios{
+    background-image: url(../assets/imagenes/accesorios.png);
+    @include indexBoxes;
+}

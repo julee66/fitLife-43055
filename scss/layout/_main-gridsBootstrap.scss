@@ -19,7 +19,6 @@ main{
         }
     }
     .contenedorBoton{
-        display: flex;
-        justify-content: center;
+        @include flex(flex,none,center,none,none);
     }
 }
