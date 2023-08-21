@@ -52,7 +52,7 @@
 /* "@medias 768 todos */
 @media (max-width: 768px){
 header{
-    .headerIndex{
+    div{
         .fondoTitulo1{
             .titulo1 {
                 font-size: 4rem;
@@ -71,16 +71,20 @@ header{
 }
 
 /* "@medias 768 todos salvo index */
-    .tituloServicios{
-        font-size: 2rem;
-        width: 15rem;
+header{
+    div{
+        .tituloServicios{
+            font-size: 2rem;
+            width: 15rem;
+        }
     }
+}
 }
 
 /* "@medias 620 index */
 @media (max-width: 620px){
 header{
-    .headerIndex{
+    div{
         .titulo2 {
             font-size: 2.4rem;
             width: 20rem;

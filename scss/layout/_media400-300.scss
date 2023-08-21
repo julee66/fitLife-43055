@@ -27,7 +27,7 @@ main{
 /* "@medias 350 index */
 @media (max-width: 350px){
 header{
-    .headerIndex{
+    div{
         .titulo2 {
             font-size: 2rem;
             width: 12rem;
@@ -70,7 +70,7 @@ main{
 /* "@medias 330 dieta(plan) */
 @media (max-width: 330px) {
 header{
-    .headerPlan{
+    div{
         .tituloServicios {
             margin-left: 1rem;
         }
@@ -97,7 +97,7 @@ main{
 /* "@medias 320 rutina*/
 @media (max-width: 320px) {
 header{
-    .fraseDePagina {
+    .fraseDePagina{
         display: block;
         a{
             img{

@@ -589,18 +589,18 @@ main .contenedorBoton {
 
 /* "@medias 768 todos */
 @media (max-width: 768px) {
-  header .headerIndex .fondoTitulo1 .titulo1 {
+  header div .fondoTitulo1 .titulo1 {
     font-size: 4rem; }
-  header .headerIndex .fondoTitulo1 nav .menuIndex li a {
+  header div .fondoTitulo1 nav .menuIndex li a {
     font-size: 1.35rem; }
   /* "@medias 768 todos salvo index */
-  .tituloServicios {
+  header div .tituloServicios {
     font-size: 2rem;
     width: 15rem; } }
 
 /* "@medias 620 index */
 @media (max-width: 620px) {
-  header .headerIndex .titulo2 {
+  header div .titulo2 {
     font-size: 2.4rem;
     width: 20rem; }
   main .backgroundColor .titulo4 {
@@ -622,44 +622,46 @@ main .contenedorBoton {
 
 /* "@medias 449 index */
 @media (max-width: 449px) {
+  .headerIndex {
+    background-position: left; }
   section .opiniones div div .cadaOpinion {
     font-size: 1rem; } }
 
-/* "@medias 426 index */
+/* "@medias 426 todos */
 @media (max-width: 426px) {
-  header div {
-    background-position: left; }
-    header div .fondoTitulo1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: none;
-      flex-wrap: none;
-      height: 11.875rem; }
-      header div .fondoTitulo1 nav .menuIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: "index1 ropa" "plan rutina" "accesorios enchufate" "formularioss formularioss";
-        width: 100%;
-        height: 3.75rem;
-        justify-content: center;
-        justify-items: center; }
-        header div .fondoTitulo1 nav .menuIndex .index1 {
-          grid-area: index1; }
-        header div .fondoTitulo1 nav .menuIndex .ropa {
-          grid-area: ropa; }
-        header div .fondoTitulo1 nav .menuIndex .plan {
-          grid-area: plan; }
-        header div .fondoTitulo1 nav .menuIndex .rutina {
-          grid-area: rutina; }
-        header div .fondoTitulo1 nav .menuIndex .accesorios {
-          grid-area: accesorios; }
-        header div .fondoTitulo1 nav .menuIndex .enchufate {
-          grid-area: enchufate; }
-        header div .fondoTitulo1 nav .menuIndex .formularioss {
-          grid-area: formularioss;
-          justify-self: center; }
+  header div .fondoTitulo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: none;
+    flex-wrap: none;
+    height: 11.875rem; }
+    header div .fondoTitulo1 nav .menuIndex {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "index1 ropa" "plan rutina" "accesorios enchufate" "formularioss formularioss";
+      width: 100%;
+      height: 3.75rem;
+      justify-content: center;
+      justify-items: center; }
+      header div .fondoTitulo1 nav .menuIndex li {
+        height: 1.7rem; }
+      header div .fondoTitulo1 nav .menuIndex .index1 {
+        grid-area: index1; }
+      header div .fondoTitulo1 nav .menuIndex .ropa {
+        grid-area: ropa; }
+      header div .fondoTitulo1 nav .menuIndex .plan {
+        grid-area: plan; }
+      header div .fondoTitulo1 nav .menuIndex .rutina {
+        grid-area: rutina; }
+      header div .fondoTitulo1 nav .menuIndex .accesorios {
+        grid-area: accesorios; }
+      header div .fondoTitulo1 nav .menuIndex .enchufate {
+        grid-area: enchufate; }
+      header div .fondoTitulo1 nav .menuIndex .formularioss {
+        grid-area: formularioss;
+        justify-self: center; }
   /* "@medias 425 dieta(plan) */
   main section section .items {
     margin-left: 5rem;
@@ -723,7 +725,7 @@ main .contenedorBoton {
 
 /* "@medias 350 index */
 @media (max-width: 350px) {
-  header .headerIndex .titulo2 {
+  header div .titulo2 {
     font-size: 2rem;
     width: 12rem; }
   main section div .titulo4 {
@@ -741,7 +743,7 @@ main .contenedorBoton {
 
 /* "@medias 330 dieta(plan) */
 @media (max-width: 330px) {
-  header .headerPlan .tituloServicios {
+  header div .tituloServicios {
     margin-left: 1rem; }
   header .fraseDePagina .titulo3 {
     padding: 0.3;

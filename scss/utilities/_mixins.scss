@@ -5,6 +5,10 @@ height: 40rem;
 background-position: top;
 }
 
+@mixin backgroundIndexMQ426{
+background-position: left;
+}
+
 @mixin indexBoxes{
 border: 0.5rem solid #EBB995;
 height: 25rem;
