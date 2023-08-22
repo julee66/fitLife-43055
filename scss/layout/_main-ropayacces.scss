@@ -20,5 +20,8 @@ main{
     }
     .contenedorBoton{
         @include flex(flex,none,center,none,none);
+        .botonTienda{
+            @include botones;
+        }
     }
 }

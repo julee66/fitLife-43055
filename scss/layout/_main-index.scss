@@ -6,8 +6,7 @@ main{
             padding-top: 1.25rem;
             a{
                 img{
-                    height: 4.2rem;
-                    width: 7.5rem;
+                    @include Flechaabajo;
                 }
             }
         }
@@ -40,17 +39,21 @@ main{
                         width: 20rem;
                         text-align: center;
                         height: 7rem;
-                        border-left: 0.5rem solid #EBB995;
-                        border-right: 0.5rem solid #EBB995;
+                        border-left: 0.5rem solid $background-color2;
+                        border-right: 0.5rem solid $background-color2;
                     }
                     .masInfo{
                         text-decoration: none;
-                        color: #663B3B;
-                        background-color: #EBB995;
+                        color: $color;
+                        background-color: $background-color2;
                         text-align: center;
                         font-size: 1.40rem;
                         font-weight: bold;
                         margin-bottom: 1rem;
+                        &:hover{
+                            font-size: 1.6rem;
+                            transition: 0.5s;
+                        }
                     }
                 }
             }
@@ -77,13 +80,13 @@ main{
                 @include grid(grid,repeat(6,1fr),repeat(5,1fr),"textoUno textoUno photo photo textoDos textoDos""textoUno textoUno photo photo textoDos textoDos""textoUno textoUno photo photo textoDos textoDos""textoUno textoUno photo photo clickAqui clickAqui""textoUno textoUno photo photo clickAqui clickAqui");
                 width: 100%;
                 height: 34.375rem;
-                background-color: #F6CDA0;
+                background-color: $background-color;
                 .texto1{
                     grid-area: textoUno;
                     justify-self: center;
                     align-self: center;
                     text-align: center;
-                    background-color: #F6CDA0;
+                    background-color: $background-color;
                     margin: 7rem;
                     font-size: 1.5625rem;
                     order: 2;
@@ -101,22 +104,14 @@ main{
                 }
                 .clickAqui{
                     grid-area: clickAqui;
-                    justify-self: center;
-                    align-self: center;
-                    font-size: 1.875rem;
-                    background-color: #F9E9DD;
-                    color: #663B3B;
-                    padding: .9375rem;
-                    font-weight: bold;
-                    text-decoration: none;
-                    order: 4;
+                    @include clickAqui;
                 }
             }
         }
     }
     section{
         .opiniones{
-            background-color: linear-gradient (#F6CDA0 , #ffffff);
+            background-color: linear-gradient ($background-color , #ffffff);
             .flechaAbajo{
                 @include flex(flex,none,center,center,none);
                 padding-top: 1.25rem;

@@ -107,7 +107,7 @@ main{
                 @include grid(grid,1fr,1fr 3fr 1fr 1fr,"textoUno""photo""textoDos""clickAqui");
                 width: 100%;
                 height: 57rem;
-                background-color: #F6CDA0;
+                background-color: $background-color;
                 .imagenMusica{
                     width: 25rem;
                 }

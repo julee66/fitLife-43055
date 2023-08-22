@@ -5,27 +5,17 @@ height: 40rem;
 background-position: top;
 }
 
-@mixin backgroundIndexMQ426{
+@mixin backgroundIndexMQ449{
 background-position: left;
 }
 
 @mixin indexBoxes{
-border: 0.5rem solid #EBB995;
+border: 0.5rem solid $background-color2;
 height: 25rem;
 width: 20rem;
 }
 
-@mixin flex($flex,$direction,$justify,$align,$wrap){
-    display: $flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: $align;
-    flex-wrap: $wrap;
-}
-
-@mixin grid($grid,$columns,$rows,$areas,){
-    display: $grid;
-    grid-template-columns: $columns;
-    grid-template-rows: $rows;
-    grid-template-areas: $areas;
+@mixin Flechaabajo{
+height: 4.2rem;
+width: 7.5rem;
 }

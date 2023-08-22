@@ -13,15 +13,18 @@
                 padding: .625rem;
                 margin: .625rem;
                 width: 30rem;
+                &:focus{
+                    background-color: #F9E9DD;
+                }
             }
             textarea{
                 @extend input;
+                &:focus{
+                    background-color: #F9E9DD;
+                }
             }
             .botonEnviar{
-                font-size: 1.875rem;
-                background-color: #EBB995;
-                width: 9.375rem;
-                margin: .625rem;
+                @include botonFormulario;
             }
         }
         section{
