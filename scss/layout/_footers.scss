@@ -1,22 +1,21 @@
 .pieDePagina{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(flex,none,space-between,center,none);
     background-color: #F9E9DD;
     padding: 1.875rem;
     .contenedorAccesoRapido{
-        display: flex;
-        flex-direction: column;
+        @include flex(flex,column,none,none,none);
         a{
             text-decoration: none;
             color: $color;
             list-style: none;
             font-size: 1.20rem;
+            &:hover{
+                color: rgb(173, 79, 17)
+            }
         }
     }
     .contenedorRedesSociales{
-        display: flex;
-        justify-content: right;
+        @include flex(flex,right,none,none,none);
         .seguinos{
             font-size: 1.20rem;
             text-align: right;

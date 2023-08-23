@@ -26,10 +26,8 @@
         font-size: 2rem;
     }
     .musicaGim{
-        display: flex;
-        flex-direction: column;
+        @include flex(flex,column,center,none,none);
         grid-area: musicaGim;
-        justify-self: center;
         iframe{
             height: 5.625rem;
             width: 40rem;
@@ -41,44 +39,36 @@
         align-self: center;
     }
     .imagenGim2 {
+        @extend .imagenGim1;
         grid-area: imagenGim2;
-        justify-self: center;
-        align-self: center;
     }
     .imagenGim3 {
+        @extend .imagenGim1;
         grid-area: imagenGim3;
-        justify-self: center;
-        align-self: center;
     }
     .imagenGim4 {
+        @extend .imagenGim1;
         grid-area: imagenGim4;
-        justify-self: center;
-        align-self: center;
     }
     .imagenGim5 {
+        @extend .imagenGim1;
         grid-area: imagenGim5;
-        justify-self: center;
-        align-self: center;
     }
     .imagenGim6 {
+        @extend .imagenGim1;
         grid-area: imagenGim6;
-        justify-self: center;
-        align-self: center;
     }
     .imagenGim7 {
+        @extend .imagenGim1;
         grid-area: imagenGim7;
-        justify-self: center;
-        align-self: center;
     }
     .imagenGim8 {
+        @extend .imagenGim1;
         grid-area: imagenGim8;
-        justify-self: center;
-        align-self: center;
     }
     .imagenGim9 {
+        @extend .imagenGim1;
         grid-area: imagenGim9;
-        justify-self: center;
-        align-self: center;
     }
     .aEntrenar {
     grid-area: aEntrenar;
