@@ -10,6 +10,13 @@
   100% {
     transform: rotateY(360deg); } }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Amaranth';
+  color: #663B3B; }
+
 /*Boton formulario*/
 /*Boton plan, rutina, ropa y accesorios */
 /*Boton Index*/
@@ -32,13 +39,6 @@ nav .menuIndex {
     color: #663B3B; }
   nav .menuIndex li .colorSubir {
     color: #663B3B; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Amaranth';
-  color: #663B3B; }
 
 /*Background image for Header*/
 .headerEnchufate {
@@ -680,81 +680,98 @@ main .contenedorBoton {
   main section .opiniones .titulo6 {
     font-size: 2rem; } }
 
-/* "@medias 840 enchufate */
-@media (max-width: 840px) {
-  .gridEnchufate .musicaGim iframe {
-    width: 11rem; } }
+/* "@medias 449 index */
+@media (max-width: 449px) {
+  .headerIndex {
+    background-position: left; }
+  section .opiniones div div .cadaOpinion {
+    font-size: 1rem; } }
 
-/* "@medias 828 formulario */
-@media (max-width: 828px) {
-  .mainFormulario .contenedorFormulario {
+/* "@medias 426 todos */
+@media (max-width: 426px) {
+  header div .fondoTitulo1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: none;
     flex-wrap: none;
-    justify-items: center; }
-    .mainFormulario .contenedorFormulario .flexFormulario {
-      display: flex;
-      flex-direction: none;
+    height: 11.875rem; }
+    header div .fondoTitulo1 nav .menuIndex {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "index1 ropa" "plan rutina" "accesorios enchufate" "formularioss formularioss";
+      width: 100%;
+      height: 3.75rem;
       justify-content: center;
-      align-items: none;
-      flex-wrap: none;
       justify-items: center; }
-      .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
-        justify-self: center;
-        margin-top: 0.625; }
-      .mainFormulario .contenedorFormulario .flexFormulario textarea {
-        justify-self: center;
-        margin-top: 0.625; } }
-
-/* "@medias 780 enchufate */
-@media (max-width: 780px) {
-  .gridEnchufate {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    grid-template-areas: "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "aEntrenar";
-    width: 100%;
-    height: 76rem; }
+      header div .fondoTitulo1 nav .menuIndex li {
+        height: 1.7rem; }
+      header div .fondoTitulo1 nav .menuIndex .index1 {
+        grid-area: index1; }
+      header div .fondoTitulo1 nav .menuIndex .ropa {
+        grid-area: ropa; }
+      header div .fondoTitulo1 nav .menuIndex .plan {
+        grid-area: plan; }
+      header div .fondoTitulo1 nav .menuIndex .rutina {
+        grid-area: rutina; }
+      header div .fondoTitulo1 nav .menuIndex .accesorios {
+        grid-area: accesorios; }
+      header div .fondoTitulo1 nav .menuIndex .enchufate {
+        grid-area: enchufate; }
+      header div .fondoTitulo1 nav .menuIndex .formularioss {
+        grid-area: formularioss;
+        justify-self: center; }
+  /* "@medias 425 dieta(plan) */
+  main section section .items {
+    margin-left: 5rem;
+    margin-right: 1rem; }
+  /* "@medias 425 enchufate */
+  .gridEnchufate .tituloGim {
+    grid-area: tituloGim;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.5rem; }
+  .gridEnchufate .musicaGim {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    flex-wrap: none;
+    grid-area: musicaGim;
+    justify-self: center; }
     .gridEnchufate .musicaGim iframe {
       height: 5.625rem;
       width: 20rem; }
-    .gridEnchufate .responsiveImage {
-      display: none; } }
+  /* "@medias 425 todas no index */
+  .fraseDePagina .titulo3 {
+    padding: 1.4rem; }
+  /* "@medias 425 formulario */
+  .mainFormulario .tituloFormulario {
+    font-size: 1.2rem; }
+  .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 23rem; }
+  .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 23rem; } }
 
-/* "@medias 768 todos */
-@media (max-width: 768px) {
-  header div .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header div .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  /* "@medias 768 todos salvo index */
-  header div .tituloServicios {
-    font-size: 2rem;
-    width: 15rem; } }
-
-/* "@medias 620 index */
-@media (max-width: 620px) {
-  header div .titulo2 {
-    font-size: 2.4rem;
+/* "@medias 400 index */
+@media (max-width: 400px) {
+  main .backgroundColor .contenedorQueOfrecemos div div div {
+    height: 25rem;
     width: 20rem; }
-  main .backgroundColor .titulo4 {
-    font-size: 2rem; }
-  main section div .titulo4 {
-    font-size: 2rem; }
-  main section div .gridMusica {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 1fr 1fr;
-    grid-template-areas: "textoUno" "photo" "textoDos" "clickAqui";
-    width: 100%;
-    height: 57rem;
-    background-color: #F6CDA0; }
-    main section div .gridMusica .imagenMusica {
-      width: 25rem; }
-  main section .opiniones .titulo6 {
-    font-size: 2rem; } }
+  main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
+    width: 20rem; }
+  main section div .gridMusica .imagenMusica {
+    width: 20rem; }
+  /* "@medias 400 formulario */
+  .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 19rem; }
+  .mainFormulario .contenedorFormulario .flexFormulario textarea {
+    width: 19rem; }
+  .mainFormulario .contenedorFormulario section .mailDeContacto {
+    width: 19rem; }
+  .mainFormulario .contenedorFormulario section a .contactoWhatsapp {
+    margin-left: 50%; } }
 
 /* "@medias 375 footer todos */
 @media (max-width: 376px) {

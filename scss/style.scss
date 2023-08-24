@@ -1,8 +1,8 @@
 @import "./utilities/mixins";
 @import "./utilities/variables";
+@import "./base/reset";
 @import "./components/buttons";
 @import "./components/bootstrap-nav";
-@import "./base/reset";
 @import "./layout/header-bgimg";
 @import "./layout/header";
 @import "./layout/main-index";
@@ -13,5 +13,5 @@
 @import "./layout/footers";
 @import "./mediaq/media1275-900";
 @import "./mediaq/media900-500";
-@import "./mediaq/media900-500";
+@import "./mediaq/media500-400";
 @import "./mediaq/media400-300";
