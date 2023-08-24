@@ -410,7 +410,7 @@ main section .opiniones {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: none;
+    align-items: center;
     flex-wrap: none;
     grid-area: musicaGim; }
     .gridEnchufate .musicaGim iframe {
