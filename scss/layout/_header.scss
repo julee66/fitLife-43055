@@ -69,3 +69,33 @@ header{
     }
 }
 
+/*Solo error404*/
+.headerError{
+    .flexError{
+        @include flex(flex,column,center,none,none);
+        width: 30rem;
+        h1{
+            text-align: center;
+            font-size:5rem;
+            margin-top: 4rem;
+            margin-bottom: 6rem;
+        }
+        .gridError{
+            h2{
+                margin: 2rem;
+                text-align: center;
+                font-size: 2rem;
+            }
+            p{
+                text-align: center;
+                font-size: 1.3rem;
+            }
+            button{
+                @include botones;
+                width: 7rem;
+                align-self: center;
+                margin: 2rem 38%;
+            }
+        }
+    }
+}

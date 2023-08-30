@@ -1,13 +1,13 @@
 /*Boton formulario*/
 @mixin botonFormulario{
-font-size: 1.875rem;
-background-color: $background-color2;
-width: 9.375rem;
-margin: .625rem;
-&:active{
-    font-size: 1.7rem;
-    background-color: #d09d79;
-}
+    font-size: 1.875rem;
+    background-color: $background-color2;
+    width: 9.375rem;
+    margin: .625rem;
+    &:active{
+        font-size: 1.7rem;
+        background-color: #d09d79;
+    }
 }
 
 /*Boton plan, rutina, ropa y accesorios */
@@ -28,17 +28,17 @@ margin: .625rem;
 
 /*Boton Index*/
 @mixin clickAqui{
-justify-self: center;
-align-self: center;
-font-size: 1.875rem;
-background-color: #F9E9DD;
-color: $color;
-padding: .9375rem;
-font-weight: bold;
-text-decoration: none;
-order: 4;
-&:active{
-    font-size: 1.7rem;
-    background-color: #d3bba9;
-}
+    justify-self: center;
+    align-self: center;
+    font-size: 1.875rem;
+    background-color: #F9E9DD;
+    color: $color;
+    padding: .9375rem;
+    font-weight: bold;
+    text-decoration: none;
+    order: 4;
+    &:active{
+        font-size: 1.7rem;
+        background-color: #d3bba9;
+    }
 }

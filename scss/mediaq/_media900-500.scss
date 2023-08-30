@@ -37,6 +37,9 @@
     @include grid(grid,1fr,repeat(12,1fr),"tituloGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""musicaGim""aEntrenar");
     width: 100%;
     height: 76rem;
+    .tituloGim{
+        align-self: end;
+    }
     .musicaGim{
         iframe{
             height: 5.625rem;
@@ -81,43 +84,75 @@ header{
 }
 }
 
-/* "@medias 620 index */
-@media (max-width: 620px){
-header{
-    div{
-        .titulo2 {
-            font-size: 2.4rem;
-            width: 20rem;
-        }
-    }
-}
-
-main{
-    .backgroundColor{
-        .titulo4{
-            font-size: 2rem;
-        }
-    }
-    section{
+/* "@medias 768 index */
+@media (max-width: 768px){
+    header{
         div{
+            .titulo2 {
+                font-size: 2.4rem;
+                width: 20rem;
+            }
+        }
+    }
+    
+    main{
+        .backgroundColor{
             .titulo4{
                 font-size: 2rem;
             }
-            .gridMusica{
-                @include grid(grid,1fr,1fr 3fr 1fr 1fr,"textoUno""photo""textoDos""clickAqui");
-                width: 100%;
-                height: 57rem;
-                background-color: $background-color;
-                .imagenMusica{
-                    width: 25rem;
+        }
+        section{
+            section{
+                .titulo4{
+                    font-size: 2rem;
+                }
+                .gridMusica{
+                    @include grid(grid,1fr,1fr 3fr 1fr 1fr,"textoUno""photo""textoDos""clickAqui");
+                    width: 100%;
+                    height: 60rem;
+                    background-color: $background-color;
+                    .imagenMusica{
+                        width: 22rem;
+                    }
+                }
+            }
+        }
+        section{
+            .opiniones{
+                .titulo6{
+                    font-size: 2rem;
                 }
             }
         }
     }
-    section{
-        .opiniones{
-            .titulo6{
-                font-size: 2rem;
+
+/* "@medias 768 error */
+.headerError{
+    .flexError{
+        width: 100%;
+        h1{
+            font-size:4rem;
+            margin-top: 0.5rem;
+        }
+        .gridError{
+            @include grid(grid,3fr 1fr,1fr 1fr,"h2Error buttonVolver""pError buttonVolver");
+            height: 6rem;
+            background-color: rgba(249, 233, 221, 0.6);
+            margin-top: 18rem;
+            h2{
+                grid-area: h2Error;
+                height: 3rem;
+                margin: 0rem;
+                font-size: 1.6rem;
+            }
+            p{
+                grid-area: pError;
+                text-align: center;
+                font-size: 1.3rem;
+            }
+            button{
+                grid-area: buttonVolver;
+                margin: 1rem 3rem;
             }
         }
     }

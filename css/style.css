@@ -90,6 +90,14 @@ nav .menuIndex {
   height: 40rem;
   background-position: top; }
 
+.headerError {
+  background-image: url(../assets/imagenes/error-404.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: top;
+  height: 100vh; }
+
 /*Background image for Index Boxes*/
 .cajaImagenRopa {
   background-image: url(../assets/imagenes/ropadeportiva.png);
@@ -182,6 +190,42 @@ header .fraseDePagina {
     height: 4.2rem;
     width: 7.5rem; }
 
+/*Solo error404*/
+.headerError .flexError {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: none;
+  flex-wrap: none;
+  width: 30rem; }
+  .headerError .flexError h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem; }
+  .headerError .flexError .gridError h2 {
+    margin: 2rem;
+    text-align: center;
+    font-size: 2rem; }
+  .headerError .flexError .gridError p {
+    text-align: center;
+    font-size: 1.3rem; }
+  .headerError .flexError .gridError button {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #EBB995;
+    color: #663B3B;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 4.5rem;
+    width: 7rem;
+    align-self: center;
+    margin: 2rem 38%; }
+    .headerError .flexError .gridError button:active {
+      font-size: 1.3rem;
+      background-color: #d09d79; }
+
 main .backgroundColor {
   background-image: linear-gradient(#f7decb, #ffffff); }
   main .backgroundColor .flechaAbajo {
@@ -209,7 +253,7 @@ main .backgroundColor {
     justify-content: space-evenly;
     align-items: none;
     flex-wrap: wrap; }
-    main .backgroundColor .contenedorQueOfrecemos div div div .titulo5 {
+    main .backgroundColor .contenedorQueOfrecemos div div section .titulo5 {
       font-size: 1.4rem;
       background-color: rgba(249, 233, 221, 0.6);
       padding: .625rem;
@@ -260,12 +304,12 @@ main section .flechaAbajo {
     animation-duration: 10s;
     animation-delay: 0s; }
 
-main section div .titulo4 {
+main section section .titulo4 {
   font-size: 2.9375rem;
   text-align: center;
   padding: 1.875rem; }
 
-main section div .gridMusica {
+main section section .gridMusica {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -273,24 +317,23 @@ main section div .gridMusica {
   width: 100%;
   height: 34.375rem;
   background-color: #F6CDA0; }
-  main section div .gridMusica .texto1, main section div .gridMusica .texto2 {
+  main section section .gridMusica .texto1, main section section .gridMusica .texto2 {
     grid-area: textoUno;
     justify-self: center;
     align-self: center;
     text-align: center;
     background-color: #F6CDA0;
-    margin: 7rem;
-    font-size: 1.5625rem;
+    margin: 6rem;
+    font-size: 1.5rem;
     order: 2; }
-  main section div .gridMusica .imagenMusica {
+  main section section .gridMusica .imagenMusica {
     grid-area: photo;
     justify-self: center;
     order: 1; }
-  main section div .gridMusica .texto2 {
+  main section section .gridMusica .texto2 {
     grid-area: textoDos;
-    margin: 8rem;
     order: 3; }
-  main section div .gridMusica .clickAqui {
+  main section section .gridMusica .clickAqui {
     grid-area: clickAqui;
     justify-self: center;
     align-self: center;
@@ -301,7 +344,7 @@ main section div .gridMusica {
     font-weight: bold;
     text-decoration: none;
     order: 4; }
-    main section div .gridMusica .clickAqui:active {
+    main section section .gridMusica .clickAqui:active {
       font-size: 1.7rem;
       background-color: #d3bba9; }
 
@@ -326,14 +369,14 @@ main section .opiniones {
     font-size: 2.9375rem;
     padding: 2rem;
     text-align: center; }
-  main section .opiniones div div .cadaOpinion p {
+  main section .opiniones div section .cadaOpinion p {
     font-size: 1.1rem;
     font-weight: lighter;
     text-align: center;
     padding: 1rem 0 2rem 0;
     margin: 0 5.5rem;
     font-style: italic; }
-  main section .opiniones div div .cadaOpinion h6 {
+  main section .opiniones div section .cadaOpinion h6 {
     font-size: 1.25rem;
     text-align: center;
     font-weight: bold;
@@ -467,14 +510,14 @@ main .botonTienda {
     font-size: 1.3rem;
     background-color: #d09d79; }
 
-main div .contenedorRopa1 div .categoriasAccesoriosRopa {
+main section .contenedorRopa1 div .categoriasAccesoriosRopa {
   font-size: 1.875rem;
   padding-top: 1.875rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center; }
 
-main div .contenedorRopa1 div div img {
+main section .contenedorRopa1 div section img {
   height: 14rem;
   width: 14rem; }
 
@@ -536,9 +579,9 @@ main .contenedorBoton {
 
 /* "@medias 1285 index */
 @media (max-width: 1285px) {
-  main section div .gridMusica .texto1, main section div .gridMusica .texto2 {
+  main section section .gridMusica .texto1, main section section .gridMusica .texto2 {
     margin: 3rem; }
-  main section div .gridMusica .texto2 {
+  main section section .gridMusica .texto2 {
     margin: 4rem; } }
 
 /* "@medias 1275 enchufate */
@@ -562,11 +605,17 @@ main .contenedorBoton {
     justify-content: space-evenly;
     align-items: none;
     flex-wrap: wrap; }
-    main .backgroundColor .contenedorQueOfrecemos div div div {
+    main .backgroundColor .contenedorQueOfrecemos div div section {
       height: 30rem;
       width: 25rem; }
     main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
       width: 25rem; }
+  main section section .gridMusica .texto1, main section section .gridMusica .texto2 {
+    font-size: 1.3rem;
+    margin: 1rem; }
+  main section section .gridMusica .texto2 {
+    font-size: 1.3rem;
+    margin: 1rem; }
   /* "@medias 1024 ropa */
   main .contenedorBoton .botonTienda {
     margin: 1rem 0rem 1rem 1rem; }
@@ -588,21 +637,19 @@ main .contenedorBoton {
   .mainFormulario .contenedorFormulario section .mailDeContacto {
     width: 25rem; }
   .mainFormulario .contenedorFormulario section .contactoWhatsapp {
-    margin-left: 12rem; } }
+    margin-left: 12rem; }
+  /* "@medias 1024 error */
+  .headerError .flexError {
+    width: 20rem; }
+    .headerError .flexError .gridError h2 {
+      font-size: 1.6rem; }
+    .headerError .flexError .gridError button {
+      margin: 2rem 30%; } }
 
 /* "@medias 1000 enchufate */
 @media (max-width: 1000px) {
   .gridEnchufate .musicaGim iframe {
     width: 15rem; } }
-
-/* "@medias 908 index */
-@media (max-width: 908px) {
-  main section div .gridMusica .texto1, main section div .gridMusica .texto2 {
-    margin: 1rem;
-    font-size: 1.3rem; }
-  main section div .gridMusica .texto2 {
-    margin: 1rem;
-    font-size: 1.3rem; } }
 
 /* "@medias 840 enchufate */
 @media (max-width: 840px) {
@@ -641,6 +688,8 @@ main .contenedorBoton {
     grid-template-areas: "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "aEntrenar";
     width: 100%;
     height: 76rem; }
+    .gridEnchufate .tituloGim {
+      align-self: end; }
     .gridEnchufate .musicaGim iframe {
       height: 5.625rem;
       width: 20rem; }
@@ -658,33 +707,73 @@ main .contenedorBoton {
     font-size: 2rem;
     width: 15rem; } }
 
-/* "@medias 620 index */
-@media (max-width: 620px) {
+/* "@medias 768 index */
+@media (max-width: 768px) {
   header div .titulo2 {
     font-size: 2.4rem;
     width: 20rem; }
   main .backgroundColor .titulo4 {
     font-size: 2rem; }
-  main section div .titulo4 {
+  main section section .titulo4 {
     font-size: 2rem; }
-  main section div .gridMusica {
+  main section section .gridMusica {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 1fr 1fr;
     grid-template-areas: "textoUno" "photo" "textoDos" "clickAqui";
     width: 100%;
-    height: 57rem;
+    height: 60rem;
     background-color: #F6CDA0; }
-    main section div .gridMusica .imagenMusica {
-      width: 25rem; }
+    main section section .gridMusica .imagenMusica {
+      width: 22rem; }
   main section .opiniones .titulo6 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  /* "@medias 768 error */
+  .headerError .flexError {
+    width: 100%; }
+    .headerError .flexError h1 {
+      font-size: 4rem;
+      margin-top: 0.5rem; }
+    .headerError .flexError .gridError {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "h2Error buttonVolver" "pError buttonVolver";
+      height: 6rem;
+      background-color: rgba(249, 233, 221, 0.6);
+      margin-top: 18rem; }
+      .headerError .flexError .gridError h2 {
+        grid-area: h2Error;
+        height: 3rem;
+        margin: 0rem;
+        font-size: 1.6rem; }
+      .headerError .flexError .gridError p {
+        grid-area: pError;
+        text-align: center;
+        font-size: 1.3rem; }
+      .headerError .flexError .gridError button {
+        grid-area: buttonVolver;
+        margin: 1rem 3rem; } }
+
+/* "@medias 460 error */
+@media (max-width: 460px) {
+  .headerError .flexError {
+    width: 100%; }
+    .headerError .flexError h1 {
+      font-size: 4rem;
+      margin-top: 0.5rem; }
+    .headerError .flexError .gridError {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 3fr;
+      grid-template-areas: "h2Error" "pError" "buttonVolver";
+      justify-items: center; } }
 
 /* "@medias 449 index */
 @media (max-width: 449px) {
   .headerIndex {
     background-position: left; }
-  section .opiniones div div .cadaOpinion {
+  section .opiniones div section .cadaOpinion {
     font-size: 1rem; } }
 
 /* "@medias 426 todos */
@@ -728,9 +817,6 @@ main .contenedorBoton {
     margin-right: 1rem; }
   /* "@medias 425 enchufate */
   .gridEnchufate .tituloGim {
-    grid-area: tituloGim;
-    justify-self: center;
-    align-self: center;
     font-size: 1.5rem; }
   .gridEnchufate .musicaGim {
     display: flex;
@@ -756,12 +842,12 @@ main .contenedorBoton {
 
 /* "@medias 400 index */
 @media (max-width: 400px) {
-  main .backgroundColor .contenedorQueOfrecemos div div div {
+  main .backgroundColor .contenedorQueOfrecemos div div section {
     height: 25rem;
     width: 20rem; }
   main .backgroundColor .contenedorQueOfrecemos div .contenedorResumenServicios .resumenServicios {
     width: 20rem; }
-  main section div .gridMusica .imagenMusica {
+  main section section .gridMusica .imagenMusica {
     width: 20rem; }
   /* "@medias 400 formulario */
   .mainFormulario .contenedorFormulario .flexFormulario input, .mainFormulario .contenedorFormulario .flexFormulario textarea {
@@ -780,7 +866,7 @@ main .contenedorBoton {
 
 /* "@medias 368 index */
 @media (max-width: 360px) {
-  main section div .gridMusica .imagenMusica {
+  main section section .gridMusica .imagenMusica {
     width: 18rem; } }
 
 /* "@medias 350 index */
@@ -788,12 +874,9 @@ main .contenedorBoton {
   header div .titulo2 {
     font-size: 2rem;
     width: 12rem; }
-  main section div .titulo4 {
+  main section section .titulo4 {
     font-size: 2rem;
     padding: 1.5rem; }
-  main section div .gridMusica {
-    grid-template-rows: 1fr 2fr 1fr 1fr;
-    height: 54rem; }
   .pieDePagina {
     padding: 1rem; }
     .pieDePagina .contenedorRedesSociales .seguinos {

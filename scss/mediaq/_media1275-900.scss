@@ -2,7 +2,7 @@
 @media (max-width: 1285px){
 main{
     section{
-        div{
+        section{
             .gridMusica{
                 .texto1 {
                     margin: 3rem;
@@ -55,7 +55,7 @@ main{
             @include flex(flex,none,space-evenly,none,wrap);
             div{
                 div{
-                    div{
+                    section{
                         height: 30rem;
                         width: 25rem;
                     }
@@ -64,6 +64,20 @@ main{
                     .resumenServicios{
                         width: 25rem;
                     }
+                }
+            }
+        }
+    }
+    section{
+        section{
+            .gridMusica{
+                .texto1 {
+                    font-size: 1.3rem;
+                    margin: 1rem;
+                }
+                .texto2 {
+                    font-size: 1.3rem;
+                    margin: 1rem;
                 }
             }
         }
@@ -117,6 +131,21 @@ main{
         }
     }
 }   
+
+/* "@medias 1024 error */
+.headerError{
+    .flexError{
+        width: 20rem;
+        .gridError{
+            h2{
+                font-size: 1.6rem;
+            }
+            button{
+                margin: 2rem 30%;
+            }
+        }
+    }
+}
 }
 
 /* "@medias 1000 enchufate */
@@ -125,26 +154,6 @@ main{
     .musicaGim{
         iframe{
             width: 15rem;
-        }
-    }
-}
-}
-
-/* "@medias 908 index */
-@media (max-width: 908px) {
-main{
-    section{
-        div{
-            .gridMusica{
-                .texto1 {
-                    margin: 1rem;
-                    font-size: 1.3rem;
-                }
-                .texto2 {
-                    margin: 1rem;
-                    font-size: 1.3rem;
-                }
-            }
         }
     }
 }

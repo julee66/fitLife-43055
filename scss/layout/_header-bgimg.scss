@@ -28,6 +28,12 @@
     @include backgroundHeader;
 }
 
+.headerError{
+    background-image: url(../assets/imagenes/error-404.png);
+    @include backgroundHeader;
+    height: 100vh;
+}
+
 /*Background image for Index Boxes*/
 .cajaImagenRopa{
     background-image: url(../assets/imagenes/ropadeportiva.png);

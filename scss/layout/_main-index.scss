@@ -19,7 +19,7 @@ main{
             @include flex(flex,none,space-evenly,none,wrap);
             div{
                 div{
-                    div{
+                    section{
                         .titulo5{
                             font-size: 1.4rem;
                             background-color: rgba(249, 233, 221, 0.6);
@@ -70,7 +70,7 @@ main{
                 }
             }
         }
-        div{
+        section{
             .titulo4{
                 font-size: 2.9375rem;
                 text-align: center;
@@ -87,8 +87,8 @@ main{
                     align-self: center;
                     text-align: center;
                     background-color: $background-color;
-                    margin: 7rem;
-                    font-size: 1.5625rem;
+                    margin: 6rem;
+                    font-size: 1.5rem;
                     order: 2;
                 }
                 .imagenMusica{
@@ -99,7 +99,6 @@ main{
                 .texto2{
                     @extend .texto1;
                     grid-area: textoDos;
-                    margin: 8rem;
                     order: 3;
                 }
                 .clickAqui{
@@ -127,7 +126,7 @@ main{
                 text-align: center;
             }
             div{
-                div{
+                section{
                     .cadaOpinion{
                         p{
                             font-size: 1.1rem;
