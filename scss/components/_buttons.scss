@@ -1,28 +1,31 @@
-/*Boton formulario*/
+/*Boton formulario(enviar)*/
 @mixin botonFormulario{
     font-size: 1.875rem;
     background-color: $background-color2;
     width: 9.375rem;
+    height: 4.2rem;
     margin: .625rem;
     &:active{
-        font-size: 1.7rem;
         background-color: #d09d79;
+        border: .1875rem solid #a06d49;
     }
 }
 
 /*Boton plan, rutina, ropa y accesorios */
 @mixin botones{
     display: inline-block;
+    width: 12rem;
+    height: 4.2rem;
     font-size: 1.5rem;
     text-align: center;
     background-color: $background-color2;
     color: $color;
     text-decoration: none;
     padding: 1rem;
-    margin: 1rem 0rem 1rem 4.5rem;
+    margin: 2rem 2rem 2rem 4.5rem;
     &:active{
-        font-size: 1.3rem;
         background-color: #d09d79;
+        border: .1875rem solid #a06d49;
     }
 }
 
@@ -33,12 +36,13 @@
     font-size: 1.875rem;
     background-color: #F9E9DD;
     color: $color;
+    margin: 0.3rem;
     padding: .9375rem;
     font-weight: bold;
     text-decoration: none;
     order: 4;
     &:active{
-        font-size: 1.7rem;
-        background-color: #d3bba9;
+        background-color: #c8b6a7;
+        border: .1875rem solid #a49180;
     }
 }

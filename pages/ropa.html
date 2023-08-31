@@ -25,17 +25,43 @@
     <header>
         <div class="headerRopa">
             <div class="fondoTitulo1">
-                <h1 id="subir" class="titulo1">FitLife</h1>
-                <nav>
-                    <ul class="list-unstyled menuIndex">
-                        <li class="index1"><a class="index1" href="../index.html">INICIO</a></li>
-                        <li class="ropa"><a class="ropa" href="ropa.html">ROPA</a></li>
-                        <li class="plan"><a class="plan" href="plan.html">DIETAS</a></li>
-                        <li class="rutina"><a class="rutina" href="rutina.html">RUTINAS</a></li>
-                        <li class="accesorios"><a class="accesorios" href="accesorios.html">ACCESORIOS</a></li>
-                        <li class="enchufate"><a class="enchufate" href="enchufate.html">ENCHUFATE</a></li>
-                        <li class="formularioss"><a class="formularioss" href="formulario.html">CONTACTO</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg top">
+                    <div class="container-fluid">
+                        <h1 id="subir" class="titulo1">FitLife</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 menuIndex">
+                                    <li class="nav-item liClass">
+                                        <a class="nav-link active" href="../index.html">INICIO</a>
+                                    </li>
+                                    <li class="nav-item liClass">
+                                        <a class="nav-link aClass" href="ropa.html">ROPA</a>
+                                    </li>
+                                    <li class="nav-item liClass">
+                                        <a class="nav-link aClass" href="plan.html">DIETAS</a>
+                                    </li>
+                                    <li class="nav-item liClass">
+                                        <a class="nav-link aClass" href="rutina.html">RUTINAS</a>
+                                    </li>
+                                    <li class="nav-item liClass">
+                                        <a class="nav-link aClass" href="accesorios.html">ACCESORIOS</a>
+                                    </li>
+                                    <li class="nav-item liClass">
+                                        <a class="nav-link aClass" href="enchufate.html">ENCHUFATE</a>
+                                    </li>
+                                    <li class="nav-item liClass">
+                                        <a class="nav-link aClass" href="formulario.html">CONTACTO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </nav>
             </div>
             <h2 class="tituloServicios">ROPA DEPORTIVA</h2>

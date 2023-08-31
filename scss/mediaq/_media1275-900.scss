@@ -27,6 +27,21 @@ main{
     }
 }
 
+/* "@medias 1123 index */
+@media (max-width: 1123px){
+header{
+    div{
+        .fondoTitulo1{
+            nav{
+                .menuIndex{
+                    justify-content: start!important;
+                }
+            }
+        }
+    }
+}
+}
+
 /* "@medias 1045 enchufate */
 @media (max-width: 1045px){
     .gridEnchufate{      
@@ -38,17 +53,8 @@ main{
     }
 }
 
-/* "@medias 1024 todos */
-@media (max-width: 1024px){
-header{
-    div{
-        .fondoTitulo1{
-            display: block;
-        }
-    }
-}
-
 /* "@medias 1024 index */
+@media (max-width: 1024px){
 main{
     .backgroundColor{
         .contenedorQueOfrecemos{

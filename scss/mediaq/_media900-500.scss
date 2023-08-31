@@ -52,28 +52,9 @@
 }
 }
 
-/* "@medias 768 todos */
-@media (max-width: 768px){
-header{
-    div{
-        .fondoTitulo1{
-            .titulo1 {
-                font-size: 4rem;
-            }
-            nav{
-                .menuIndex{
-                    li{
-                        a{
-                            font-size: 1.35rem; 
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
 
 /* "@medias 768 todos salvo index */
+@media (max-width: 768px){
 header{
     div{
         .tituloServicios{

@@ -17,28 +17,17 @@
   font-family: 'Amaranth';
   color: #663B3B; }
 
-/*Boton formulario*/
+/*Boton formulario(enviar)*/
 /*Boton plan, rutina, ropa y accesorios */
 /*Boton Index*/
-/*align bootstrap nav pages and color (inicio, ropa, accesorios)*/
-nav .menuIndex {
-  margin-bottom: 0; }
-  nav .menuIndex li .index1 {
-    color: #663B3B; }
-  nav .menuIndex li .plan {
-    color: #663B3B; }
-  nav .menuIndex li .rutina {
-    color: #663B3B; }
-  nav .menuIndex li .accesorios {
-    color: #663B3B; }
-  nav .menuIndex li .enchufate {
-    color: #663B3B; }
-  nav .menuIndex li .formularioss {
-    color: #663B3B; }
-  nav .menuIndex li .ropa {
-    color: #663B3B; }
-  nav .menuIndex li .colorSubir {
-    color: #663B3B; }
+/*align bootstrap nav pages and color*/
+.offcanvas-body .menuIndex .liClass a {
+  color: #663B3B; }
+
+/*bootstrap offcanvas*/
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+  --bs-offcanvas-width: 15rem!important;
+  background-color: rgba(249, 233, 221, 0.8); }
 
 /*Background image for Header*/
 .headerEnchufate {
@@ -134,26 +123,20 @@ nav .menuIndex {
 
 /*Todos*/
 header div .fondoTitulo1 {
-  display: flex;
-  flex-direction: none;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: none;
-  padding-right: .625rem;
   background-color: rgba(249, 233, 221, 0.6); }
   header div .fondoTitulo1 .titulo1 {
     font-size: 5rem;
     padding-left: 1.25rem;
     font-weight: bold;
     margin-bottom: 0; }
-  header div .fondoTitulo1 nav .menuIndex li {
-    display: inline; }
-    header div .fondoTitulo1 nav .menuIndex li a {
+  header div .fondoTitulo1 nav {
+    flex-wrap: wrap; }
+    header div .fondoTitulo1 nav .menuIndex .liClass a {
       font-size: 1.5625rem;
       text-decoration: none;
       list-style: none;
       padding-left: 1.25rem; }
-      header div .fondoTitulo1 nav .menuIndex li a:hover {
+      header div .fondoTitulo1 nav .menuIndex .liClass a:hover {
         color: #ad4f11; }
 
 header div .tituloServicios {
@@ -212,19 +195,21 @@ header .fraseDePagina {
     font-size: 1.3rem; }
   .headerError .flexError .gridError button {
     display: inline-block;
+    width: 12rem;
+    height: 4.2rem;
     font-size: 1.5rem;
     text-align: center;
     background-color: #EBB995;
     color: #663B3B;
     text-decoration: none;
     padding: 1rem;
-    margin: 1rem 0rem 1rem 4.5rem;
+    margin: 2rem 2rem 2rem 4.5rem;
     width: 7rem;
     align-self: center;
     margin: 2rem 38%; }
     .headerError .flexError .gridError button:active {
-      font-size: 1.3rem;
-      background-color: #d09d79; }
+      background-color: #d09d79;
+      border: .1875rem solid #a06d49; }
 
 main .backgroundColor {
   background-image: linear-gradient(#f7decb, #ffffff); }
@@ -325,6 +310,7 @@ main section section .gridMusica {
     background-color: #F6CDA0;
     margin: 6rem;
     font-size: 1.5rem;
+    font-weight: lighter;
     order: 2; }
   main section section .gridMusica .imagenMusica {
     grid-area: photo;
@@ -340,13 +326,14 @@ main section section .gridMusica {
     font-size: 1.875rem;
     background-color: #F9E9DD;
     color: #663B3B;
+    margin: 0.3rem;
     padding: .9375rem;
     font-weight: bold;
     text-decoration: none;
     order: 4; }
     main section section .gridMusica .clickAqui:active {
-      font-size: 1.7rem;
-      background-color: #d3bba9; }
+      background-color: #c8b6a7;
+      border: .1875rem solid #a49180; }
 
 main section .opiniones {
   background-color: linear-gradient #F6CDA0, #ffffff; }
@@ -420,10 +407,11 @@ main section .opiniones {
         font-size: 1.875rem;
         background-color: #EBB995;
         width: 9.375rem;
+        height: 4.2rem;
         margin: .625rem; }
         .mainFormulario .contenedorFormulario .flexFormulario .botonEnviar:active {
-          font-size: 1.7rem;
-          background-color: #d09d79; }
+          background-color: #d09d79;
+          border: .1875rem solid #a06d49; }
     .mainFormulario .contenedorFormulario section .formasDeContacto {
       font-size: 1.25rem;
       font-weight: bold;
@@ -499,16 +487,18 @@ main section section .items {
 
 main .botonTienda {
   display: inline-block;
+  width: 12rem;
+  height: 4.2rem;
   font-size: 1.5rem;
   text-align: center;
   background-color: #EBB995;
   color: #663B3B;
   text-decoration: none;
   padding: 1rem;
-  margin: 1rem 0rem 1rem 4.5rem; }
+  margin: 2rem 2rem 2rem 4.5rem; }
   main .botonTienda:active {
-    font-size: 1.3rem;
-    background-color: #d09d79; }
+    background-color: #d09d79;
+    border: .1875rem solid #a06d49; }
 
 main section .contenedorRopa1 div .categoriasAccesoriosRopa {
   font-size: 1.875rem;
@@ -529,16 +519,18 @@ main .contenedorBoton {
   flex-wrap: none; }
   main .contenedorBoton .botonTienda {
     display: inline-block;
+    width: 12rem;
+    height: 4.2rem;
     font-size: 1.5rem;
     text-align: center;
     background-color: #EBB995;
     color: #663B3B;
     text-decoration: none;
     padding: 1rem;
-    margin: 1rem 0rem 1rem 4.5rem; }
+    margin: 2rem 2rem 2rem 4.5rem; }
     main .contenedorBoton .botonTienda:active {
-      font-size: 1.3rem;
-      background-color: #d09d79; }
+      background-color: #d09d79;
+      border: .1875rem solid #a06d49; }
 
 .pieDePagina {
   display: flex;
@@ -589,16 +581,18 @@ main .contenedorBoton {
   .gridEnchufate .musicaGim iframe {
     width: 30rem; } }
 
+/* "@medias 1123 index */
+@media (max-width: 1123px) {
+  header div .fondoTitulo1 nav .menuIndex {
+    justify-content: start !important; } }
+
 /* "@medias 1045 enchufate */
 @media (max-width: 1045px) {
   .gridEnchufate .musicaGim iframe {
     width: 22rem; } }
 
-/* "@medias 1024 todos */
+/* "@medias 1024 index */
 @media (max-width: 1024px) {
-  header div .fondoTitulo1 {
-    display: block; }
-  /* "@medias 1024 index */
   main .backgroundColor .contenedorQueOfrecemos {
     display: flex;
     flex-direction: none;
@@ -696,13 +690,8 @@ main .contenedorBoton {
     .gridEnchufate .responsiveImage {
       display: none; } }
 
-/* "@medias 768 todos */
+/* "@medias 768 todos salvo index */
 @media (max-width: 768px) {
-  header div .fondoTitulo1 .titulo1 {
-    font-size: 4rem; }
-  header div .fondoTitulo1 nav .menuIndex li a {
-    font-size: 1.35rem; }
-  /* "@medias 768 todos salvo index */
   header div .tituloServicios {
     font-size: 2rem;
     width: 15rem; } }
@@ -771,47 +760,11 @@ main .contenedorBoton {
 
 /* "@medias 449 index */
 @media (max-width: 449px) {
-  .headerIndex {
-    background-position: left; }
   section .opiniones div section .cadaOpinion {
     font-size: 1rem; } }
 
-/* "@medias 426 todos */
+/* "@medias 425 dieta(plan) */
 @media (max-width: 426px) {
-  header div .fondoTitulo1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: none;
-    flex-wrap: none;
-    height: 11.875rem; }
-    header div .fondoTitulo1 nav .menuIndex {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-areas: "index1 ropa" "plan rutina" "accesorios enchufate" "formularioss formularioss";
-      width: 100%;
-      height: 3.75rem;
-      justify-content: center;
-      justify-items: center; }
-      header div .fondoTitulo1 nav .menuIndex li {
-        height: 1.7rem; }
-      header div .fondoTitulo1 nav .menuIndex .index1 {
-        grid-area: index1; }
-      header div .fondoTitulo1 nav .menuIndex .ropa {
-        grid-area: ropa; }
-      header div .fondoTitulo1 nav .menuIndex .plan {
-        grid-area: plan; }
-      header div .fondoTitulo1 nav .menuIndex .rutina {
-        grid-area: rutina; }
-      header div .fondoTitulo1 nav .menuIndex .accesorios {
-        grid-area: accesorios; }
-      header div .fondoTitulo1 nav .menuIndex .enchufate {
-        grid-area: enchufate; }
-      header div .fondoTitulo1 nav .menuIndex .formularioss {
-        grid-area: formularioss;
-        justify-self: center; }
-  /* "@medias 425 dieta(plan) */
   main section section .items {
     margin-left: 5rem;
     margin-right: 1rem; }

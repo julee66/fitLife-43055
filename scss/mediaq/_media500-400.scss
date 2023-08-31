@@ -17,10 +17,6 @@
 
 /* "@medias 449 index */
 @media (max-width: 449px) {
-.headerIndex{
-    @include backgroundIndexMQ449;
-}
-    
 section{
     .opiniones{
         div{
@@ -34,52 +30,8 @@ section{
 }
 }
 
-/* "@medias 426 todos */
-@media (max-width: 426px) {
-header{
-    div{
-        .fondoTitulo1{
-            @include flex(flex,column,start,none,none);
-            height: 11.875rem;
-            nav{
-                .menuIndex{
-                    @include grid(grid,1fr 1fr,repeat(4,1fr),"index1 ropa""plan rutina""accesorios enchufate""formularioss formularioss");
-                    width: 100%;
-                    height: 3.75rem;
-                    justify-content: center;
-                    justify-items: center;
-                    li{
-                    height: 1.7rem;
-                    }
-                    .index1 {
-                        grid-area: index1;
-                    }
-                    .ropa {
-                        grid-area: ropa;
-                    }
-                    .plan {
-                        grid-area: plan;
-                    }
-                    .rutina {
-                        grid-area: rutina;
-                    }
-                    .accesorios {
-                        grid-area: accesorios;
-                    }
-                    .enchufate {
-                        grid-area: enchufate;
-                    }
-                    .formularioss {
-                        grid-area: formularioss;
-                        justify-self: center;
-                    }
-                }   
-            }
-        }
-    }
-}
-
 /* "@medias 425 dieta(plan) */
+@media (max-width: 426px) {
 main{
     section{
         section{

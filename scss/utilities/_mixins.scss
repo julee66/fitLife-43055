@@ -5,9 +5,9 @@ height: 40rem;
 background-position: top;
 }
 
-@mixin backgroundIndexMQ449{
-background-position: left;
-}
+// @mixin backgroundIndexMQ449{
+// background-position: left;
+// }
 
 @mixin indexBoxes{
 border: 0.5rem solid $background-color2;

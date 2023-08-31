@@ -1,32 +1,16 @@
-/*align bootstrap nav pages and color (inicio, ropa, accesorios)*/
-nav{
+/*align bootstrap nav pages and color*/
+.offcanvas-body{
     .menuIndex{
-        margin-bottom: 0;
-        li{
-            .index1{
+        .liClass{
+            a{
                 color: $color;
-            }
-            .plan{
-                color: $color;
-            }
-            .rutina{
-                color: $color;
-            }
-            .accesorios{
-                color: $color;
-            }
-            .enchufate{
-                color: $color;
-            }
-            .formularioss{
-                color: $color;
-            }
-            .ropa{
-                color: $color;
-            }
-            .colorSubir{
-                color: $color; 
             }
         }
     }
+}
+
+/*bootstrap offcanvas*/
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-width: 15rem!important;
+    background-color: rgba(249, 233, 221, 0.8);
 }

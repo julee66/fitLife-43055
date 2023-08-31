@@ -12,8 +12,6 @@
 header{
     div{
         .fondoTitulo1{
-            @include flex(flex,none,space-between,center,none);
-            padding-right: .625rem;
             background-color: rgba(249, 233, 221, 0.6);
             .titulo1{
                 font-size: 5rem;
@@ -22,9 +20,9 @@ header{
                 margin-bottom: 0;
             }
             nav{
+                flex-wrap: wrap;
                 .menuIndex{
-                    li{
-                        display: inline;
+                    .liClass{
                         a{
                             font-size: 1.5625rem;
                             text-decoration: none;
