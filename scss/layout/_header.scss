@@ -13,23 +13,29 @@ header{
     div{
         .fondoTitulo1{
             background-color: rgba(249, 233, 221, 0.6);
-            .titulo1{
-                font-size: 5rem;
-                padding-left: 1.25rem;
-                font-weight: bold;
-                margin-bottom: 0;
-            }
             nav{
                 flex-wrap: wrap;
-                .menuIndex{
-                    .liClass{
-                        a{
-                            font-size: 1.5625rem;
-                            text-decoration: none;
-                            list-style: none;
-                            padding-left: 1.25rem;
-                            &:hover{
-                            color: rgb(173, 79, 17);
+                div{
+                    .titulo1{
+                        font-size: 5rem;
+                        padding-left: 1.25rem;
+                        font-weight: bold;
+                        margin-bottom: 0;
+                    }
+                    div{
+                        div{
+                            .menuIndex{
+                                .liClass{
+                                    a{
+                                        font-size: 1.5625rem;
+                                        text-decoration: none;
+                                        list-style: none;
+                                        padding-left: 1.25rem;
+                                        &:hover{
+                                        color: rgb(173, 79, 17);
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

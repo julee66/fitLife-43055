@@ -85,7 +85,8 @@
   background-size: cover;
   height: 40rem;
   background-position: top;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
 
 /*Background image for Index Boxes*/
 .cajaImagenRopa {
@@ -124,19 +125,19 @@
 /*Todos*/
 header div .fondoTitulo1 {
   background-color: rgba(249, 233, 221, 0.6); }
-  header div .fondoTitulo1 .titulo1 {
-    font-size: 5rem;
-    padding-left: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 0; }
   header div .fondoTitulo1 nav {
     flex-wrap: wrap; }
-    header div .fondoTitulo1 nav .menuIndex .liClass a {
+    header div .fondoTitulo1 nav div .titulo1 {
+      font-size: 5rem;
+      padding-left: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0; }
+    header div .fondoTitulo1 nav div div div .menuIndex .liClass a {
       font-size: 1.5625rem;
       text-decoration: none;
       list-style: none;
       padding-left: 1.25rem; }
-      header div .fondoTitulo1 nav .menuIndex .liClass a:hover {
+      header div .fondoTitulo1 nav div div div .menuIndex .liClass a:hover {
         color: #ad4f11; }
 
 header div .tituloServicios {
@@ -476,8 +477,7 @@ main section .opiniones {
 main section section p {
   font-size: 1.25rem;
   font-weight: bold;
-  padding: 1.4rem;
-  padding-top: 2rem; }
+  padding: 2rem 1.4rem 0rem 1.4rem; }
 
 main section section .items {
   margin: 0rem 5.5rem;
@@ -510,6 +510,8 @@ main section .contenedorRopa1 div .categoriasAccesoriosRopa {
 main section .contenedorRopa1 div section img {
   height: 14rem;
   width: 14rem; }
+  main section .contenedorRopa1 div section img:hover {
+    transform: scale(1.15); }
 
 main .contenedorBoton {
   display: flex;
@@ -583,7 +585,7 @@ main .contenedorBoton {
 
 /* "@medias 1123 index */
 @media (max-width: 1123px) {
-  header div .fondoTitulo1 nav .menuIndex {
+  .menuIndex {
     justify-content: start !important; } }
 
 /* "@medias 1045 enchufate */
@@ -647,8 +649,20 @@ main .contenedorBoton {
 
 /* "@medias 840 enchufate */
 @media (max-width: 840px) {
-  .gridEnchufate .musicaGim iframe {
-    width: 11rem; } }
+  .gridEnchufate {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "aEntrenar";
+    width: 100%;
+    height: 76rem; }
+    .gridEnchufate .tituloGim {
+      align-self: end; }
+    .gridEnchufate .musicaGim iframe {
+      height: 5.625rem;
+      width: 20rem; }
+    .gridEnchufate .responsiveImage {
+      display: none; } }
 
 /* "@medias 828 formulario */
 @media (max-width: 828px) {
@@ -673,23 +687,6 @@ main .contenedorBoton {
         justify-self: center;
         margin-top: 0.625; } }
 
-/* "@medias 780 enchufate */
-@media (max-width: 780px) {
-  .gridEnchufate {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    grid-template-areas: "tituloGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "musicaGim" "aEntrenar";
-    width: 100%;
-    height: 76rem; }
-    .gridEnchufate .tituloGim {
-      align-self: end; }
-    .gridEnchufate .musicaGim iframe {
-      height: 5.625rem;
-      width: 20rem; }
-    .gridEnchufate .responsiveImage {
-      display: none; } }
-
 /* "@medias 768 todos salvo index */
 @media (max-width: 768px) {
   header div .tituloServicios {
@@ -698,7 +695,9 @@ main .contenedorBoton {
 
 /* "@medias 768 index */
 @media (max-width: 768px) {
-  header div .titulo2 {
+  .headerIndex {
+    background-position: left; }
+  .titulo2 {
     font-size: 2.4rem;
     width: 20rem; }
   main .backgroundColor .titulo4 {
@@ -728,7 +727,8 @@ main .contenedorBoton {
       grid-template-columns: 3fr 1fr;
       grid-template-rows: 1fr 1fr;
       grid-template-areas: "h2Error buttonVolver" "pError buttonVolver";
-      height: 6rem;
+      height: 8rem;
+      align-items: center;
       background-color: rgba(249, 233, 221, 0.6);
       margin-top: 18rem; }
       .headerError .flexError .gridError h2 {
@@ -824,7 +824,7 @@ main .contenedorBoton {
 
 /* "@medias 350 index */
 @media (max-width: 350px) {
-  header div .titulo2 {
+  .titulo2 {
     font-size: 2rem;
     width: 12rem; }
   main section section .titulo4 {

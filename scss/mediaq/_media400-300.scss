@@ -26,13 +26,9 @@ main{
 
 /* "@medias 350 index */
 @media (max-width: 350px){
-header{
-    div{
-        .titulo2 {
-            font-size: 2rem;
-            width: 12rem;
-        }
-    }
+.titulo2 {
+    font-size: 2rem;
+    width: 12rem;
 }
 
 main{

@@ -18,39 +18,31 @@ main{
 
 /* "@medias 1275 enchufate */
 @media (max-width: 1275px){
-    .gridEnchufate{      
-        .musicaGim{
-            iframe{
-                width: 30rem;
-            }
+.gridEnchufate{      
+    .musicaGim{
+        iframe{
+            width: 30rem;
         }
     }
+}
 }
 
 /* "@medias 1123 index */
 @media (max-width: 1123px){
-header{
-    div{
-        .fondoTitulo1{
-            nav{
-                .menuIndex{
-                    justify-content: start!important;
-                }
-            }
-        }
-    }
+.menuIndex{
+    justify-content: start!important;
 }
 }
 
 /* "@medias 1045 enchufate */
 @media (max-width: 1045px){
-    .gridEnchufate{      
-        .musicaGim{
-            iframe{
-                width: 22rem;
-            }
+.gridEnchufate{      
+    .musicaGim{
+        iframe{
+            width: 22rem;
         }
     }
+}
 }
 
 /* "@medias 1024 index */
